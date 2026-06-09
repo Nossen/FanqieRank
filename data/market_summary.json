@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-09",
+  "timezone": "Asia/Shanghai",
+  "source": "Codex scheduled automation",
+  "periods": {
+    "7": {
+      "period": "近 7 日",
+      "source": "codex",
+      "summary": "近 7 日样本目前以首日数据为主，都市脑洞、都市高武、男频衍生和动漫衍生表现最抢眼；强设定标题、直播围观、高武无敌和热门 IP 改写是最突出的吸量路径。",
+      "hot_genres": [],
+      "hot_types": [],
+      "hot_themes": []
+    },
+    "14": {
+      "period": "近 14 日",
+      "source": "codex",
+      "summary": "近 14 日观察窗口仍需继续累积，但从首日结构看，男频新书更偏高概念开局：系统、无敌、穿越、直播、同人改命和求生副本都在多个分类重复出现。",
+      "hot_genres": [],
+      "hot_types": [],
+      "hot_themes": []
+    },
+    "30": {
+      "period": "近 30 日",
+      "source": "codex",
+      "summary": "近 30 日风向应重点追踪三类作品：都市脑洞公共事件流、高武/玄幻无敌升级流、黑袍/战锤/火影等衍生同人。它们在首日样本中既有高在读，也有明确题材标签。",
+      "hot_genres": [],
+      "hot_types": [],
+      "hot_themes": []
+    },
+    "all": {
+      "period": "全部样本",
+      "source": "codex",
+      "summary": "全部样本显示，番茄男频新书榜当前的核心竞争点是标题即卖点、设定即反馈。都市脑洞和都市高武承担高热爆点，仙侠玄幻提供基本盘，衍生同人依靠 IP 熟悉度快速转化。",
+      "hot_genres": [],
+      "hot_types": [],
+      "hot_themes": []
+    }
+  }
+}

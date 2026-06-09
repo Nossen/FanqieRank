@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fanqierank"
+version = "0.1.0"
+description = "Fanqie male new-book rank tracker with fallback reports and Codex analysis finalization."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "playwright>=1.45",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["fanqierank*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

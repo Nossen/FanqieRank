@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>番茄男频新书榜 · 风向标</title>
+  <meta name="description" content="番茄小说男频新书榜趋势追踪、Codex 分析与静态数据接口">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-block">
+        <h1>番茄男频风向标</h1>
+        <p>男频新书榜追踪</p>
+        <span id="update-date">加载中...</span>
+      </div>
+      <nav class="category-nav">
+        <ul id="category-list">
+          <li class="loading-item">加载中...</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="icon-btn mobile-only" id="mobile-menu-btn" aria-label="打开分类菜单">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <div>
+          <h2 id="current-category-title">全部分类</h2>
+          <p id="source-line">等待数据加载</p>
+        </div>
+        <div class="topbar-actions">
+          <a class="text-btn" href="trend.html">趋势页</a>
+          <a class="text-btn" href="https://github.com/Nossen/FanqieRank" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <div class="date-presets">
+            <button class="seg-btn active" data-preset="latest">最新</button>
+            <button class="seg-btn" data-preset="previous">上一期</button>
+          </div>
+          <div class="date-picker">
+            <button class="icon-btn" id="date-prev" aria-label="前一天">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <button class="date-btn" id="date-picker-btn"><span id="date-display">加载中...</span></button>
+            <button class="icon-btn" id="date-next" aria-label="后一天">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+            <input type="date" id="date-input" class="hidden-date">
+          </div>
+        </div>
+      </header>
+
+      <section class="signal-panel">
+        <div class="panel-heading">
+          <span>AI / Codex Signal</span>
+          <strong id="signal-source">加载中</strong>
+        </div>
+        <div id="ai-content" class="ai-content">正在读取榜单分析。</div>
+      </section>
+
+      <section class="books-grid" id="books-waterfall"></section>
+    </main>
+  </div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
