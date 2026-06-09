@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const sourceLine = document.getElementById('source-line');
   const signalSource = document.getElementById('signal-source');
   const aiContent = document.getElementById('ai-content');
+  const featureBook = document.getElementById('feature-book');
+  const categoryStats = document.getElementById('category-stats');
+  const topStack = document.getElementById('top-stack');
   const sidebar = document.getElementById('sidebar');
   const menuBtn = document.getElementById('mobile-menu-btn');
   const overlay = document.getElementById('sidebar-overlay');
@@ -127,7 +130,11 @@ document.addEventListener('DOMContentLoaded', () => {
     (data.categories || []).forEach((category, index) => {
       const li = document.createElement('li');
       li.dataset.category = category.name;
-      li.innerHTML = `<span>${escapeHtml(category.name)}</span>`;
+      const top = category.books && category.books[0];
+      li.innerHTML = `
+        <span>${escapeHtml(category.name)}</span>
+        <small>${escapeHtml(top && top.reads ? top.reads : `${(category.books || []).length}本`)}</small>
+      `;
       const newCount = Number(category.trend && category.trend.new_count || 0);
       if (newCount > 0) {
         const badge = document.createElement('span');
@@ -151,8 +158,48 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!category) return;
     categoryTitle.textContent = name;
     document.querySelectorAll('#category-list li').forEach(li => li.classList.toggle('active', li.dataset.category === name));
+    renderHero(category);
     renderTrend(category);
     renderBooks(category);
+  }
+
+  function renderHero(category) {
+    const books = category.books || [];
+    const top = books[0];
+    const trend = category.trend || {};
+    const hotThemes = (trend.hot_themes || category.hot_themes || []).slice(0, 6);
+    const maxReads = Math.max(...books.map(book => parseReadsValue(book.reads)), 1);
+    if (!top) {
+      featureBook.innerHTML = '<div class="empty-state">该分类暂无榜首作品。</div>';
+      categoryStats.innerHTML = '';
+      topStack.innerHTML = '';
+      return;
+    }
+    const topId = extractBookId(top.url);
+    const topHref = topId ? `book.html?id=${encodeURIComponent(topId)}` : `book.html?title=${encodeURIComponent(top.title)}`;
+    featureBook.innerHTML = `
+      <a class="feature-cover" href="${topHref}">
+        ${top.cover ? `<img src="${escapeAttr(top.cover)}" alt="${escapeAttr(top.title)}">` : '<div class="no-cover">暂无封面</div>'}
+        <span class="feature-rank">#1</span>
+      </a>
+      <div class="feature-content">
+        <div class="feature-label">本类榜首 · ${escapeHtml(category.name)}</div>
+        <h3>${escapeHtml(top.title)}</h3>
+        <div class="feature-meta"><span>${escapeHtml(top.author || '未知作者')}</span><strong>${escapeHtml(top.reads || '未知')}</strong></div>
+        ${renderTags(extractTags(top).slice(0, 5))}
+        <p>${escapeHtml(top.intro || '暂无简介')}</p>
+        <div class="feature-heat"><span style="width:${heatWidth(top.reads, maxReads)}%"></span></div>
+      </div>
+    `;
+    categoryStats.innerHTML = `
+      <div class="stat-tile red"><strong>${books.length}</strong><span>上榜作品</span></div>
+      <div class="stat-tile blue"><strong>${escapeHtml(top.reads || '未知')}</strong><span>榜首在读</span></div>
+      <div class="stat-tile green"><strong>${hotThemes.length || '-'}</strong><span>热词信号</span></div>
+    `;
+    topStack.innerHTML = `
+      <div class="stack-heading"><span>Top 5 快扫</span><em>${escapeHtml(hotThemes.slice(0, 3).join(' / ') || '首日观察')}</em></div>
+      ${books.slice(1, 5).map((book, index) => renderStackBook(book, index + 2, maxReads)).join('')}
+    `;
   }
 
   function renderTrend(category) {
@@ -168,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
       waterfall.innerHTML = '<div class="empty-state">该分类暂无书籍。</div>';
       return;
     }
+    const maxReads = Math.max(...books.map(book => parseReadsValue(book.reads)), 1);
     const changeMap = buildChangeMap(category.trend || {});
     const fragment = document.createDocumentFragment();
     books.forEach((book, index) => {
@@ -183,7 +231,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="book-info">
           <h3 class="book-title" title="${escapeAttr(book.title)}">${escapeHtml(book.title)}</h3>
           <div class="book-meta"><span>${escapeHtml(book.author || '未知')}</span><span class="book-reads">${escapeHtml(book.reads || '未知')}</span></div>
+          ${renderTags(extractTags(book).slice(0, 4))}
           <p class="book-intro">${escapeHtml(book.intro || '暂无简介')}</p>
+          <div class="book-heat"><span style="width:${heatWidth(book.reads, maxReads)}%"></span></div>
           <button class="book-copy-btn" type="button">复制信息</button>
         </div>
       `;
@@ -237,6 +287,22 @@ document.addEventListener('DOMContentLoaded', () => {
     toast.classList.add('show');
     toastTimer = setTimeout(() => toast.classList.remove('show'), 1800);
   }
+
+  function renderStackBook(book, rank, maxReads) {
+    const bookId = extractBookId(book.url);
+    const href = bookId ? `book.html?id=${encodeURIComponent(bookId)}` : `book.html?title=${encodeURIComponent(book.title)}`;
+    return `
+      <a class="stack-book" href="${href}">
+        <span class="stack-rank">${rank}</span>
+        <div class="stack-cover">${book.cover ? `<img src="${escapeAttr(book.cover)}" alt="${escapeAttr(book.title)}">` : '<div class="no-cover">无</div>'}</div>
+        <div>
+          <strong>${escapeHtml(book.title)}</strong>
+          <small>${escapeHtml(book.author || '未知')} · ${escapeHtml(book.reads || '未知')}</small>
+          <div class="book-heat"><span style="width:${heatWidth(book.reads, maxReads)}%"></span></div>
+        </div>
+      </a>
+    `;
+  }
 });
 
 function fetchJson(url) {
@@ -271,6 +337,35 @@ function renderMarkdown(text) {
   html = html.replace(/《(.+?)》/g, '<span class="book-mark">《$1》</span>');
   html = html.replace(/\n/g, '<br>');
   return html;
+}
+
+function extractTags(book) {
+  const text = `${book.title || ''} ${book.intro || ''}`;
+  const bracketTags = Array.from(text.matchAll(/[【\[]([^】\]]{1,10})[】\]]/g))
+    .map(match => match[1].trim())
+    .filter(Boolean);
+  if (bracketTags.length) return Array.from(new Set(bracketTags));
+  const keywords = ['无敌', '系统', '穿越', '重生', '多女主', '单女主', '无女主', '爽文', '都市', '玄幻', '修仙', '末世', '种田', '领主', '高武', '悬疑', '抗战', '同人', '游戏'];
+  return keywords.filter(keyword => text.includes(keyword)).slice(0, 5);
+}
+
+function renderTags(tags) {
+  if (!tags || !tags.length) return '<div class="tag-row"><span>题材待观察</span></div>';
+  return `<div class="tag-row">${tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join('')}</div>`;
+}
+
+function parseReadsValue(value) {
+  const raw = String(value || '').replace('在读', '').replace('：', '').replace(':', '').replace(',', '').trim();
+  const n = parseFloat(raw);
+  if (Number.isNaN(n)) return 0;
+  if (raw.includes('亿')) return n * 100000000;
+  if (raw.includes('万')) return n * 10000;
+  return n;
+}
+
+function heatWidth(value, maxReads) {
+  const ratio = Math.max(0.08, Math.min(1, parseReadsValue(value) / Math.max(maxReads || 1, 1)));
+  return Math.round(ratio * 100);
 }
 
 function extractBookId(url) {
