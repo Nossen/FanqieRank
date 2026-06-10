@@ -1,156 +1,161 @@
 {
   "type": "男频衍生",
-  "date": "2026-06-10",
-  "prev_date": "2026-06-09",
+  "date": "2026-06-11",
+  "prev_date": "2026-06-10",
   "timezone": "Asia/Shanghai",
   "source": {
     "rank": "Fanqie male new-book rank",
     "collector": "Playwright raw snapshot",
-    "analysis": "Local heuristic fallback"
+    "analysis": "Codex scheduled automation"
   },
   "category": {
     "name": "男频衍生",
-    "summary_markdown": "**题材趋势**：男频衍生 当前高频信号为 衍生、穿越、系统、无敌、杀伐果断。\n**读者爽点**：规则兜底显示读者仍偏好清晰目标、强设定和稳定更新带来的即时反馈。\n**上榜变化**：男频衍生：新增1本上榜；1本掉出榜单；《四合院：穿越傻柱，东旭当天没了》排名上升+7位；《少歌：千年宗门曝光，吓疯世界！》在读变化+2.7万。新上榜作品：《一人：借术还魂，开局召唤武侯！》。\n**值得关注**：优先观察 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《年代四合院，开局六个装备栏！》 的在读增速和后续排名稳定性。",
+    "summary_markdown": "**题材趋势**：男频衍生 今天的高频信号集中在 衍生、穿越、系统、无敌、签到、杀伐果断，头部作品仍靠强钩子和高概念开局争抢点击。\n**读者爽点**：同人赛道要在现成世界观里迅速兑现新视角和新战力，读者对节奏拖沓容忍度很低。\n**上榜变化**：《四合院：开局举报轧钢厂》在读增量 +7.5万；《一人：陆家保镖，一掌拍碎龙虎山》排名上升 +8 位；新增 2 本上榜；掉榜 2 本。\n**值得关注作品**：优先跟踪 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《少歌：千年宗门曝光，吓疯世界！》，看它们能否把当前增速转成连续稳榜能力。",
     "hot_themes": [
       "衍生",
       "穿越",
       "系统",
       "无敌",
-      "杀伐果断",
       "签到",
-      "同人",
-      "单女主"
+      "杀伐果断"
     ],
     "watch_books": [
       "穿越黑袍，开局成为士兵男孩",
       "四合院：开局举报轧钢厂",
-      "年代四合院，开局六个装备栏！"
+      "少歌：千年宗门曝光，吓疯世界！"
     ],
-    "risk_notes": "",
+    "risk_notes": "男频衍生增长快，但同样容易被世界观借力掩盖人物弧光，后续要看能否建立自己的主线价值。",
     "trend": {
-      "new_count": 1,
-      "dropped_count": 1,
+      "new_count": 2,
+      "dropped_count": 2,
       "new_books": [
-        "一人：借术还魂，开局召唤武侯！"
+        "黑袍：我水人，祖国人是我好兄弟",
+        "终极：战斗爽我战力五万"
       ],
       "dropped_books": [
         {
-          "title": "穿成祖国人后，全网求我别死",
-          "intro": "新书评分刚出，后面会涨【黑袍纠察队+从头到尾无敌+正义版祖国人+诸界穿梭】一睁眼，林北发现自己成了黑袍世界最强的超级英雄——祖国人。 热视线、超音速飞行、钢铁之躯，直接战力拉满。 坏消息是：以前的祖国人暗地里干过不少坏事，不少人想要杀了他，"
+          "title": "黑袍：我这真是一家普通安保公司",
+          "intro": "【黑袍】【保护伞】【无女主】 顾渊穿越了，名下多了一家名为“保护伞”的普通安保公司。 本计划在纽约商界安稳赚钱，隔天，电视上播报了祖国人的新闻。 顾渊：？？？ 这他妈给我干哪来了？ 既然常规防线防不住超人类… 那么，红后，把暴君和舔食者生产"
+        },
+        {
+          "title": "综武：开局李寻欢，先娶林诗音！",
+          "intro": "一个在除夕夜放飞理想的有为青年，意外穿越到综武世界的李园，取代了小李探花李寻欢。 作为穿越者的他自然也少不了系统的加持，那么先知先觉又有外挂加身的他，究竟会活出怎样的人生呢？"
         }
       ],
       "top_risers": [
         {
-          "title": "四合院：穿越傻柱，东旭当天没了",
+          "title": "一人：陆家保镖，一掌拍碎龙虎山",
+          "change": "+8"
+        },
+        {
+          "title": "少歌：千年宗门曝光，吓疯世界！",
           "change": "+7"
         },
         {
-          "title": "四合院：我刘海中门徒满京华",
-          "change": "+5"
-        },
-        {
-          "title": "我初代蜘蛛侠，数值吓懵祖国人！",
+          "title": "龙族：开局重岳模板，拳定春秋！",
           "change": "+4"
         },
         {
-          "title": "神雕：全真出了个记仇真人！",
+          "title": "四合院：我刘海中门徒满京华",
+          "change": "+3"
+        },
+        {
+          "title": "一人：借术还魂，开局召唤武侯！",
           "change": "+1"
         }
       ],
       "top_fallers": [
         {
-          "title": "四合院开局我把贾张氏卖给王屠夫",
-          "change": "-5"
+          "title": "年代四合院，开局六个装备栏！",
+          "change": "-4"
         },
         {
-          "title": "黑袍纠察队：穿越深海开局遇星光",
-          "change": "-3"
-        },
-        {
-          "title": "穿越五一，从喂饱大娄子开始",
-          "change": "-2"
-        },
-        {
-          "title": "一人：沉睡百年，开局抛钱请无常",
+          "title": "黑袍：从维特鲁姆文员到碎星帝皇",
           "change": "-1"
         },
         {
-          "title": "黑袍：我这真是一家普通安保公司",
+          "title": "穿越五一，从喂饱大娄子开始",
+          "change": "-1"
+        },
+        {
+          "title": "龙族：我路明非，系统非说是佐助",
+          "change": "-1"
+        },
+        {
+          "title": "四合院开局我把贾张氏卖给王屠夫",
           "change": "-1"
         }
       ],
       "reads_growth": [
         {
-          "title": "少歌：千年宗门曝光，吓疯世界！",
-          "growth": "+2.7万"
+          "title": "四合院：开局举报轧钢厂",
+          "growth": "+7.5万"
         },
         {
           "title": "一人：陆家保镖，一掌拍碎龙虎山",
-          "growth": "+2.1万"
+          "growth": "+6.7万"
         },
         {
-          "title": "四合院：开局举报轧钢厂",
-          "growth": "+1.8万"
-        },
-        {
-          "title": "四合院：穿越傻柱，东旭当天没了",
-          "growth": "+1.3万"
+          "title": "四合院之贫道法力无边",
+          "growth": "+3.3万"
         },
         {
           "title": "四合院：我刘海中门徒满京华",
-          "growth": "+1.3万"
+          "growth": "+2.9万"
+        },
+        {
+          "title": "少歌：千年宗门曝光，吓疯世界！",
+          "growth": "+2.4万"
         }
       ],
-      "summary": "男频衍生：新增1本上榜；1本掉出榜单；《四合院：穿越傻柱，东旭当天没了》排名上升+7位；《少歌：千年宗门曝光，吓疯世界！》在读变化+2.7万。",
-      "summary_markdown": "**题材趋势**：男频衍生 当前高频信号为 衍生、穿越、系统、无敌、杀伐果断。\n**读者爽点**：规则兜底显示读者仍偏好清晰目标、强设定和稳定更新带来的即时反馈。\n**上榜变化**：男频衍生：新增1本上榜；1本掉出榜单；《四合院：穿越傻柱，东旭当天没了》排名上升+7位；《少歌：千年宗门曝光，吓疯世界！》在读变化+2.7万。新上榜作品：《一人：借术还魂，开局召唤武侯！》。\n**值得关注**：优先观察 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《年代四合院，开局六个装备栏！》 的在读增速和后续排名稳定性。",
+      "summary": "**题材趋势**：男频衍生 今天的高频信号集中在 衍生、穿越、系统、无敌、签到、杀伐果断，头部作品仍靠强钩子和高概念开局争抢点击。\n**读者爽点**：同人赛道要在现成世界观里迅速兑现新视角和新战力，读者对节奏拖沓容忍度很低。\n**上榜变化**：《四合院：开局举报轧钢厂》在读增量 +7.5万；《一人：陆家保镖，一掌拍碎龙虎山》排名上升 +8 位；新增 2 本上榜；掉榜 2 本。\n**值得关注作品**：优先跟踪 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《少歌：千年宗门曝光，吓疯世界！》，看它们能否把当前增速转成连续稳榜能力。",
+      "summary_markdown": "**题材趋势**：男频衍生 今天的高频信号集中在 衍生、穿越、系统、无敌、签到、杀伐果断，头部作品仍靠强钩子和高概念开局争抢点击。\n**读者爽点**：同人赛道要在现成世界观里迅速兑现新视角和新战力，读者对节奏拖沓容忍度很低。\n**上榜变化**：《四合院：开局举报轧钢厂》在读增量 +7.5万；《一人：陆家保镖，一掌拍碎龙虎山》排名上升 +8 位；新增 2 本上榜；掉榜 2 本。\n**值得关注作品**：优先跟踪 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《少歌：千年宗门曝光，吓疯世界！》，看它们能否把当前增速转成连续稳榜能力。",
       "hot_themes": [
         "衍生",
         "穿越",
         "系统",
         "无敌",
-        "杀伐果断",
         "签到",
-        "同人",
-        "单女主"
+        "杀伐果断"
       ],
       "watch_books": [
         "穿越黑袍，开局成为士兵男孩",
         "四合院：开局举报轧钢厂",
-        "年代四合院，开局六个装备栏！"
+        "少歌：千年宗门曝光，吓疯世界！"
       ],
-      "risk_notes": ""
+      "risk_notes": "男频衍生增长快，但同样容易被世界观借力掩盖人物弧光，后续要看能否建立自己的主线价值。"
     },
     "books": [
       {
         "title": "穿越黑袍，开局成为士兵男孩",
         "author": "幸运儿小朵",
-        "reads": "47.5万",
+        "reads": "41.9万",
         "intro": "【黑袍纠察队同人+士兵男孩+纯黑袍无其他世界+解决原剧悲剧+教育大号阿祖】 李明醒来后，发现自己穿越到了黑袍纠察队的世界，时间线为第一季的开头，并且是以士兵男孩的身体... 同时，他还获得了一个教子系统，不论用任何手段教育儿子祖国人，改变祖国人，引导祖国人走向正道，都可以变得更强... 教育祖国人？那干脆将七人组一起教育了吧，不，干脆将整个沃特都整顿一番。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o08b66a919d65aa45fff78dd5a762dfb8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=IqNQ5XZlUce4sCWjn1JED%2FrNvos%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o08b66a919d65aa45fff78dd5a762dfb8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=NiN%2Fz0k9qUuzHsxlx91oSowLWPg%3D",
         "url": "https://fanqienovel.com/page/7639708385763396632"
       },
       {
         "title": "四合院：开局举报轧钢厂",
         "author": "粮票换糖甜",
-        "reads": "25.4万",
+        "reads": "32.9万",
         "intro": "钟国胜一睁眼，成了1965年南锣鼓巷九十五号大院一个活活饿死的烈士遗孤。 父亲钟大山为保卫轧钢厂牺牲，被追认为烈士。母亲重病无钱医治，撒手人寰。抚恤金下落不明，父亲留下的工位被人顶替。 全院人打着“互帮互助”的旗号，把一个没爹没妈的孩子往死里榨——逼他交钱、逼他扫院子、逼他倒尿盆。稍有反抗，就是傻柱一顿拳脚。他试过去街道办、去派出所，换来的只有一句轻飘飘的“闹着玩”。 你们不是要团结吗？你们不是要集体吗？ 那就让这个集体，好好晒一晒太阳。 冶金工业部、报社、市局、烈属办，还有最可爱的人——信，一封一封寄了出去。 还不够。 钟国胜凭着原身的记忆，走进了轧钢厂播音室，反锁了门。 那一天，轧钢厂的大喇叭响了，声音传遍了厂房、办公楼，连同附近的街巷。 “我叫钟国胜。我的父亲钟大山，为保卫这座工厂牺牲。我想请厂里回答——我父亲的抚恤金在哪？我的工位在哪？烈士遗孤的待遇在哪？” 钟国胜把寄出的每一封信、每一个收件单位，对着喇叭清清楚楚说了一遍。",
-        "cover": "https://p9-reading-sign.fqnovelpic.com/novel-pic/p2o7dbbd34827bab18a0128ff6c636b269a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=EIyKuaMdkktSSHY8ulkgW4RYBxY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7dbbd34827bab18a0128ff6c636b269a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=fGNDFhkwnuDqglLS8vprqyRFHzo%3D",
         "url": "https://fanqienovel.com/page/7641875197095578686"
       },
       {
-        "title": "年代四合院，开局六个装备栏！",
-        "author": "酒阑牵丝戏",
-        "reads": "19.9万",
-        "intro": "魂穿情满四合院，江文望着隔壁的禽兽四合院松了口气儿。 哦？我还有六个装备栏？好啊！ 挂来！ 哦？前身还是医学专业，记忆全部继承？好啊！ 经验来！ 哦？前身学校老师，现在成了师傅+内科主任？好啊！ 金大腿来！ 全了，且看江文在1960年，如何努力生活，提高幸福治标！ 【四合院】【偏年代文】【轻松愉快】【单女主】【不吃压力】",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee80f3a1c6e3787373222f1940264656~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=GFdkGXjCGLCqE%2FoXCDs4EBc4ADo%3D",
-        "url": "https://fanqienovel.com/page/7637511718024776766"
+        "title": "少歌：千年宗门曝光，吓疯世界！",
+        "author": "爱吃零食的问题",
+        "reads": "21.6万",
+        "intro": "迟到三千年的系统发现宿主已经无敌，心态崩了，直接黑化成“天幕曝光系统”，把陈长安三千年来干过的离谱大事，一件件投放到整个少歌世界上空。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob66954525f9dbb6d3e84d13c4825544e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=PW73aNwgfWkydzIHWKwQJnPDDsY%3D",
+        "url": "https://fanqienovel.com/page/7644922682030427161"
       },
       {
         "title": "四合院：穿越傻柱，东旭当天没了",
         "author": "不甜不要咸",
-        "reads": "18.9万",
+        "reads": "20.6万",
         "intro": "现代打工仔一朝穿越，贾东旭当天意外身亡。从此，何雨柱打破命运枷锁，禽兽们再也占不到丝毫便宜，一个个穷困潦倒，不得善终，而何雨柱则过上了幸福美满的生活。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4529eb74673c57d492438ee858e3e46f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=s4n3ToAVKSc4ZiNabg%2BknCi36Yg%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4529eb74673c57d492438ee858e3e46f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=huS2y8Uom9vX1pZbR7V8y8LWfgE%3D",
         "url": "https://fanqienovel.com/page/7639225644747869209"
       },
       {
@@ -158,275 +163,280 @@
         "author": "微醺道人",
         "reads": "18.7万",
         "intro": "清末民初，洛七拜入一老道门下修行，修成无上法门，能过阴使魂入地府，却在一次过阴中，无法返回人间，从此留在了地府。 百年后的某一天，洛七不受控制的回到了人间，当他再次睁眼，是在一墓地当中，如今已是百年后的现代。 肉体百年的沉睡让洛七的炁枯竭殆尽。 “阴阳道上走一遭，一文买命半文交……黑爷，接钱！” 为了恢复修为，并生活下去，洛七踏入了这个看似繁华的现代异人界。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o74dd8ea86a3e74c8f4ad288fe69c0ffc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=33kQkAxthU1C8itFuiB9Lp%2BUCoY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o74dd8ea86a3e74c8f4ad288fe69c0ffc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=CO0AFsBd1dBy9iCtdOb0KoNO4s4%3D",
         "url": "https://fanqienovel.com/page/7634551511376202814"
       },
       {
-        "title": "黑袍：我这真是一家普通安保公司",
-        "author": "淡淡o心态",
-        "reads": "18万",
-        "intro": "【黑袍】【保护伞】【无女主】 顾渊穿越了，名下多了一家名为“保护伞”的普通安保公司。 本计划在纽约商界安稳赚钱，隔天，电视上播报了祖国人的新闻。 顾渊：？？？ 这他妈给我干哪来了？ 既然常规防线防不住超人类… 那么，红后，把暴君和舔食者生产线全部打开！ ...... 另一边，沃特集团。 玛德琳：祖国人，布朗克斯区新开了一家安保公司，抢了我们的业务。 祖国人：谢特，几个拿枪的人类保安而已。 可是，当祖国人看到保护伞“基层保安”的实战录像时，当场懵了。 单手掐死超级恐怖分子？肉身硬抗高爆导弹？ 你管这叫普通安保公司？！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa050df166a0a71f90ba9988b0c017e06~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=PyEA9qTLedEQElsqI4uaXr3Z%2BEw%3D",
-        "url": "https://fanqienovel.com/page/7639010904574528537"
+        "title": "四合院：我刘海中门徒满京华",
+        "author": "放个大飞机",
+        "reads": "21万",
+        "intro": "如何让人生摆烂？当官？还是做些更有意义的事情？ 如果天天咸鱼，那生活还有什么意义？ 有意义，没事躺平享受不香？ 如何躺平享受？ 当然是让别人干活，自己才能躺平享受。 那问题来了，怎么让别人干活自己享受呢？ 那当然是去教更多的人，有了无数的徒弟后，自己想怎么摆烂不都可以？ “师父，天凉了，您穿件衣服……”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o676a35ece615a55ea9d20a406e3a6738~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=gzrQbGJgk3KF%2BXEti0y0D9ET1wc%3D",
+        "url": "https://fanqienovel.com/page/7639186772349439038"
+      },
+      {
+        "title": "年代四合院，开局六个装备栏！",
+        "author": "酒阑牵丝戏",
+        "reads": "17.5万",
+        "intro": "魂穿情满四合院，江文望着隔壁的禽兽四合院松了口气儿。 哦？我还有六个装备栏？好啊！ 挂来！ 哦？前身还是医学专业，记忆全部继承？好啊！ 经验来！ 哦？前身学校老师，现在成了师傅+内科主任？好啊！ 金大腿来！ 全了，且看江文在1960年，如何努力生活，提高幸福治标！ 【四合院】【偏年代文】【轻松愉快】【单女主】【不吃压力】",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee80f3a1c6e3787373222f1940264656~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=h7dokVzXHaCUMw3yW77T2AnAQuE%3D",
+        "url": "https://fanqienovel.com/page/7637511718024776766"
       },
       {
         "title": "黑袍：从维特鲁姆文员到碎星帝皇",
         "author": "流云如风",
-        "reads": "17.3万",
+        "reads": "16.6万",
         "intro": "穿越黑袍世界，激活维特鲁姆人进化面板。 火车头要把休伊女友撞成血雾？看我超人大比兜！ 系统提示：情感能量收集完毕，可进化。 从此，这个世界多了一个变量。 透明人？一根钨合金棒，从眼眶捅进去，三十秒解决。 深海要潜规则星光？一脚踩断他的脊梁骨。 祖国人在我面前秀热视线？ 兄弟，你那玩意儿烧我衣服都费劲。 \"你以为你是这颗星球上最强的？\" \"你错了。你只是最吵的。\" 一拳。 祖国人飞了出去。 （本书又名《全球最强但低调不了一点》《祖国人的精神状态已经不正常了》《我在七人组当内鬼的日子》）",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o595c14d213cb08f6617c9e0e3c55d5a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=VF%2F6BcOFoiie3%2BMBXVUlPjQGsOM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o595c14d213cb08f6617c9e0e3c55d5a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=CLCVETzvnRUp3POCcFkd6dLa2i4%3D",
         "url": "https://fanqienovel.com/page/7631496570466208792"
       },
       {
         "title": "穿越五一，从喂饱大娄子开始",
         "author": "有鱼水难清",
-        "reads": "16.7万",
+        "reads": "16.4万",
         "intro": "吕昆，损友称之大驴子！ 飚了八手的A8，不小心掉下断桥，穿越上世纪五一年，一屁股坐死劫匪，救下了娄晓娥的妈妈潭雅丽……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o27b971835d955a09f10a3e0a817c2df6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=hy32WeqscKNKcrxVp7LCTYu%2Bg5I%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o27b971835d955a09f10a3e0a817c2df6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=Z%2FD8r%2FPzWK%2BFnZ9KHZBk7qT5btA%3D",
         "url": "https://fanqienovel.com/page/7586206448950971417"
       },
       {
-        "title": "四合院：我刘海中门徒满京华",
-        "author": "放个大飞机",
-        "reads": "18.1万",
-        "intro": "如何让人生摆烂？当官？还是做些更有意义的事情？ 如果天天咸鱼，那生活还有什么意义？ 有意义，没事躺平享受不香？ 如何躺平享受？ 当然是让别人干活，自己才能躺平享受。 那问题来了，怎么让别人干活自己享受呢？ 那当然是去教更多的人，有了无数的徒弟后，自己想怎么摆烂不都可以？ “师父，天凉了，您穿件衣服……”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o676a35ece615a55ea9d20a406e3a6738~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=scouK44S%2BWxumYZZy3XizjSbsX0%3D",
-        "url": "https://fanqienovel.com/page/7639186772349439038"
-      },
-      {
-        "title": "少歌：千年宗门曝光，吓疯世界！",
-        "author": "爱吃零食的问题",
-        "reads": "19.2万",
-        "intro": "迟到三千年的系统发现宿主已经无敌，心态崩了，直接黑化成“天幕曝光系统”，把陈长安三千年来干过的离谱大事，一件件投放到整个少歌世界上空。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob66954525f9dbb6d3e84d13c4825544e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=GTtoh0MVR5NcvMWbxPC63Bbr8XA%3D",
-        "url": "https://fanqienovel.com/page/7644922682030427161"
+        "title": "一人：陆家保镖，一掌拍碎龙虎山",
+        "author": "最爱天气晴朗",
+        "reads": "23.4万",
+        "intro": "林墨穿越一人之下，觉醒【朝九晚五打卡系统】。 只要按时上下班，就能获得金庸、古龙等武侠神功与功力年份！ 正常下班签到一天：奖励【百年精纯内力】！ 签到十天：奖励【金刚不坏神功】！ 签到百天：奖励【剑二十三】！ …… 本着绝不白干活的原则，林墨成了陆玲珑的保镖，每天准点下班，绝不出手。 直到罗天大醮，全性攻山，陆玲珑深陷重围。 “林墨，救命啊！” 林墨指了指手表：“抱歉老板，现在是下班时间，出手得加钱。” “十万！” “看不起谁呢？” “我把全副身家都给你！我也给你！” “成交。” 下一秒，林墨一步踏出，千年内力轰然爆发，一招如来神掌，整座龙虎山瞬间被夷为平地！ 老天师麻了：“不是，老夫只是天下第一，你丫搁这修仙呢？！”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob5b254409d3e515f25a3f80859c7ef6c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=iEaptAZ1cxvHDKYUfXu5jpsw3Ao%3D",
+        "url": "https://fanqienovel.com/page/7640886211174730777"
       },
       {
         "title": "黑袍纠察队：穿越深海开局遇星光",
         "author": "沉默0755",
-        "reads": "16万",
+        "reads": "15.2万",
         "intro": "又名，黑袍纠察队：穿越成深海，开局gank星光。 陈默穿越了，睁眼就是星光的欢迎仪式，难绷的是，他是深海！开局就面临艰难抉择。 在这个黑袍宇宙，人均道德-10000，cs遍地都是的地方。 陈默决定要用拳头打爆一切",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o375fcf77c6c5ddadd24f055295a05a22~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=8ORUO1otcQAtno0lGLelMgeIzFY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o375fcf77c6c5ddadd24f055295a05a22~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=Ds40zzhGPl%2BZv14htfUsbRYuKsE%3D",
         "url": "https://fanqienovel.com/page/7634437893317987352"
       },
       {
         "title": "神雕：全真出了个记仇真人！",
         "author": "GLANG",
-        "reads": "15.7万",
+        "reads": "15.5万",
         "intro": "评分刚出，后面会涨 【天才+杀伐果断+人设完整+逼格】 穿越神雕，王九龄被王处一收为弟子，意外习得先天功。 全真派从此多了一个“记仇真人”。 赵志敬得罪他，被打入思过崖。 李莫愁得罪他，被追杀到崩溃破防。 王九龄的原则很简单：首先我是正道，其次你准备怎么死？ 别的正道面对恶人都是先讲道理再动手，王九龄不一同，他也讲道理，但都是杀了人后再讲... 对了，他还收杨过当了徒弟，顺手把黄药师的关门弟子程英拐回了全真。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9fbff49602b3f583fc4629a8affcc177~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=8yENJxI208qwoss0x3rEh9xjljU%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9fbff49602b3f583fc4629a8affcc177~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=b88yk%2BfnOwRc3kZxMvZGDYqhHpA%3D",
         "url": "https://fanqienovel.com/page/7636445564585921598"
+      },
+      {
+        "title": "龙族：开局重岳模板，拳定春秋！",
+        "author": "通宵身体好",
+        "reads": "15.9万",
+        "intro": "（评分刚出，会涨的qwq） 【弥补遗憾】【举世无敌】【抽象日常】 最强屠龙者肯定是昂热啊。 梅涅克·卡塞尔也算实至名归。 不会是楚天骄吧？ 卧槽登临意是谁？ …… 穿越到了龙族世界。 登临意手无寸铁，身无长物，甚至不是混血种。 所幸觉醒了重岳模板，只需要完成任务，就能够获得各种奖励。 起初所有人都觉得。 被破格录入卡塞尔学院的登临意，是和某位E级选手并列的两大废柴。 直到龙王嘶吼着降临的那一天…… 岁相加身，暴武开道，真龙之相尽显。 三拳打碎龙王魂，长官我是普通人！ “不知道啊，他嘴里喊着什么劲发江潮落，气收秋毫平就冲上去了。”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o01749f536d9f810c2a0806835e368c54~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=Cmqat8ZDXpNOmJJYQmfCCAkKxKQ%3D",
+        "url": "https://fanqienovel.com/page/7628157831044156478"
       },
       {
         "title": "龙族：我路明非，系统非说是佐助",
         "author": "一杯敬远方",
-        "reads": "15.5万",
+        "reads": "15.1万",
         "intro": "衰仔路明非很头疼，本来只想混吃等死，结果莫名其妙的绑定了系统，非说他是什么宇智波佐助。 只是跟陈雯雯打了个招呼，就被拖进月读空间狂捅三天三夜。 惩罚结束之后，路明非彻底服了。 他每天疯狂特训，成为众人眼中的卷狗，终于，路明非成长到了自己都无法理解的高度。 写轮眼与黄金瞳融合在一起，雷电雨火焰糅合成从未见过的言灵。 一个眼神吓退奥丁，单手捏爆高阶死侍头颅，就连昂热和小恶魔路鸣泽都搞不清楚路明非为什么这么猛。 面对俄罗斯金发大妞、傲娇小天女、钢琴才女和小怪兽的疯狂脑倒贴，路明非满脸冷漠，实则内心慌得一批。 我真不是什么杀胚，我只是怕被系统砍啊！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b820b1eb26ffa3326730b0cc95299d2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=hoCDAlrVO9c%2BLofs%2FlK6OwBFDw8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b820b1eb26ffa3326730b0cc95299d2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=9s6kHdQcpNy8i8bPMrCFd5EOmIw%3D",
         "url": "https://fanqienovel.com/page/7630053600625970201"
       },
       {
         "title": "四合院开局我把贾张氏卖给王屠夫",
         "author": "爱吃毛毛虫",
-        "reads": "15万",
+        "reads": "14.5万",
         "intro": "评分今天刚出，后面会涨的，不当曹贼，不怂！ 穿到禽满四合院，成了烈士遗孤范德彪。 觉醒签到系统，开局就硬刚三位大爷，谁道德绑架直接怼回去！ 徒手抓持枪特务，立大功特批公安名额； 撮合贾张氏嫁老王； 怼易中海、抽刘海、拿捏阎埠贵，院里妖魔鬼怪挨个收拾！ 我范德彪，不靠圣母心，不靠忍气吞声， 靠拳头、靠系统、靠烈属身份， 在年代里吃香喝辣，横行无忌！ 看街溜子如何在鸿钧来了都得脱层皮的大院里，混得风生水起，逆袭翻身！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o20544c8b4361489d0f5b52d083d87da8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=CQ4%2FF3idvfAaD3l6DgIZAgS8eNQ%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o20544c8b4361489d0f5b52d083d87da8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=tykhQxHfSgJbfx6VlJdl%2B%2FkjmnI%3D",
         "url": "https://fanqienovel.com/page/7631801143294708760"
       },
       {
         "title": "我初代蜘蛛侠，数值吓懵祖国人！",
         "author": "喜欢橙子的赵财猫",
-        "reads": "14.7万",
+        "reads": "14.6万",
         "intro": "【黑袍+蜘蛛侠+无敌流+爽文+打脸七人组+初代数值怪+邪恶蜘蛛侠】 　　穿越黑袍世界三年，陈峰获得好人好事系统！！！ 　　只要做好事儿就能变强。 　　开局奖励：初代蜘蛛侠模板。无限蛛丝、飞檐走壁、蜘蛛感应、超强肉身、超级力量…… 　　陈峰傻了。 　　不是哥们，初代蜘蛛侠？ 　　就那个三拳打碎绿魔魂，彼得我是自己人的那个初代？？？ 　　这一晚，陈峰套上连体衣，开始在纽约街头清扫罪恶。 　　劫匪、黑帮、人贩子……一夜之间，全被蛛丝吊在警局门口。 　　纽约人叫他“蜘蛛义警”，视频播放量破亿。 　　...... 　　沃特集团，艾什莉拿着数据冲进祖国人的休息室： 　　“祖国人！这个蜘蛛侠太强了，我们必须拉他进七人组！” 　　祖国人翘着二郎腿，喝了口牛奶，嗤笑一声： 　　“一个该死的大蜘蛛而已。” 　　可当祖国人看到蜘蛛侠的数值时，直接懵了！ 　　“不是，这徒手拉火车又是什么鬼？！” （注意后期主角会越来越杀伐果断，小嘴抹蜜）",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o30de7e30dbce6878d3dfd8f5c3d93219~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=PObBz8BxlnbYfVa5W1RPoIIMWe4%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o30de7e30dbce6878d3dfd8f5c3d93219~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=aLlU8Fjm0i64OB8yQedwNgst3lI%3D",
         "url": "https://fanqienovel.com/page/7632246606644923416"
       },
       {
         "title": "四合院之贫道法力无边",
         "author": "昆仑后学术士",
-        "reads": "13.5万",
+        "reads": "16.8万",
         "intro": "小道士进院，法力无边，这道士不一般，主打一个随心所欲，念头通达，从不内耗自己，只会外耗别人。 《轻松幽默》+中戾气+搞笑+折磨众禽。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5e86357ea4cf24be59d104c6f19b5ba2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=77hu9l%2BJFrd6dH3zOlxCeIUmR%2FY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5e86357ea4cf24be59d104c6f19b5ba2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=WX6nmznf7cxBZX2Bf4Lqhp0nz8I%3D",
         "url": "https://fanqienovel.com/page/7631568451097611288"
-      },
-      {
-        "title": "龙族：开局重岳模板，拳定春秋！",
-        "author": "通宵身体好",
-        "reads": "15.2万",
-        "intro": "（评分刚出，会涨的qwq） 【弥补遗憾】【举世无敌】【抽象日常】 最强屠龙者肯定是昂热啊。 梅涅克·卡塞尔也算实至名归。 不会是楚天骄吧？ 卧槽登临意是谁？ …… 穿越到了龙族世界。 登临意手无寸铁，身无长物，甚至不是混血种。 所幸觉醒了重岳模板，只需要完成任务，就能够获得各种奖励。 起初所有人都觉得。 被破格录入卡塞尔学院的登临意，是和某位E级选手并列的两大废柴。 直到龙王嘶吼着降临的那一天…… 岁相加身，暴武开道，真龙之相尽显。 三拳打碎龙王魂，长官我是普通人！ “不知道啊，他嘴里喊着什么劲发江潮落，气收秋毫平就冲上去了。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o01749f536d9f810c2a0806835e368c54~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=7yQ8tSEpm%2FDwITSB8TMV6Qcsp4o%3D",
-        "url": "https://fanqienovel.com/page/7628157831044156478"
-      },
-      {
-        "title": "一人：陆家保镖，一掌拍碎龙虎山",
-        "author": "最爱天气晴朗",
-        "reads": "16.7万",
-        "intro": "林墨穿越一人之下，觉醒【朝九晚五打卡系统】。 只要按时上下班，就能获得金庸、古龙等武侠神功与功力年份！ 正常下班签到一天：奖励【百年精纯内力】！ 签到十天：奖励【金刚不坏神功】！ 签到百天：奖励【剑二十三】！ …… 本着绝不白干活的原则，林墨成了陆玲珑的保镖，每天准点下班，绝不出手。 直到罗天大醮，全性攻山，陆玲珑深陷重围。 “林墨，救命啊！” 林墨指了指手表：“抱歉老板，现在是下班时间，出手得加钱。” “十万！” “看不起谁呢？” “我把全副身家都给你！我也给你！” “成交。” 下一秒，林墨一步踏出，千年内力轰然爆发，一招如来神掌，整座龙虎山瞬间被夷为平地！ 老天师麻了：“不是，老夫只是天下第一，你丫搁这修仙呢？！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob5b254409d3e515f25a3f80859c7ef6c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=s5CKOaznssC6XoJRzCAFABTQ7Zg%3D",
-        "url": "https://fanqienovel.com/page/7640886211174730777"
       },
       {
         "title": "一人：借术还魂，开局召唤武侯！",
         "author": "性本孤独3",
-        "reads": "13万",
+        "reads": "12.4万",
         "intro": "穿越一人之下的世界，成为诸葛青和诸葛白的哥哥诸葛空。 作为一名先天异人，诸葛空拥有一个十分变态的先天异能。 借术还魂！ 通过修炼各种异人界的术法，可以直接沿着这门术法召唤修习过这门术法的先人。 而当诸葛空发现自己有这个技能后，他第一时间选择通过自家的手段召唤那位千古流芳的武侯！ 奇门为引，神机为骨，武侯横跨千年而来！ 习得武侯奇门，召唤武侯！ 习得太极，召唤三丰真人！ 习得雷法金光咒，召唤天师张道陵！ 习得内丹出阳神，召唤吕祖吕洞宾！ 太高级了？ 习得逆生三重，召唤左若童！ 习得炁体源流，召唤张怀义！ 得到唐门暗器，召唤唐家仁、高英才等... 习得雷法，召唤张静清！ 罗天大醮上，诸葛空看着一个比一个阴的同辈们，笑眯眯道：“诸位，可曾听闻逆天匹配机制？！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2f96610a5a91e33edfd3d0d37bc2f1ed~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=YZsrQ6UVq8qu6uyBKhRVOYv2H4k%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2f96610a5a91e33edfd3d0d37bc2f1ed~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=5lApnD7toTBZdbQAmZKxV8Z%2FHCI%3D",
         "url": "https://fanqienovel.com/page/7631572293021355070"
       },
       {
-        "title": "综武：开局李寻欢，先娶林诗音！",
-        "author": "夜的旋律",
-        "reads": "10.7万",
-        "intro": "一个在除夕夜放飞理想的有为青年，意外穿越到综武世界的李园，取代了小李探花李寻欢。 作为穿越者的他自然也少不了系统的加持，那么先知先觉又有外挂加身的他，究竟会活出怎样的人生呢？",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa832dd61cdf0e6a667f446348afe2ddd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=5m6vuZiHuxD23DYZ4NMn4CZKSb8%3D",
-        "url": "https://fanqienovel.com/page/7629286374755028030"
+        "title": "黑袍：我水人，祖国人是我好兄弟",
+        "author": "33今天码字了没",
+        "reads": "13.7万",
+        "intro": "【黑袍+中立混沌+搞笑+有梗+无敌但并非无脑+略微恶俗】 【进来看看，不要放在书架把我养死了，呜呜呜】 【评分才出，后期会涨！】 穿越黑袍三年，李行快憋屈死了。 第一年抽到超级性能力，结果连个女朋友都没有。 第二年抽到狗语，只能天天和领养的比格犬吹牛逼，硬生生把狗教成了抽烟喝酒满嘴脏话的混子。 作为七人组神秘的第八人，他和祖国人称兄道弟，却因为没有强力战斗技能一直低调。 直到第三年，系统终于做人了！ 【叮！恭喜宿主抽中超能力：元素化·水人！】 能控水，能化身水流免疫一切物理攻击，还能把别人体内的水分瞬间抽干！ 当黑袍纠察队试图暗杀李行，却发现子弹穿体而过，下一秒被瞬间抽成干尸时，整个沃特公司都麻了。 祖国人：“李行是我最好的兄弟，谁动他，我杀谁！” 李行吐出一口烟圈，身边的比格犬叼着雪茄骂骂咧咧。 “看什么看，知道找个好大哥的重要性了吧”",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe6bef9bd32c87c8e2cb56e4a6955c351~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=F7eNggB%2Bp%2B8WYJmZhDb9qboLtio%3D",
+        "url": "https://fanqienovel.com/page/7642244062828825662"
+      },
+      {
+        "title": "终极：战斗爽我战力五万",
+        "author": "一念两剑",
+        "reads": "14.6万",
+        "intro": "苏北穿越到金时空，成为了一名国小生，不仅如此，他还觉醒了‘战斗爽’系统。 只要不停的打架，他就能提升战力指数，还能获得各种技能奖励。 这导致，不到十岁的他，就有了一千的战力指数。 甚至，他还在荷包蛋大战里面，见到了黑龙丢弃的石中剑。 随后，苏北蛰伏十年。 十年后。 当汪大东从铁时空回来，调查禁药的事情的时候。 他忽然发现，现在的金时空已经大变样。 ko榜第三名，竟然是一个女生。 而第一名的战力指数，更是达到了，连他都难以项背的程度。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o30f885a46fb545d941b9a8ba417afea9~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=hxQjWUeGaC8VIJQqKU1WbUwv3xc%3D",
+        "url": "https://fanqienovel.com/page/7641516803788655640"
       }
     ]
   },
   "categories": [
     {
       "name": "男频衍生",
-      "summary_markdown": "**题材趋势**：男频衍生 当前高频信号为 衍生、穿越、系统、无敌、杀伐果断。\n**读者爽点**：规则兜底显示读者仍偏好清晰目标、强设定和稳定更新带来的即时反馈。\n**上榜变化**：男频衍生：新增1本上榜；1本掉出榜单；《四合院：穿越傻柱，东旭当天没了》排名上升+7位；《少歌：千年宗门曝光，吓疯世界！》在读变化+2.7万。新上榜作品：《一人：借术还魂，开局召唤武侯！》。\n**值得关注**：优先观察 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《年代四合院，开局六个装备栏！》 的在读增速和后续排名稳定性。",
+      "summary_markdown": "**题材趋势**：男频衍生 今天的高频信号集中在 衍生、穿越、系统、无敌、签到、杀伐果断，头部作品仍靠强钩子和高概念开局争抢点击。\n**读者爽点**：同人赛道要在现成世界观里迅速兑现新视角和新战力，读者对节奏拖沓容忍度很低。\n**上榜变化**：《四合院：开局举报轧钢厂》在读增量 +7.5万；《一人：陆家保镖，一掌拍碎龙虎山》排名上升 +8 位；新增 2 本上榜；掉榜 2 本。\n**值得关注作品**：优先跟踪 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《少歌：千年宗门曝光，吓疯世界！》，看它们能否把当前增速转成连续稳榜能力。",
       "hot_themes": [
         "衍生",
         "穿越",
         "系统",
         "无敌",
-        "杀伐果断",
         "签到",
-        "同人",
-        "单女主"
+        "杀伐果断"
       ],
       "watch_books": [
         "穿越黑袍，开局成为士兵男孩",
         "四合院：开局举报轧钢厂",
-        "年代四合院，开局六个装备栏！"
+        "少歌：千年宗门曝光，吓疯世界！"
       ],
-      "risk_notes": "",
+      "risk_notes": "男频衍生增长快，但同样容易被世界观借力掩盖人物弧光，后续要看能否建立自己的主线价值。",
       "trend": {
-        "new_count": 1,
-        "dropped_count": 1,
+        "new_count": 2,
+        "dropped_count": 2,
         "new_books": [
-          "一人：借术还魂，开局召唤武侯！"
+          "黑袍：我水人，祖国人是我好兄弟",
+          "终极：战斗爽我战力五万"
         ],
         "dropped_books": [
           {
-            "title": "穿成祖国人后，全网求我别死",
-            "intro": "新书评分刚出，后面会涨【黑袍纠察队+从头到尾无敌+正义版祖国人+诸界穿梭】一睁眼，林北发现自己成了黑袍世界最强的超级英雄——祖国人。 热视线、超音速飞行、钢铁之躯，直接战力拉满。 坏消息是：以前的祖国人暗地里干过不少坏事，不少人想要杀了他，"
+            "title": "黑袍：我这真是一家普通安保公司",
+            "intro": "【黑袍】【保护伞】【无女主】 顾渊穿越了，名下多了一家名为“保护伞”的普通安保公司。 本计划在纽约商界安稳赚钱，隔天，电视上播报了祖国人的新闻。 顾渊：？？？ 这他妈给我干哪来了？ 既然常规防线防不住超人类… 那么，红后，把暴君和舔食者生产"
+          },
+          {
+            "title": "综武：开局李寻欢，先娶林诗音！",
+            "intro": "一个在除夕夜放飞理想的有为青年，意外穿越到综武世界的李园，取代了小李探花李寻欢。 作为穿越者的他自然也少不了系统的加持，那么先知先觉又有外挂加身的他，究竟会活出怎样的人生呢？"
           }
         ],
         "top_risers": [
           {
-            "title": "四合院：穿越傻柱，东旭当天没了",
+            "title": "一人：陆家保镖，一掌拍碎龙虎山",
+            "change": "+8"
+          },
+          {
+            "title": "少歌：千年宗门曝光，吓疯世界！",
             "change": "+7"
           },
           {
-            "title": "四合院：我刘海中门徒满京华",
-            "change": "+5"
-          },
-          {
-            "title": "我初代蜘蛛侠，数值吓懵祖国人！",
+            "title": "龙族：开局重岳模板，拳定春秋！",
             "change": "+4"
           },
           {
-            "title": "神雕：全真出了个记仇真人！",
+            "title": "四合院：我刘海中门徒满京华",
+            "change": "+3"
+          },
+          {
+            "title": "一人：借术还魂，开局召唤武侯！",
             "change": "+1"
           }
         ],
         "top_fallers": [
           {
-            "title": "四合院开局我把贾张氏卖给王屠夫",
-            "change": "-5"
+            "title": "年代四合院，开局六个装备栏！",
+            "change": "-4"
           },
           {
-            "title": "黑袍纠察队：穿越深海开局遇星光",
-            "change": "-3"
-          },
-          {
-            "title": "穿越五一，从喂饱大娄子开始",
-            "change": "-2"
-          },
-          {
-            "title": "一人：沉睡百年，开局抛钱请无常",
+            "title": "黑袍：从维特鲁姆文员到碎星帝皇",
             "change": "-1"
           },
           {
-            "title": "黑袍：我这真是一家普通安保公司",
+            "title": "穿越五一，从喂饱大娄子开始",
+            "change": "-1"
+          },
+          {
+            "title": "龙族：我路明非，系统非说是佐助",
+            "change": "-1"
+          },
+          {
+            "title": "四合院开局我把贾张氏卖给王屠夫",
             "change": "-1"
           }
         ],
         "reads_growth": [
           {
-            "title": "少歌：千年宗门曝光，吓疯世界！",
-            "growth": "+2.7万"
+            "title": "四合院：开局举报轧钢厂",
+            "growth": "+7.5万"
           },
           {
             "title": "一人：陆家保镖，一掌拍碎龙虎山",
-            "growth": "+2.1万"
+            "growth": "+6.7万"
           },
           {
-            "title": "四合院：开局举报轧钢厂",
-            "growth": "+1.8万"
-          },
-          {
-            "title": "四合院：穿越傻柱，东旭当天没了",
-            "growth": "+1.3万"
+            "title": "四合院之贫道法力无边",
+            "growth": "+3.3万"
           },
           {
             "title": "四合院：我刘海中门徒满京华",
-            "growth": "+1.3万"
+            "growth": "+2.9万"
+          },
+          {
+            "title": "少歌：千年宗门曝光，吓疯世界！",
+            "growth": "+2.4万"
           }
         ],
-        "summary": "男频衍生：新增1本上榜；1本掉出榜单；《四合院：穿越傻柱，东旭当天没了》排名上升+7位；《少歌：千年宗门曝光，吓疯世界！》在读变化+2.7万。",
-        "summary_markdown": "**题材趋势**：男频衍生 当前高频信号为 衍生、穿越、系统、无敌、杀伐果断。\n**读者爽点**：规则兜底显示读者仍偏好清晰目标、强设定和稳定更新带来的即时反馈。\n**上榜变化**：男频衍生：新增1本上榜；1本掉出榜单；《四合院：穿越傻柱，东旭当天没了》排名上升+7位；《少歌：千年宗门曝光，吓疯世界！》在读变化+2.7万。新上榜作品：《一人：借术还魂，开局召唤武侯！》。\n**值得关注**：优先观察 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《年代四合院，开局六个装备栏！》 的在读增速和后续排名稳定性。",
+        "summary": "**题材趋势**：男频衍生 今天的高频信号集中在 衍生、穿越、系统、无敌、签到、杀伐果断，头部作品仍靠强钩子和高概念开局争抢点击。\n**读者爽点**：同人赛道要在现成世界观里迅速兑现新视角和新战力，读者对节奏拖沓容忍度很低。\n**上榜变化**：《四合院：开局举报轧钢厂》在读增量 +7.5万；《一人：陆家保镖，一掌拍碎龙虎山》排名上升 +8 位；新增 2 本上榜；掉榜 2 本。\n**值得关注作品**：优先跟踪 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《少歌：千年宗门曝光，吓疯世界！》，看它们能否把当前增速转成连续稳榜能力。",
+        "summary_markdown": "**题材趋势**：男频衍生 今天的高频信号集中在 衍生、穿越、系统、无敌、签到、杀伐果断，头部作品仍靠强钩子和高概念开局争抢点击。\n**读者爽点**：同人赛道要在现成世界观里迅速兑现新视角和新战力，读者对节奏拖沓容忍度很低。\n**上榜变化**：《四合院：开局举报轧钢厂》在读增量 +7.5万；《一人：陆家保镖，一掌拍碎龙虎山》排名上升 +8 位；新增 2 本上榜；掉榜 2 本。\n**值得关注作品**：优先跟踪 《穿越黑袍，开局成为士兵男孩》、《四合院：开局举报轧钢厂》、《少歌：千年宗门曝光，吓疯世界！》，看它们能否把当前增速转成连续稳榜能力。",
         "hot_themes": [
           "衍生",
           "穿越",
           "系统",
           "无敌",
-          "杀伐果断",
           "签到",
-          "同人",
-          "单女主"
+          "杀伐果断"
         ],
         "watch_books": [
           "穿越黑袍，开局成为士兵男孩",
           "四合院：开局举报轧钢厂",
-          "年代四合院，开局六个装备栏！"
+          "少歌：千年宗门曝光，吓疯世界！"
         ],
-        "risk_notes": ""
+        "risk_notes": "男频衍生增长快，但同样容易被世界观借力掩盖人物弧光，后续要看能否建立自己的主线价值。"
       },
       "books": [
         {
           "title": "穿越黑袍，开局成为士兵男孩",
           "author": "幸运儿小朵",
-          "reads": "47.5万",
+          "reads": "41.9万",
           "intro": "【黑袍纠察队同人+士兵男孩+纯黑袍无其他世界+解决原剧悲剧+教育大号阿祖】 李明醒来后，发现自己穿越到了黑袍纠察队的世界，时间线为第一季的开头，并且是以士兵男孩的身体... 同时，他还获得了一个教子系统，不论用任何手段教育儿子祖国人，改变祖国人，引导祖国人走向正道，都可以变得更强... 教育祖国人？那干脆将七人组一起教育了吧，不，干脆将整个沃特都整顿一番。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o08b66a919d65aa45fff78dd5a762dfb8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=IqNQ5XZlUce4sCWjn1JED%2FrNvos%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o08b66a919d65aa45fff78dd5a762dfb8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=NiN%2Fz0k9qUuzHsxlx91oSowLWPg%3D",
           "url": "https://fanqienovel.com/page/7639708385763396632"
         },
         {
           "title": "四合院：开局举报轧钢厂",
           "author": "粮票换糖甜",
-          "reads": "25.4万",
+          "reads": "32.9万",
           "intro": "钟国胜一睁眼，成了1965年南锣鼓巷九十五号大院一个活活饿死的烈士遗孤。 父亲钟大山为保卫轧钢厂牺牲，被追认为烈士。母亲重病无钱医治，撒手人寰。抚恤金下落不明，父亲留下的工位被人顶替。 全院人打着“互帮互助”的旗号，把一个没爹没妈的孩子往死里榨——逼他交钱、逼他扫院子、逼他倒尿盆。稍有反抗，就是傻柱一顿拳脚。他试过去街道办、去派出所，换来的只有一句轻飘飘的“闹着玩”。 你们不是要团结吗？你们不是要集体吗？ 那就让这个集体，好好晒一晒太阳。 冶金工业部、报社、市局、烈属办，还有最可爱的人——信，一封一封寄了出去。 还不够。 钟国胜凭着原身的记忆，走进了轧钢厂播音室，反锁了门。 那一天，轧钢厂的大喇叭响了，声音传遍了厂房、办公楼，连同附近的街巷。 “我叫钟国胜。我的父亲钟大山，为保卫这座工厂牺牲。我想请厂里回答——我父亲的抚恤金在哪？我的工位在哪？烈士遗孤的待遇在哪？” 钟国胜把寄出的每一封信、每一个收件单位，对着喇叭清清楚楚说了一遍。",
-          "cover": "https://p9-reading-sign.fqnovelpic.com/novel-pic/p2o7dbbd34827bab18a0128ff6c636b269a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=EIyKuaMdkktSSHY8ulkgW4RYBxY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7dbbd34827bab18a0128ff6c636b269a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=fGNDFhkwnuDqglLS8vprqyRFHzo%3D",
           "url": "https://fanqienovel.com/page/7641875197095578686"
         },
         {
-          "title": "年代四合院，开局六个装备栏！",
-          "author": "酒阑牵丝戏",
-          "reads": "19.9万",
-          "intro": "魂穿情满四合院，江文望着隔壁的禽兽四合院松了口气儿。 哦？我还有六个装备栏？好啊！ 挂来！ 哦？前身还是医学专业，记忆全部继承？好啊！ 经验来！ 哦？前身学校老师，现在成了师傅+内科主任？好啊！ 金大腿来！ 全了，且看江文在1960年，如何努力生活，提高幸福治标！ 【四合院】【偏年代文】【轻松愉快】【单女主】【不吃压力】",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee80f3a1c6e3787373222f1940264656~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=GFdkGXjCGLCqE%2FoXCDs4EBc4ADo%3D",
-          "url": "https://fanqienovel.com/page/7637511718024776766"
+          "title": "少歌：千年宗门曝光，吓疯世界！",
+          "author": "爱吃零食的问题",
+          "reads": "21.6万",
+          "intro": "迟到三千年的系统发现宿主已经无敌，心态崩了，直接黑化成“天幕曝光系统”，把陈长安三千年来干过的离谱大事，一件件投放到整个少歌世界上空。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob66954525f9dbb6d3e84d13c4825544e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=PW73aNwgfWkydzIHWKwQJnPDDsY%3D",
+          "url": "https://fanqienovel.com/page/7644922682030427161"
         },
         {
           "title": "四合院：穿越傻柱，东旭当天没了",
           "author": "不甜不要咸",
-          "reads": "18.9万",
+          "reads": "20.6万",
           "intro": "现代打工仔一朝穿越，贾东旭当天意外身亡。从此，何雨柱打破命运枷锁，禽兽们再也占不到丝毫便宜，一个个穷困潦倒，不得善终，而何雨柱则过上了幸福美满的生活。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4529eb74673c57d492438ee858e3e46f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=s4n3ToAVKSc4ZiNabg%2BknCi36Yg%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4529eb74673c57d492438ee858e3e46f~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=huS2y8Uom9vX1pZbR7V8y8LWfgE%3D",
           "url": "https://fanqienovel.com/page/7639225644747869209"
         },
         {
@@ -434,128 +444,128 @@
           "author": "微醺道人",
           "reads": "18.7万",
           "intro": "清末民初，洛七拜入一老道门下修行，修成无上法门，能过阴使魂入地府，却在一次过阴中，无法返回人间，从此留在了地府。 百年后的某一天，洛七不受控制的回到了人间，当他再次睁眼，是在一墓地当中，如今已是百年后的现代。 肉体百年的沉睡让洛七的炁枯竭殆尽。 “阴阳道上走一遭，一文买命半文交……黑爷，接钱！” 为了恢复修为，并生活下去，洛七踏入了这个看似繁华的现代异人界。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o74dd8ea86a3e74c8f4ad288fe69c0ffc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=33kQkAxthU1C8itFuiB9Lp%2BUCoY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o74dd8ea86a3e74c8f4ad288fe69c0ffc~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=CO0AFsBd1dBy9iCtdOb0KoNO4s4%3D",
           "url": "https://fanqienovel.com/page/7634551511376202814"
         },
         {
-          "title": "黑袍：我这真是一家普通安保公司",
-          "author": "淡淡o心态",
-          "reads": "18万",
-          "intro": "【黑袍】【保护伞】【无女主】 顾渊穿越了，名下多了一家名为“保护伞”的普通安保公司。 本计划在纽约商界安稳赚钱，隔天，电视上播报了祖国人的新闻。 顾渊：？？？ 这他妈给我干哪来了？ 既然常规防线防不住超人类… 那么，红后，把暴君和舔食者生产线全部打开！ ...... 另一边，沃特集团。 玛德琳：祖国人，布朗克斯区新开了一家安保公司，抢了我们的业务。 祖国人：谢特，几个拿枪的人类保安而已。 可是，当祖国人看到保护伞“基层保安”的实战录像时，当场懵了。 单手掐死超级恐怖分子？肉身硬抗高爆导弹？ 你管这叫普通安保公司？！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa050df166a0a71f90ba9988b0c017e06~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=PyEA9qTLedEQElsqI4uaXr3Z%2BEw%3D",
-          "url": "https://fanqienovel.com/page/7639010904574528537"
+          "title": "四合院：我刘海中门徒满京华",
+          "author": "放个大飞机",
+          "reads": "21万",
+          "intro": "如何让人生摆烂？当官？还是做些更有意义的事情？ 如果天天咸鱼，那生活还有什么意义？ 有意义，没事躺平享受不香？ 如何躺平享受？ 当然是让别人干活，自己才能躺平享受。 那问题来了，怎么让别人干活自己享受呢？ 那当然是去教更多的人，有了无数的徒弟后，自己想怎么摆烂不都可以？ “师父，天凉了，您穿件衣服……”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o676a35ece615a55ea9d20a406e3a6738~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=gzrQbGJgk3KF%2BXEti0y0D9ET1wc%3D",
+          "url": "https://fanqienovel.com/page/7639186772349439038"
+        },
+        {
+          "title": "年代四合院，开局六个装备栏！",
+          "author": "酒阑牵丝戏",
+          "reads": "17.5万",
+          "intro": "魂穿情满四合院，江文望着隔壁的禽兽四合院松了口气儿。 哦？我还有六个装备栏？好啊！ 挂来！ 哦？前身还是医学专业，记忆全部继承？好啊！ 经验来！ 哦？前身学校老师，现在成了师傅+内科主任？好啊！ 金大腿来！ 全了，且看江文在1960年，如何努力生活，提高幸福治标！ 【四合院】【偏年代文】【轻松愉快】【单女主】【不吃压力】",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oee80f3a1c6e3787373222f1940264656~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=h7dokVzXHaCUMw3yW77T2AnAQuE%3D",
+          "url": "https://fanqienovel.com/page/7637511718024776766"
         },
         {
           "title": "黑袍：从维特鲁姆文员到碎星帝皇",
           "author": "流云如风",
-          "reads": "17.3万",
+          "reads": "16.6万",
           "intro": "穿越黑袍世界，激活维特鲁姆人进化面板。 火车头要把休伊女友撞成血雾？看我超人大比兜！ 系统提示：情感能量收集完毕，可进化。 从此，这个世界多了一个变量。 透明人？一根钨合金棒，从眼眶捅进去，三十秒解决。 深海要潜规则星光？一脚踩断他的脊梁骨。 祖国人在我面前秀热视线？ 兄弟，你那玩意儿烧我衣服都费劲。 \"你以为你是这颗星球上最强的？\" \"你错了。你只是最吵的。\" 一拳。 祖国人飞了出去。 （本书又名《全球最强但低调不了一点》《祖国人的精神状态已经不正常了》《我在七人组当内鬼的日子》）",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o595c14d213cb08f6617c9e0e3c55d5a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=VF%2F6BcOFoiie3%2BMBXVUlPjQGsOM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o595c14d213cb08f6617c9e0e3c55d5a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=CLCVETzvnRUp3POCcFkd6dLa2i4%3D",
           "url": "https://fanqienovel.com/page/7631496570466208792"
         },
         {
           "title": "穿越五一，从喂饱大娄子开始",
           "author": "有鱼水难清",
-          "reads": "16.7万",
+          "reads": "16.4万",
           "intro": "吕昆，损友称之大驴子！ 飚了八手的A8，不小心掉下断桥，穿越上世纪五一年，一屁股坐死劫匪，救下了娄晓娥的妈妈潭雅丽……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o27b971835d955a09f10a3e0a817c2df6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=hy32WeqscKNKcrxVp7LCTYu%2Bg5I%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o27b971835d955a09f10a3e0a817c2df6~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=Z%2FD8r%2FPzWK%2BFnZ9KHZBk7qT5btA%3D",
           "url": "https://fanqienovel.com/page/7586206448950971417"
         },
         {
-          "title": "四合院：我刘海中门徒满京华",
-          "author": "放个大飞机",
-          "reads": "18.1万",
-          "intro": "如何让人生摆烂？当官？还是做些更有意义的事情？ 如果天天咸鱼，那生活还有什么意义？ 有意义，没事躺平享受不香？ 如何躺平享受？ 当然是让别人干活，自己才能躺平享受。 那问题来了，怎么让别人干活自己享受呢？ 那当然是去教更多的人，有了无数的徒弟后，自己想怎么摆烂不都可以？ “师父，天凉了，您穿件衣服……”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o676a35ece615a55ea9d20a406e3a6738~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=scouK44S%2BWxumYZZy3XizjSbsX0%3D",
-          "url": "https://fanqienovel.com/page/7639186772349439038"
-        },
-        {
-          "title": "少歌：千年宗门曝光，吓疯世界！",
-          "author": "爱吃零食的问题",
-          "reads": "19.2万",
-          "intro": "迟到三千年的系统发现宿主已经无敌，心态崩了，直接黑化成“天幕曝光系统”，把陈长安三千年来干过的离谱大事，一件件投放到整个少歌世界上空。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob66954525f9dbb6d3e84d13c4825544e~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663758&x-signature=GTtoh0MVR5NcvMWbxPC63Bbr8XA%3D",
-          "url": "https://fanqienovel.com/page/7644922682030427161"
+          "title": "一人：陆家保镖，一掌拍碎龙虎山",
+          "author": "最爱天气晴朗",
+          "reads": "23.4万",
+          "intro": "林墨穿越一人之下，觉醒【朝九晚五打卡系统】。 只要按时上下班，就能获得金庸、古龙等武侠神功与功力年份！ 正常下班签到一天：奖励【百年精纯内力】！ 签到十天：奖励【金刚不坏神功】！ 签到百天：奖励【剑二十三】！ …… 本着绝不白干活的原则，林墨成了陆玲珑的保镖，每天准点下班，绝不出手。 直到罗天大醮，全性攻山，陆玲珑深陷重围。 “林墨，救命啊！” 林墨指了指手表：“抱歉老板，现在是下班时间，出手得加钱。” “十万！” “看不起谁呢？” “我把全副身家都给你！我也给你！” “成交。” 下一秒，林墨一步踏出，千年内力轰然爆发，一招如来神掌，整座龙虎山瞬间被夷为平地！ 老天师麻了：“不是，老夫只是天下第一，你丫搁这修仙呢？！”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob5b254409d3e515f25a3f80859c7ef6c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713951&x-signature=iEaptAZ1cxvHDKYUfXu5jpsw3Ao%3D",
+          "url": "https://fanqienovel.com/page/7640886211174730777"
         },
         {
           "title": "黑袍纠察队：穿越深海开局遇星光",
           "author": "沉默0755",
-          "reads": "16万",
+          "reads": "15.2万",
           "intro": "又名，黑袍纠察队：穿越成深海，开局gank星光。 陈默穿越了，睁眼就是星光的欢迎仪式，难绷的是，他是深海！开局就面临艰难抉择。 在这个黑袍宇宙，人均道德-10000，cs遍地都是的地方。 陈默决定要用拳头打爆一切",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o375fcf77c6c5ddadd24f055295a05a22~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=8ORUO1otcQAtno0lGLelMgeIzFY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o375fcf77c6c5ddadd24f055295a05a22~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=Ds40zzhGPl%2BZv14htfUsbRYuKsE%3D",
           "url": "https://fanqienovel.com/page/7634437893317987352"
         },
         {
           "title": "神雕：全真出了个记仇真人！",
           "author": "GLANG",
-          "reads": "15.7万",
+          "reads": "15.5万",
           "intro": "评分刚出，后面会涨 【天才+杀伐果断+人设完整+逼格】 穿越神雕，王九龄被王处一收为弟子，意外习得先天功。 全真派从此多了一个“记仇真人”。 赵志敬得罪他，被打入思过崖。 李莫愁得罪他，被追杀到崩溃破防。 王九龄的原则很简单：首先我是正道，其次你准备怎么死？ 别的正道面对恶人都是先讲道理再动手，王九龄不一同，他也讲道理，但都是杀了人后再讲... 对了，他还收杨过当了徒弟，顺手把黄药师的关门弟子程英拐回了全真。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9fbff49602b3f583fc4629a8affcc177~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=8yENJxI208qwoss0x3rEh9xjljU%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9fbff49602b3f583fc4629a8affcc177~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=b88yk%2BfnOwRc3kZxMvZGDYqhHpA%3D",
           "url": "https://fanqienovel.com/page/7636445564585921598"
+        },
+        {
+          "title": "龙族：开局重岳模板，拳定春秋！",
+          "author": "通宵身体好",
+          "reads": "15.9万",
+          "intro": "（评分刚出，会涨的qwq） 【弥补遗憾】【举世无敌】【抽象日常】 最强屠龙者肯定是昂热啊。 梅涅克·卡塞尔也算实至名归。 不会是楚天骄吧？ 卧槽登临意是谁？ …… 穿越到了龙族世界。 登临意手无寸铁，身无长物，甚至不是混血种。 所幸觉醒了重岳模板，只需要完成任务，就能够获得各种奖励。 起初所有人都觉得。 被破格录入卡塞尔学院的登临意，是和某位E级选手并列的两大废柴。 直到龙王嘶吼着降临的那一天…… 岁相加身，暴武开道，真龙之相尽显。 三拳打碎龙王魂，长官我是普通人！ “不知道啊，他嘴里喊着什么劲发江潮落，气收秋毫平就冲上去了。”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o01749f536d9f810c2a0806835e368c54~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=Cmqat8ZDXpNOmJJYQmfCCAkKxKQ%3D",
+          "url": "https://fanqienovel.com/page/7628157831044156478"
         },
         {
           "title": "龙族：我路明非，系统非说是佐助",
           "author": "一杯敬远方",
-          "reads": "15.5万",
+          "reads": "15.1万",
           "intro": "衰仔路明非很头疼，本来只想混吃等死，结果莫名其妙的绑定了系统，非说他是什么宇智波佐助。 只是跟陈雯雯打了个招呼，就被拖进月读空间狂捅三天三夜。 惩罚结束之后，路明非彻底服了。 他每天疯狂特训，成为众人眼中的卷狗，终于，路明非成长到了自己都无法理解的高度。 写轮眼与黄金瞳融合在一起，雷电雨火焰糅合成从未见过的言灵。 一个眼神吓退奥丁，单手捏爆高阶死侍头颅，就连昂热和小恶魔路鸣泽都搞不清楚路明非为什么这么猛。 面对俄罗斯金发大妞、傲娇小天女、钢琴才女和小怪兽的疯狂脑倒贴，路明非满脸冷漠，实则内心慌得一批。 我真不是什么杀胚，我只是怕被系统砍啊！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b820b1eb26ffa3326730b0cc95299d2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=hoCDAlrVO9c%2BLofs%2FlK6OwBFDw8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3b820b1eb26ffa3326730b0cc95299d2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=9s6kHdQcpNy8i8bPMrCFd5EOmIw%3D",
           "url": "https://fanqienovel.com/page/7630053600625970201"
         },
         {
           "title": "四合院开局我把贾张氏卖给王屠夫",
           "author": "爱吃毛毛虫",
-          "reads": "15万",
+          "reads": "14.5万",
           "intro": "评分今天刚出，后面会涨的，不当曹贼，不怂！ 穿到禽满四合院，成了烈士遗孤范德彪。 觉醒签到系统，开局就硬刚三位大爷，谁道德绑架直接怼回去！ 徒手抓持枪特务，立大功特批公安名额； 撮合贾张氏嫁老王； 怼易中海、抽刘海、拿捏阎埠贵，院里妖魔鬼怪挨个收拾！ 我范德彪，不靠圣母心，不靠忍气吞声， 靠拳头、靠系统、靠烈属身份， 在年代里吃香喝辣，横行无忌！ 看街溜子如何在鸿钧来了都得脱层皮的大院里，混得风生水起，逆袭翻身！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o20544c8b4361489d0f5b52d083d87da8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=CQ4%2FF3idvfAaD3l6DgIZAgS8eNQ%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o20544c8b4361489d0f5b52d083d87da8~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=tykhQxHfSgJbfx6VlJdl%2B%2FkjmnI%3D",
           "url": "https://fanqienovel.com/page/7631801143294708760"
         },
         {
           "title": "我初代蜘蛛侠，数值吓懵祖国人！",
           "author": "喜欢橙子的赵财猫",
-          "reads": "14.7万",
+          "reads": "14.6万",
           "intro": "【黑袍+蜘蛛侠+无敌流+爽文+打脸七人组+初代数值怪+邪恶蜘蛛侠】 　　穿越黑袍世界三年，陈峰获得好人好事系统！！！ 　　只要做好事儿就能变强。 　　开局奖励：初代蜘蛛侠模板。无限蛛丝、飞檐走壁、蜘蛛感应、超强肉身、超级力量…… 　　陈峰傻了。 　　不是哥们，初代蜘蛛侠？ 　　就那个三拳打碎绿魔魂，彼得我是自己人的那个初代？？？ 　　这一晚，陈峰套上连体衣，开始在纽约街头清扫罪恶。 　　劫匪、黑帮、人贩子……一夜之间，全被蛛丝吊在警局门口。 　　纽约人叫他“蜘蛛义警”，视频播放量破亿。 　　...... 　　沃特集团，艾什莉拿着数据冲进祖国人的休息室： 　　“祖国人！这个蜘蛛侠太强了，我们必须拉他进七人组！” 　　祖国人翘着二郎腿，喝了口牛奶，嗤笑一声： 　　“一个该死的大蜘蛛而已。” 　　可当祖国人看到蜘蛛侠的数值时，直接懵了！ 　　“不是，这徒手拉火车又是什么鬼？！” （注意后期主角会越来越杀伐果断，小嘴抹蜜）",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o30de7e30dbce6878d3dfd8f5c3d93219~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=PObBz8BxlnbYfVa5W1RPoIIMWe4%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o30de7e30dbce6878d3dfd8f5c3d93219~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=aLlU8Fjm0i64OB8yQedwNgst3lI%3D",
           "url": "https://fanqienovel.com/page/7632246606644923416"
         },
         {
           "title": "四合院之贫道法力无边",
           "author": "昆仑后学术士",
-          "reads": "13.5万",
+          "reads": "16.8万",
           "intro": "小道士进院，法力无边，这道士不一般，主打一个随心所欲，念头通达，从不内耗自己，只会外耗别人。 《轻松幽默》+中戾气+搞笑+折磨众禽。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5e86357ea4cf24be59d104c6f19b5ba2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=77hu9l%2BJFrd6dH3zOlxCeIUmR%2FY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5e86357ea4cf24be59d104c6f19b5ba2~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=WX6nmznf7cxBZX2Bf4Lqhp0nz8I%3D",
           "url": "https://fanqienovel.com/page/7631568451097611288"
-        },
-        {
-          "title": "龙族：开局重岳模板，拳定春秋！",
-          "author": "通宵身体好",
-          "reads": "15.2万",
-          "intro": "（评分刚出，会涨的qwq） 【弥补遗憾】【举世无敌】【抽象日常】 最强屠龙者肯定是昂热啊。 梅涅克·卡塞尔也算实至名归。 不会是楚天骄吧？ 卧槽登临意是谁？ …… 穿越到了龙族世界。 登临意手无寸铁，身无长物，甚至不是混血种。 所幸觉醒了重岳模板，只需要完成任务，就能够获得各种奖励。 起初所有人都觉得。 被破格录入卡塞尔学院的登临意，是和某位E级选手并列的两大废柴。 直到龙王嘶吼着降临的那一天…… 岁相加身，暴武开道，真龙之相尽显。 三拳打碎龙王魂，长官我是普通人！ “不知道啊，他嘴里喊着什么劲发江潮落，气收秋毫平就冲上去了。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o01749f536d9f810c2a0806835e368c54~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=7yQ8tSEpm%2FDwITSB8TMV6Qcsp4o%3D",
-          "url": "https://fanqienovel.com/page/7628157831044156478"
-        },
-        {
-          "title": "一人：陆家保镖，一掌拍碎龙虎山",
-          "author": "最爱天气晴朗",
-          "reads": "16.7万",
-          "intro": "林墨穿越一人之下，觉醒【朝九晚五打卡系统】。 只要按时上下班，就能获得金庸、古龙等武侠神功与功力年份！ 正常下班签到一天：奖励【百年精纯内力】！ 签到十天：奖励【金刚不坏神功】！ 签到百天：奖励【剑二十三】！ …… 本着绝不白干活的原则，林墨成了陆玲珑的保镖，每天准点下班，绝不出手。 直到罗天大醮，全性攻山，陆玲珑深陷重围。 “林墨，救命啊！” 林墨指了指手表：“抱歉老板，现在是下班时间，出手得加钱。” “十万！” “看不起谁呢？” “我把全副身家都给你！我也给你！” “成交。” 下一秒，林墨一步踏出，千年内力轰然爆发，一招如来神掌，整座龙虎山瞬间被夷为平地！ 老天师麻了：“不是，老夫只是天下第一，你丫搁这修仙呢？！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob5b254409d3e515f25a3f80859c7ef6c~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=s5CKOaznssC6XoJRzCAFABTQ7Zg%3D",
-          "url": "https://fanqienovel.com/page/7640886211174730777"
         },
         {
           "title": "一人：借术还魂，开局召唤武侯！",
           "author": "性本孤独3",
-          "reads": "13万",
+          "reads": "12.4万",
           "intro": "穿越一人之下的世界，成为诸葛青和诸葛白的哥哥诸葛空。 作为一名先天异人，诸葛空拥有一个十分变态的先天异能。 借术还魂！ 通过修炼各种异人界的术法，可以直接沿着这门术法召唤修习过这门术法的先人。 而当诸葛空发现自己有这个技能后，他第一时间选择通过自家的手段召唤那位千古流芳的武侯！ 奇门为引，神机为骨，武侯横跨千年而来！ 习得武侯奇门，召唤武侯！ 习得太极，召唤三丰真人！ 习得雷法金光咒，召唤天师张道陵！ 习得内丹出阳神，召唤吕祖吕洞宾！ 太高级了？ 习得逆生三重，召唤左若童！ 习得炁体源流，召唤张怀义！ 得到唐门暗器，召唤唐家仁、高英才等... 习得雷法，召唤张静清！ 罗天大醮上，诸葛空看着一个比一个阴的同辈们，笑眯眯道：“诸位，可曾听闻逆天匹配机制？！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2f96610a5a91e33edfd3d0d37bc2f1ed~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=YZsrQ6UVq8qu6uyBKhRVOYv2H4k%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2f96610a5a91e33edfd3d0d37bc2f1ed~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=5lApnD7toTBZdbQAmZKxV8Z%2FHCI%3D",
           "url": "https://fanqienovel.com/page/7631572293021355070"
         },
         {
-          "title": "综武：开局李寻欢，先娶林诗音！",
-          "author": "夜的旋律",
-          "reads": "10.7万",
-          "intro": "一个在除夕夜放飞理想的有为青年，意外穿越到综武世界的李园，取代了小李探花李寻欢。 作为穿越者的他自然也少不了系统的加持，那么先知先觉又有外挂加身的他，究竟会活出怎样的人生呢？",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa832dd61cdf0e6a667f446348afe2ddd~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781663761&x-signature=5m6vuZiHuxD23DYZ4NMn4CZKSb8%3D",
-          "url": "https://fanqienovel.com/page/7629286374755028030"
+          "title": "黑袍：我水人，祖国人是我好兄弟",
+          "author": "33今天码字了没",
+          "reads": "13.7万",
+          "intro": "【黑袍+中立混沌+搞笑+有梗+无敌但并非无脑+略微恶俗】 【进来看看，不要放在书架把我养死了，呜呜呜】 【评分才出，后期会涨！】 穿越黑袍三年，李行快憋屈死了。 第一年抽到超级性能力，结果连个女朋友都没有。 第二年抽到狗语，只能天天和领养的比格犬吹牛逼，硬生生把狗教成了抽烟喝酒满嘴脏话的混子。 作为七人组神秘的第八人，他和祖国人称兄道弟，却因为没有强力战斗技能一直低调。 直到第三年，系统终于做人了！ 【叮！恭喜宿主抽中超能力：元素化·水人！】 能控水，能化身水流免疫一切物理攻击，还能把别人体内的水分瞬间抽干！ 当黑袍纠察队试图暗杀李行，却发现子弹穿体而过，下一秒被瞬间抽成干尸时，整个沃特公司都麻了。 祖国人：“李行是我最好的兄弟，谁动他，我杀谁！” 李行吐出一口烟圈，身边的比格犬叼着雪茄骂骂咧咧。 “看什么看，知道找个好大哥的重要性了吧”",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe6bef9bd32c87c8e2cb56e4a6955c351~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=F7eNggB%2Bp%2B8WYJmZhDb9qboLtio%3D",
+          "url": "https://fanqienovel.com/page/7642244062828825662"
+        },
+        {
+          "title": "终极：战斗爽我战力五万",
+          "author": "一念两剑",
+          "reads": "14.6万",
+          "intro": "苏北穿越到金时空，成为了一名国小生，不仅如此，他还觉醒了‘战斗爽’系统。 只要不停的打架，他就能提升战力指数，还能获得各种技能奖励。 这导致，不到十岁的他，就有了一千的战力指数。 甚至，他还在荷包蛋大战里面，见到了黑龙丢弃的石中剑。 随后，苏北蛰伏十年。 十年后。 当汪大东从铁时空回来，调查禁药的事情的时候。 他忽然发现，现在的金时空已经大变样。 ko榜第三名，竟然是一个女生。 而第一名的战力指数，更是达到了，连他都难以项背的程度。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o30f885a46fb545d941b9a8ba417afea9~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1781713954&x-signature=hxQjWUeGaC8VIJQqKU1WbUwv3xc%3D",
+          "url": "https://fanqienovel.com/page/7641516803788655640"
         }
       ]
     }
