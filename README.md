@@ -4,7 +4,7 @@
 
 ## 最新榜单：2026-06-10 (Asia/Shanghai)
 
-- 分析来源：`Codex scheduled automation`
+- 分析来源：`Local heuristic fallback`
 - 在线看板：启用 GitHub Pages 后访问 `https://Nossen.github.io/FanqieRank/`
 
 | 分类 | 书籍数 | 新上榜 | 掉榜 | 阅读增长焦点 | Top 1 |
