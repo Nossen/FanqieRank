@@ -57,8 +57,16 @@ jobs:
           else
             python -m fanqierank collect --date "$report_date" --timezone Asia/Shanghai --sleep-seconds 3
           fi
-      - name: Fallback finalize
-        run: python -m fanqierank fallback-finalize --date "${{ steps.report-date.outputs.date }}"
+      - name: Finalize report
+        run: |
+          report_date="${{ steps.report-date.outputs.date }}"
+          if [ -f "data/analysis/$report_date.json" ]; then
+            echo "Codex analysis exists for $report_date; preserving Codex output."
+            python -m fanqierank finalize --date "$report_date"
+          else
+            echo "No Codex analysis for $report_date; using local heuristic fallback."
+            python -m fanqierank fallback-finalize --date "$report_date"
+          fi
       - name: Verify
         run: |
           python -m compileall fanqierank tests
@@ -69,8 +77,8 @@ jobs:
           from pathlib import Path
           payload = json.loads(Path("data/latest_ranks.json").read_text(encoding="utf-8"))
           assert payload["categories"], "missing categories"
-          assert payload["source"]["analysis"] == "Local heuristic fallback"
-          print("schema-ok", payload["date"], len(payload["categories"]))
+          assert payload["source"]["analysis"] in {"Local heuristic fallback", "Codex scheduled automation"}
+          print("schema-ok", payload["date"], payload["source"]["analysis"], len(payload["categories"]))
           PY
       - name: Commit changes
         run: |
