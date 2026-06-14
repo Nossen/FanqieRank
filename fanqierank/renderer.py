@@ -10,6 +10,8 @@ from .analysis import build_codex_context
 from .constants import CHANNELS, DEFAULT_CHANNEL, get_channel
 from .models import RawSnapshot
 
+SITE_URL = "https://nossen.github.io/FanqieRank/"
+
 
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -198,7 +200,7 @@ def render_readme(payload: dict) -> str:
         f"## 最新榜单：{date} ({timezone})",
         "",
         f"- 分析来源：`{analysis_source}`",
-        f"- 在线看板：启用 GitHub Pages 后访问 `https://Nossen.github.io/FanqieRank/`",
+        f"- 在线看板：[打开网页]({SITE_URL})",
         "",
         render_summary_table(payload),
         "",
@@ -239,6 +241,12 @@ def write_site_readme(root: Path) -> None:
         "",
         "> 自动追踪番茄小说男频/女频新书榜，生成分类排行、趋势对比和 Codex 深度分析。",
         "",
+        "## 在线网页",
+        "",
+        f"- [打开总览页]({SITE_URL})",
+        f"- [男频榜单]({SITE_URL}index.html?channel=male)",
+        f"- [女频榜单]({SITE_URL}index.html?channel=female)",
+        "",
         "## 频道入口",
         "",
         "| 频道 | 最新日期 | 分析来源 | 分类数 | 作品数 | 看板 | 数据 |",
@@ -255,7 +263,7 @@ def write_site_readme(root: Path) -> None:
             f"`{_escape_md(payload.get('source', {}).get('analysis', '未知'))}` | "
             f"{len(categories)} | "
             f"{sum(len(category.get('books', [])) for category in categories)} | "
-            f"[打开](index.html?channel={key}) | "
+            f"[打开]({SITE_URL}index.html?channel={key}) | "
             f"[JSON](data/channels/{key}/latest_ranks.json) |"
         )
     lines.extend([
