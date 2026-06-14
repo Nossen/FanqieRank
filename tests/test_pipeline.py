@@ -40,11 +40,30 @@ def make_snapshot(report_date: str, reads_offset: int = 0) -> RawSnapshot:
     )
 
 
-def fake_scraper(report_date: str, timezone: str, limit: int, sleep_seconds: float) -> RawSnapshot:
+def fake_scraper(channel: str, report_date: str, timezone: str, limit: int, sleep_seconds: float) -> RawSnapshot:
+    assert channel == "male"
     assert timezone == "Asia/Shanghai"
     assert limit == 30
     assert sleep_seconds == 0
     return make_snapshot(report_date)
+
+
+def fake_female_scraper(channel: str, report_date: str, timezone: str, limit: int, sleep_seconds: float) -> RawSnapshot:
+    assert channel == "female"
+    return RawSnapshot(
+        date=report_date,
+        timezone=timezone,
+        generated_at=f"{report_date}T08:30:00Z",
+        source={"rank": "Fanqie female new-book rank", "channel": "female", "channel_label": "女频", "collector": "test"},
+        categories=[
+            CategorySnapshot(
+                name="古风世情",
+                books=[
+                    Book("穿越朱门", "作者甲", "12万", "古言 宫斗 女强", "", "https://fanqienovel.com/page/3001"),
+                ],
+            )
+        ],
+    )
 
 
 def write_raw(root: Path, snapshot: RawSnapshot) -> None:
@@ -60,9 +79,11 @@ def test_collect_raw_report_writes_raw_json_and_markdown(tmp_path: Path) -> None
     )
 
     assert snapshot.date == "2026-06-09"
+    assert snapshot.source["channel"] == "male"
+    assert (tmp_path / "data" / "channels" / "male" / "raw" / "2026-06-09.json").exists()
     assert (tmp_path / "data" / "raw" / "2026-06-09.json").exists()
     assert (tmp_path / "data" / "raw" / "latest.json").exists()
-    assert (tmp_path / "reports" / "raw" / "2026-06-09.md").exists()
+    assert (tmp_path / "reports" / "male" / "raw" / "2026-06-09.md").exists()
 
 
 def test_fallback_finalize_writes_frontend_json_api_and_reports(tmp_path: Path) -> None:
@@ -72,12 +93,35 @@ def test_fallback_finalize_writes_frontend_json_api_and_reports(tmp_path: Path) 
     result = finalize_report_with_fallback_analysis("2026-06-09", tmp_path)
 
     assert result["category_count"] == 2
-    latest = json.loads((tmp_path / "data" / "latest_ranks.json").read_text(encoding="utf-8"))
+    latest = json.loads((tmp_path / "data" / "channels" / "male" / "latest_ranks.json").read_text(encoding="utf-8"))
+    legacy_latest = json.loads((tmp_path / "data" / "latest_ranks.json").read_text(encoding="utf-8"))
     assert latest["source"]["analysis"] == "Local heuristic fallback"
+    assert legacy_latest["channel"] == "male"
     assert latest["categories"][0]["trend"]["reads_growth"][0]["growth"] == "+1.0万"
+    assert (tmp_path / "api" / "channels" / "male" / "lastest" / "all.json").exists()
+    channel_index = json.loads((tmp_path / "api" / "channels" / "male" / "lastest" / "index.json").read_text(encoding="utf-8"))
+    assert channel_index["types"][0]["url"] == "api/channels/male/lastest/all.json"
     assert (tmp_path / "api" / "lastest" / "all.json").exists()
-    assert (tmp_path / "reports" / "2026-06-09.md").exists()
-    assert "番茄男频新书榜风向标" in (tmp_path / "README.md").read_text(encoding="utf-8")
+    assert (tmp_path / "reports" / "male" / "2026-06-09.md").exists()
+    assert "番茄新书榜风向标" in (tmp_path / "README.md").read_text(encoding="utf-8")
+
+
+def test_female_channel_writes_only_channel_outputs(tmp_path: Path) -> None:
+    snapshot = collect_raw_report(
+        PipelineConfig("2026-06-09", output_root=tmp_path, sleep_seconds=0, channel="female"),
+        scraper=fake_female_scraper,
+    )
+
+    assert snapshot.source["channel"] == "female"
+    result = finalize_report_with_fallback_analysis("2026-06-09", tmp_path, "female")
+
+    assert result["source"]["channel"] == "female"
+    latest = json.loads((tmp_path / "data" / "channels" / "female" / "latest_ranks.json").read_text(encoding="utf-8"))
+    assert latest["channel_label"] == "女频"
+    assert latest["categories"][0]["name"] == "古风世情"
+    channel_index = json.loads((tmp_path / "api" / "channels" / "female" / "lastest" / "index.json").read_text(encoding="utf-8"))
+    assert channel_index["types"][0]["url"] == "api/channels/female/lastest/all.json"
+    assert not (tmp_path / "data" / "latest_ranks.json").exists()
 
 
 def test_codex_finalize_requires_every_category_and_writes_codex_source(tmp_path: Path) -> None:
@@ -125,7 +169,7 @@ def test_codex_finalize_requires_every_category_and_writes_codex_source(tmp_path
     result = finalize_report_from_analysis("2026-06-09", tmp_path)
 
     assert result["source"]["analysis"] == "Codex scheduled automation"
-    latest = json.loads((tmp_path / "data" / "latest_ranks.json").read_text(encoding="utf-8"))
+    latest = json.loads((tmp_path / "data" / "channels" / "male" / "latest_ranks.json").read_text(encoding="utf-8"))
     assert latest["source"]["analysis"] == "Codex scheduled automation"
     assert latest["categories"][0]["trend"]["hot_themes"] == ["系统", "神豪"]
     assert latest["market_summary"]["periods"]["7"]["source"] == "codex"
@@ -154,4 +198,4 @@ def test_cli_fallback_finalize(tmp_path: Path) -> None:
     exit_code = main(["fallback-finalize", "--date", "2026-06-09", "--output", str(tmp_path)])
 
     assert exit_code == 0
-    assert (tmp_path / "data" / "latest.json").exists()
+    assert (tmp_path / "data" / "channels" / "male" / "latest.json").exists()

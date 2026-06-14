@@ -7,6 +7,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from .analysis import build_codex_context
+from .constants import CHANNELS, DEFAULT_CHANNEL, get_channel
 from .models import RawSnapshot
 
 
@@ -15,15 +16,24 @@ def write_json(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def write_raw_outputs(snapshot: RawSnapshot, root: Path) -> None:
-    raw_dir = root / "data" / "raw"
-    reports_dir = root / "reports" / "raw"
+def write_raw_outputs(snapshot: RawSnapshot, root: Path, channel: str = DEFAULT_CHANNEL) -> None:
+    channel_config = get_channel(channel)
+    raw_dir = _data_dir(root, channel_config.key) / "raw"
+    reports_dir = root / "reports" / channel_config.key / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
     reports_dir.mkdir(parents=True, exist_ok=True)
     payload = snapshot.to_dict()
     write_json(raw_dir / f"{snapshot.date}.json", payload)
     write_json(raw_dir / "latest.json", payload)
     (reports_dir / f"{snapshot.date}.md").write_text(render_raw_markdown(snapshot), encoding="utf-8")
+    if channel_config.legacy_root:
+        legacy_raw_dir = root / "data" / "raw"
+        legacy_reports_dir = root / "reports" / "raw"
+        legacy_raw_dir.mkdir(parents=True, exist_ok=True)
+        legacy_reports_dir.mkdir(parents=True, exist_ok=True)
+        write_json(legacy_raw_dir / f"{snapshot.date}.json", payload)
+        write_json(legacy_raw_dir / "latest.json", payload)
+        (legacy_reports_dir / f"{snapshot.date}.md").write_text(render_raw_markdown(snapshot), encoding="utf-8")
 
 
 def write_final_outputs(
@@ -34,9 +44,11 @@ def write_final_outputs(
     market_summary: dict,
     trend_rows: list[dict],
     root: Path,
+    channel: str = DEFAULT_CHANNEL,
 ) -> None:
-    data_dir = root / "data"
-    reports_dir = root / "reports"
+    channel_config = get_channel(channel)
+    data_dir = _data_dir(root, channel_config.key)
+    reports_dir = root / "reports" / channel_config.key
     data_dir.mkdir(parents=True, exist_ok=True)
     reports_dir.mkdir(parents=True, exist_ok=True)
 
@@ -53,6 +65,8 @@ def write_final_outputs(
             "books": [book.to_dict() for book in category.books],
         })
     latest_payload = {
+        "channel": channel_config.key,
+        "channel_label": channel_config.label,
         "date": snapshot.date,
         "prev_date": previous_date,
         "timezone": snapshot.timezone,
@@ -66,7 +80,7 @@ def write_final_outputs(
     write_json(data_dir / "latest.json", latest_payload)
     write_json(data_dir / f"{snapshot.date}.json", latest_payload)
     write_json(data_dir / "market_summary.json", market_summary)
-    write_json(data_dir / "dates.json", {"dates": _raw_dates(root)})
+    write_json(data_dir / "dates.json", {"dates": _raw_dates(root, channel_config.key)})
     write_json(data_dir / "trends" / f"{snapshot.date}.json", {
         "date": snapshot.date,
         "prev_date": previous_date,
@@ -74,16 +88,39 @@ def write_final_outputs(
         "trends": trends,
     })
     write_json(data_dir / "codex_context" / f"{snapshot.date}.json", build_codex_context(snapshot, trends, market_summary))
-    write_api_outputs(latest_payload, root)
+    write_api_outputs(
+        latest_payload,
+        root / "api" / "channels" / channel_config.key,
+        url_prefix=f"api/channels/{channel_config.key}/lastest",
+    )
     (reports_dir / f"{snapshot.date}.md").write_text(render_daily_markdown(latest_payload), encoding="utf-8")
-    (root / "README.md").write_text(render_readme(latest_payload), encoding="utf-8")
 
     # Keep an index useful for quick automation sanity checks.
     write_json(data_dir / "trend_rows.json", {"rows": trend_rows})
 
+    if channel_config.legacy_root:
+        legacy_data_dir = root / "data"
+        legacy_reports_dir = root / "reports"
+        write_json(legacy_data_dir / "latest_ranks.json", latest_payload)
+        write_json(legacy_data_dir / "latest.json", latest_payload)
+        write_json(legacy_data_dir / f"{snapshot.date}.json", latest_payload)
+        write_json(legacy_data_dir / "market_summary.json", market_summary)
+        write_json(legacy_data_dir / "dates.json", {"dates": _raw_dates(root, channel_config.key)})
+        write_json(legacy_data_dir / "trends" / f"{snapshot.date}.json", {
+            "date": snapshot.date,
+            "prev_date": previous_date,
+            "source": source,
+            "trends": trends,
+        })
+        write_json(legacy_data_dir / "codex_context" / f"{snapshot.date}.json", build_codex_context(snapshot, trends, market_summary))
+        write_json(legacy_data_dir / "trend_rows.json", {"rows": trend_rows})
+        write_api_outputs(latest_payload, root / "api")
+        (legacy_reports_dir / f"{snapshot.date}.md").write_text(render_daily_markdown(latest_payload), encoding="utf-8")
 
-def write_api_outputs(latest_payload: dict, root: Path) -> None:
-    api_root = root / "api"
+    write_site_readme(root)
+
+
+def write_api_outputs(latest_payload: dict, api_root: Path, url_prefix: str = "api/lastest") -> None:
     lastest_dir = api_root / "lastest"
     lastest_dir.mkdir(parents=True, exist_ok=True)
     for path in lastest_dir.glob("*.json"):
@@ -103,7 +140,7 @@ def write_api_outputs(latest_payload: dict, root: Path) -> None:
     used = {"all"}
     types = [{
         "type": "all",
-        "url": "api/lastest/all.json",
+        "url": f"{url_prefix}/all.json",
         "category_count": len(categories),
         "book_count": sum(len(category.get("books", [])) for category in categories),
     }]
@@ -128,7 +165,7 @@ def write_api_outputs(latest_payload: dict, root: Path) -> None:
         write_json(lastest_dir / f"{filename}.json", payload)
         types.append({
             "type": type_name,
-            "url": f"api/lastest/{quote(filename)}.json",
+            "url": f"{url_prefix}/{quote(filename)}.json",
             "book_count": len(category.get("books", [])),
         })
 
@@ -152,10 +189,11 @@ def render_readme(payload: dict) -> str:
     date = payload.get("date", "")
     timezone = payload.get("timezone", "Asia/Shanghai")
     analysis_source = payload.get("source", {}).get("analysis", "未知分析")
+    channel_label = payload.get("channel_label", "男频")
     lines = [
-        "# 番茄男频新书榜风向标",
+        f"# 番茄{channel_label}新书榜风向标",
         "",
-        "> 自动追踪番茄小说男频新书榜，生成分类排行、趋势对比和 Codex 深度分析。",
+        f"> 自动追踪番茄小说{channel_label}新书榜，生成分类排行、趋势对比和 Codex 深度分析。",
         "",
         f"## 最新榜单：{date} ({timezone})",
         "",
@@ -185,11 +223,68 @@ def render_readme(payload: dict) -> str:
     return "\n".join(lines)
 
 
+def write_site_readme(root: Path) -> None:
+    payloads: list[dict] = []
+    for key in ["male", "female"]:
+        path = _data_dir(root, key) / "latest_ranks.json"
+        if path.exists():
+            try:
+                payloads.append(json.loads(path.read_text(encoding="utf-8")))
+            except json.JSONDecodeError:
+                continue
+    if not payloads:
+        return
+    lines = [
+        "# 番茄新书榜风向标",
+        "",
+        "> 自动追踪番茄小说男频/女频新书榜，生成分类排行、趋势对比和 Codex 深度分析。",
+        "",
+        "## 频道入口",
+        "",
+        "| 频道 | 最新日期 | 分析来源 | 分类数 | 作品数 | 看板 | 数据 |",
+        "| --- | --- | --- | ---: | ---: | --- | --- |",
+    ]
+    for payload in payloads:
+        key = payload.get("channel", "male")
+        label = payload.get("channel_label", CHANNELS.get(key, CHANNELS["male"]).label)
+        categories = payload.get("categories", [])
+        lines.append(
+            "| "
+            f"{_escape_md(label)} | "
+            f"{_escape_md(payload.get('date', ''))} | "
+            f"`{_escape_md(payload.get('source', {}).get('analysis', '未知'))}` | "
+            f"{len(categories)} | "
+            f"{sum(len(category.get('books', [])) for category in categories)} | "
+            f"[打开](index.html?channel={key}) | "
+            f"[JSON](data/channels/{key}/latest_ranks.json) |"
+        )
+    lines.extend([
+        "",
+        "## 自动更新",
+        "",
+        "GitHub Actions 每天北京时间 16:10 后采集并发布规则兜底；Codex 定时任务每天 16:30 做双频道深度分析、finalize、测试、提交并推送。",
+        "",
+        "## 兼容接口",
+        "",
+        "- 男频旧接口继续保留：[data/latest_ranks.json](data/latest_ranks.json)",
+        "- 男频静态 API 继续保留：[api/lastest.json](api/lastest.json)",
+        "",
+        "## Attribution",
+        "",
+        "页面和采集思路参考 MIT 项目 [FanqieRankTracker](https://github.com/wen1701/FanqieRankTracker)，本项目改造为男频/女频双频道和 Codex 自动分析工作流。",
+        "",
+        "<!-- generated by fanqierank -->",
+        "",
+    ])
+    (root / "README.md").write_text("\n".join(lines), encoding="utf-8")
+
+
 def render_daily_markdown(payload: dict) -> str:
     date = payload.get("date", "")
     source = payload.get("source", {})
+    channel_label = payload.get("channel_label", "男频")
     lines = [
-        f"# 番茄男频新书榜 - {date}",
+        f"# 番茄{channel_label}新书榜 - {date}",
         "",
         f"- 时区：`{payload.get('timezone', 'Asia/Shanghai')}`",
         f"- 生成时间：`{payload.get('generated_at', '')}`",
@@ -212,8 +307,9 @@ def render_daily_markdown(payload: dict) -> str:
 
 
 def render_raw_markdown(snapshot: RawSnapshot) -> str:
+    channel_label = snapshot.source.get("channel_label", "男频")
     lines = [
-        f"# Raw Fanqie Male New Books - {snapshot.date}",
+        f"# Raw Fanqie {channel_label} New Books - {snapshot.date}",
         "",
         f"- 时区：`{snapshot.timezone}`",
         f"- 生成时间：`{snapshot.generated_at}`",
@@ -300,16 +396,24 @@ def _render_category_cards(categories: list[dict]) -> str:
     return "\n\n".join(sections)
 
 
-def _raw_dates(root: Path) -> list[str]:
-    raw_dir = root / "data" / "raw"
-    if not raw_dir.exists():
-        return []
-    dates = []
-    for path in raw_dir.glob("*.json"):
-        if path.stem == "latest":
+def _data_dir(root: Path, channel: str) -> Path:
+    return root / "data" / "channels" / channel
+
+
+def _raw_dates(root: Path, channel: str = DEFAULT_CHANNEL) -> list[str]:
+    channel_config = get_channel(channel)
+    raw_dirs = [_data_dir(root, channel_config.key) / "raw"]
+    if channel_config.legacy_root:
+        raw_dirs.append(root / "data" / "raw")
+    dates = set()
+    for raw_dir in raw_dirs:
+        if not raw_dir.exists():
             continue
-        if re.match(r"\d{4}-\d{2}-\d{2}$", path.stem):
-            dates.append(path.stem)
+        for path in raw_dir.glob("*.json"):
+            if path.stem == "latest":
+                continue
+            if re.match(r"\d{4}-\d{2}-\d{2}$", path.stem):
+                dates.add(path.stem)
     return sorted(dates)
 
 

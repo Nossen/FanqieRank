@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>番茄男频新书榜 · 风向标</title>
-  <meta name="description" content="番茄小说男频新书榜趋势追踪、Codex 分析与静态数据接口">
+  <title>番茄新书榜 · 风向标</title>
+  <meta name="description" content="番茄小说男频/女频新书榜趋势追踪、Codex 分析与静态数据接口">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand-block">
-        <h1>番茄男频风向标</h1>
-        <p>男频新书榜追踪</p>
+        <h1>番茄风向标</h1>
+        <p>新书榜双频道追踪</p>
         <span id="update-date">加载中...</span>
       </div>
       <nav class="category-nav">
@@ -32,7 +32,7 @@
           <p id="source-line">等待数据加载</p>
         </div>
         <div class="topbar-actions">
-          <a class="text-btn" href="trend.html">趋势页</a>
+          <a class="text-btn" id="trend-link" href="trend.html?channel=male">趋势页</a>
           <a class="text-btn" href="https://github.com/Nossen/FanqieRank" target="_blank" rel="noopener noreferrer">GitHub</a>
           <div class="date-presets">
             <button class="seg-btn active" data-preset="latest">最新</button>

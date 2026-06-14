@@ -44,6 +44,15 @@ body {
   background-size: 48px 48px, 48px 48px, auto;
 }
 
+body[data-channel="female"] {
+  --red: #d94678;
+  --red-deep: #aa2454;
+  --red-soft: #fff0f5;
+  --blue: #1976a2;
+  --blue-soft: #eaf7fb;
+  --green: #1c8f75;
+}
+
 a { color: inherit; text-decoration: none; }
 button, input { font: inherit; }
 
@@ -145,6 +154,20 @@ input:focus-visible {
   color: var(--red-deep);
 }
 
+.category-nav li.channel-nav-item {
+  min-height: 58px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.category-nav li.channel-nav-item em {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 750;
+}
+
 .cat-badge {
   min-width: 26px;
   padding: 1px 7px;
@@ -195,6 +218,29 @@ input:focus-visible {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.channel-switch {
+  display: inline-flex;
+  gap: 4px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.channel-link {
+  min-height: 30px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.channel-link.active {
+  background: var(--ink);
+  color: #fff;
 }
 
 .text-btn,
@@ -300,6 +346,149 @@ input:focus-visible {
     linear-gradient(90deg, #111827, #7a1f1a);
   border-color: rgba(239, 75, 53, 0.35);
   box-shadow: var(--shadow);
+}
+
+.overview-mode .date-presets,
+.overview-mode .date-picker,
+.overview-mode #trend-link {
+  display: none;
+}
+
+.overview-mode .rank-hero {
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.42fr);
+}
+
+.overview-mode .feature-book {
+  display: block;
+  min-height: 0;
+  padding: 0;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.overview-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.channel-card {
+  position: relative;
+  min-height: 312px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 16px;
+  overflow: hidden;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(255, 246, 242, 0.95)),
+    #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.channel-card:hover {
+  border-color: rgba(239, 75, 53, 0.4);
+  box-shadow: var(--shadow);
+}
+
+.channel-card-female {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(255, 240, 245, 0.94)),
+    #fff;
+}
+
+.channel-card-main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-card h3 {
+  margin: 2px 0 8px;
+  font-size: 1.7rem;
+  line-height: 1.12;
+}
+
+.channel-card p {
+  margin: 0 0 12px;
+  color: #475467;
+  font-weight: 750;
+}
+
+.channel-card em {
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.channel-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 4px 0 10px;
+}
+
+.channel-metrics span {
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid var(--line-soft);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.channel-metrics strong,
+.channel-metrics small {
+  display: block;
+}
+
+.channel-metrics strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 0.95rem;
+}
+
+.channel-metrics small {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 850;
+}
+
+.channel-cover-wall {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  align-content: center;
+}
+
+.channel-cover-wall div {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e9eef5;
+  box-shadow: var(--shadow-soft);
+}
+
+.channel-cover-wall img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.channel-cover-wall span {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: var(--faint);
+  font-size: 0.75rem;
 }
 
 .feature-cover {
@@ -697,6 +886,55 @@ input:focus-visible {
   background: #e6ecf4;
 }
 
+.overview-category-card {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 12px;
+  min-height: 154px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: var(--shadow-soft);
+}
+
+.overview-category-card:hover {
+  border-color: rgba(239, 75, 53, 0.42);
+  box-shadow: var(--shadow);
+}
+
+.overview-category-cover {
+  width: 82px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e9eef5;
+}
+
+.overview-category-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overview-category-card h3 {
+  margin: 0 0 5px;
+  font-size: 1rem;
+  line-height: 1.28;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.overview-category-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
 .book-copy-btn,
 .source-link-btn {
   min-height: 30px;
@@ -1014,6 +1252,11 @@ input:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .overview-mode .rank-hero,
+  .overview-cards {
+    grid-template-columns: 1fr;
+  }
+
   .hero-side {
     grid-template-columns: 0.7fr 1fr;
     grid-template-rows: auto;
@@ -1062,6 +1305,11 @@ input:focus-visible {
     width: 100%;
   }
 
+  .channel-switch {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
   .market-board,
   .trend-grid,
   .book-detail-grid {
@@ -1076,6 +1324,14 @@ input:focus-visible {
 @media (max-width: 700px) {
   .feature-book {
     grid-template-columns: 128px minmax(0, 1fr);
+  }
+
+  .channel-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .channel-cover-wall {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .feature-cover {
@@ -1112,6 +1368,26 @@ input:focus-visible {
 
   .feature-book {
     grid-template-columns: 1fr;
+  }
+
+  .overview-mode .feature-book {
+    display: block;
+  }
+
+  .channel-card {
+    min-height: 0;
+  }
+
+  .channel-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-category-card {
+    grid-template-columns: 72px minmax(0, 1fr);
+  }
+
+  .overview-category-cover {
+    width: 72px;
   }
 
   .feature-cover {

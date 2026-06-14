@@ -1,4 +1,4 @@
-name: Daily Fanqie Male New Books
+name: Daily Fanqie New Books
 
 on:
   schedule:
@@ -17,7 +17,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: fanqie-male-new-books
+  group: fanqie-new-books
   cancel-in-progress: false
 
 jobs:
@@ -52,21 +52,22 @@ jobs:
       - name: Collect raw rank data
         run: |
           report_date="${{ steps.report-date.outputs.date }}"
-          if [ -f "data/raw/$report_date.json" ]; then
-            echo "Raw data already exists for $report_date."
-          else
-            python -m fanqierank collect --date "$report_date" --timezone Asia/Shanghai --sleep-seconds 3
-          fi
+          python -m fanqierank collect --channel all --date "$report_date" --timezone Asia/Shanghai --sleep-seconds 3
       - name: Finalize report
         run: |
           report_date="${{ steps.report-date.outputs.date }}"
-          if [ -f "data/analysis/$report_date.json" ]; then
-            echo "Codex analysis exists for $report_date; preserving Codex output."
-            python -m fanqierank finalize --date "$report_date"
-          else
-            echo "No Codex analysis for $report_date; using local heuristic fallback."
-            python -m fanqierank fallback-finalize --date "$report_date"
-          fi
+          for channel in male female; do
+            if [ -f "data/channels/$channel/analysis/$report_date.json" ]; then
+              echo "Codex analysis exists for $channel $report_date; preserving Codex output."
+              python -m fanqierank finalize --channel "$channel" --date "$report_date"
+            elif [ "$channel" = "male" ] && [ -f "data/analysis/$report_date.json" ]; then
+              echo "Legacy Codex analysis exists for male $report_date; preserving Codex output."
+              python -m fanqierank finalize --channel male --date "$report_date" --analysis-file "data/analysis/$report_date.json"
+            else
+              echo "No Codex analysis for $channel $report_date; using local heuristic fallback."
+              python -m fanqierank fallback-finalize --channel "$channel" --date "$report_date"
+            fi
+          done
       - name: Verify
         run: |
           python -m compileall fanqierank tests
@@ -75,10 +76,15 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          payload = json.loads(Path("data/latest_ranks.json").read_text(encoding="utf-8"))
-          assert payload["categories"], "missing categories"
-          assert payload["source"]["analysis"] in {"Local heuristic fallback", "Codex scheduled automation"}
-          print("schema-ok", payload["date"], payload["source"]["analysis"], len(payload["categories"]))
+          for path in [
+              Path("data/channels/male/latest_ranks.json"),
+              Path("data/channels/female/latest_ranks.json"),
+              Path("data/latest_ranks.json"),
+          ]:
+              payload = json.loads(path.read_text(encoding="utf-8"))
+              assert payload["categories"], f"missing categories: {path}"
+              assert payload["source"]["analysis"] in {"Local heuristic fallback", "Codex scheduled automation"}
+              print("schema-ok", path, payload["date"], payload["source"]["analysis"], len(payload["categories"]))
           PY
       - name: Commit changes
         run: |
@@ -89,7 +95,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md data api reports
-          git commit -m "chore: update Fanqie male ranks"
+          git commit -m "chore: update Fanqie ranks"
           git push || {
             git pull --rebase origin "$GITHUB_REF_NAME"
             git push

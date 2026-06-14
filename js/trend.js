@@ -1,8 +1,18 @@
+const CHANNELS = {
+  male: { key: 'male', label: '男频', title: '男频新书榜' },
+  female: { key: 'female', label: '女频', title: '女频新书榜' },
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   const cacheBuster = `v=${Math.floor(Date.now() / 600000)}`;
+  const params = new URLSearchParams(location.search);
+  const requestedChannel = params.get('channel') || 'male';
+  const currentChannel = CHANNELS[requestedChannel] ? requestedChannel : 'male';
+  const channelConfig = CHANNELS[currentChannel];
   const categoryButtons = document.getElementById('trend-category-buttons');
   const subtitle = document.getElementById('trend-subtitle');
   const rangeButtons = document.querySelectorAll('.seg-btn[data-days]');
+  const backLink = document.querySelector('.back-link');
   const els = {
     marketSummary: document.getElementById('market-summary'),
     marketSource: document.getElementById('market-source'),
@@ -20,22 +30,26 @@ document.addEventListener('DOMContentLoaded', () => {
   let selectedCategory = '';
   let selectedDays = 7;
 
+  document.body.dataset.channel = currentChannel;
+  document.title = `类型风向标 · 番茄${channelConfig.label}新书榜`;
+  backLink.href = `index.html?channel=${encodeURIComponent(currentChannel)}`;
+
   init();
 
   async function init() {
     try {
       const [datesData, latestData, marketData] = await Promise.all([
-        fetchJson(`data/dates.json?${cacheBuster}`).catch(() => ({ dates: [] })),
-        fetchJson(`data/latest_ranks.json?${cacheBuster}`),
-        fetchJson(`data/market_summary.json?${cacheBuster}`).catch(() => null),
+        fetchChannelJson('dates.json').catch(() => ({ dates: [] })),
+        fetchChannelJson('latest_ranks.json'),
+        fetchChannelJson('market_summary.json').catch(() => null),
       ]);
       latest = latestData;
       latest.market_summary = marketData || latest.market_summary || {};
       categories = (latest.categories || []).map(category => category.name);
       const dates = (datesData.dates || []).slice().sort();
-      const rows = await Promise.all(dates.map(date => fetchJson(`data/trends/${date}.json?${cacheBuster}`).catch(() => null)));
+      const rows = await Promise.all(dates.map(date => fetchChannelJson(`trends/${date}.json`).catch(() => null)));
       trendRows = rows.filter(Boolean).sort((a, b) => a.date.localeCompare(b.date));
-      selectedCategory = new URLSearchParams(location.search).get('type');
+      selectedCategory = params.get('type') || '';
       if (!categories.includes(selectedCategory)) selectedCategory = categories[0] || '';
       bindEvents();
       renderCategoryButtons();
@@ -64,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     categoryButtons.querySelectorAll('.category-chip').forEach(btn => {
       btn.addEventListener('click', () => {
         selectedCategory = btn.dataset.type;
-        history.replaceState(null, '', `?type=${encodeURIComponent(selectedCategory)}`);
+        history.replaceState(null, '', `?channel=${encodeURIComponent(currentChannel)}&type=${encodeURIComponent(selectedCategory)}`);
         renderCategoryButtons();
         render();
       });
@@ -79,11 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
     })).filter(row => row.trend);
 
     if (!categoryRows.length) {
-      renderEmpty(`${selectedCategory || '当前分类'} 暂无趋势数据。`);
+      renderEmpty(`${channelConfig.label} · ${selectedCategory || '当前分类'} 暂无趋势数据。`);
       return;
     }
 
-    subtitle.textContent = `${selectedCategory} · ${categoryRows[0].date} 至 ${categoryRows[categoryRows.length - 1].date}`;
+    subtitle.textContent = `${channelConfig.title} · ${selectedCategory} · ${categoryRows[0].date} 至 ${categoryRows[categoryRows.length - 1].date}`;
     renderMarket(rows);
     renderList(els.reads, collectReads(categoryRows));
     renderList(els.risers, collectRisers(categoryRows));
@@ -104,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hotTypes = period && period.hot_types && period.hot_types.length ? period.hot_types : fallback.hotTypes;
     const hotThemes = period && period.hot_themes && period.hot_themes.length ? period.hot_themes : fallback.hotThemes;
     els.marketSummary.textContent = period ? period.summary : fallback.summary;
-    els.marketSource.textContent = period ? `${period.source || 'rule'} · ${period.period}` : '规则统计';
+    els.marketSource.textContent = period ? `${channelConfig.label} · ${period.source || 'rule'} · ${period.period}` : `${channelConfig.label} · 规则统计`;
     els.hotGenres.innerHTML = renderHotRows(hotGenres, 'categories');
     els.hotTypes.innerHTML = renderHotRows(hotTypes, 'type');
     els.hotThemes.innerHTML = hotThemes.length ? hotThemes.slice(0, 16).map(item => `<span class="theme-chip">${escapeHtml(item.name)} <small>${item.count || item.category_count || ''}</small></span>`).join('') : '<p class="muted-line">暂无题材信号。</p>';
@@ -112,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
       row.addEventListener('click', () => {
         if (categories.includes(row.dataset.type)) {
           selectedCategory = row.dataset.type;
+          history.replaceState(null, '', `?channel=${encodeURIComponent(currentChannel)}&type=${encodeURIComponent(selectedCategory)}`);
           renderCategoryButtons();
           render();
         }
@@ -201,9 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const bookMap = buildLatestBookMap();
     container.innerHTML = items.map(item => {
       const book = bookMap.get(item.title) || {};
-      const bookId = extractBookId(book.url);
-      const href = bookId ? `book.html?id=${encodeURIComponent(bookId)}` : `book.html?title=${encodeURIComponent(item.title)}`;
-      return `<a class="compact-row" href="${href}"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.meta)}</small></div><span>${escapeHtml(item.value)}</span></a>`;
+      return `<a class="compact-row" href="${bookHref(book, item.title)}"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.meta)}</small></div><span>${escapeHtml(item.value)}</span></a>`;
     }).join('');
   }
 
@@ -216,6 +229,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const map = new Map();
     (latest.categories || []).forEach(category => (category.books || []).forEach(book => map.set(book.title, book)));
     return map;
+  }
+
+  function bookHref(book, fallbackTitle) {
+    const query = new URLSearchParams({ channel: currentChannel });
+    const bookId = extractBookId(book.url);
+    if (bookId) query.set('id', bookId);
+    else query.set('title', book.title || fallbackTitle || '');
+    return `book.html?${query.toString()}`;
+  }
+
+  async function fetchChannelJson(path) {
+    const channelPath = `data/channels/${currentChannel}/${path}?${cacheBuster}`;
+    try {
+      return await fetchJson(channelPath);
+    } catch (error) {
+      if (currentChannel === 'male') return fetchJson(`data/${path}?${cacheBuster}`);
+      throw error;
+    }
   }
 
   function renderEmpty(message) {

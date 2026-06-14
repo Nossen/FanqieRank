@@ -30,4 +30,4 @@ jobs:
           else
             report_date="$(TZ=Asia/Shanghai date +%F)"
           fi
-          python -m fanqierank collect --date "$report_date" --limit 1 --sleep-seconds 1 --output /tmp/fanqierank-smoke
+          python -m fanqierank collect --channel all --date "$report_date" --limit 1 --sleep-seconds 1 --output /tmp/fanqierank-smoke

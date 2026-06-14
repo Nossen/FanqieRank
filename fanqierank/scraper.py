@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timezone as dt_timezone
 from zoneinfo import ZoneInfo
 
-from .constants import DEFAULT_INIT_URL, MALE_NEW_RANK_PREFIX, RANK_BASE_URL, TIMEZONE
+from .constants import DEFAULT_CHANNEL, RANK_BASE_URL, TIMEZONE, get_channel
 from .models import Book, CategorySnapshot, RawSnapshot
 
 START_CODE = 58344
@@ -48,13 +48,29 @@ def scrape_male_new_rank(
     timezone: str = TIMEZONE,
     limit: int = 30,
     sleep_seconds: float = 3.0,
-    init_url: str = DEFAULT_INIT_URL,
+) -> RawSnapshot:
+    return scrape_new_rank(
+        channel=DEFAULT_CHANNEL,
+        report_date=report_date,
+        timezone=timezone,
+        limit=limit,
+        sleep_seconds=sleep_seconds,
+    )
+
+
+def scrape_new_rank(
+    channel: str = DEFAULT_CHANNEL,
+    report_date: str | None = None,
+    timezone: str = TIMEZONE,
+    limit: int = 30,
+    sleep_seconds: float = 3.0,
 ) -> RawSnapshot:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError as exc:
         raise RuntimeError("Playwright is required. Install with `pip install -e .` and run `playwright install chromium`.") from exc
 
+    channel_config = get_channel(channel)
     tz = ZoneInfo(timezone)
     now = datetime.now(tz)
     date_str = report_date or now.date().isoformat()
@@ -69,13 +85,13 @@ def scrape_male_new_rank(
             )
         )
         page = context.new_page()
-        page.goto(init_url, wait_until="load", timeout=20_000)
+        page.goto(channel_config.init_url, wait_until="load", timeout=20_000)
         page.wait_for_selector('a[href^="/page/"]', timeout=10_000)
 
         category_links = page.evaluate(
             f"""
             () => Array.from(document.querySelectorAll('a'))
-                .filter(a => (a.getAttribute('href') || '').startsWith('{MALE_NEW_RANK_PREFIX}'))
+                .filter(a => (a.getAttribute('href') || '').startsWith('{channel_config.rank_prefix}'))
                 .map(a => ({{ name: a.innerText.trim(), href: a.getAttribute('href') }}))
                 .filter(item => item.name && item.href)
             """
@@ -101,8 +117,10 @@ def scrape_male_new_rank(
         timezone=timezone,
         generated_at=generated_at,
         source={
-            "rank": "Fanqie male new-book rank",
-            "url": init_url,
+            "rank": channel_config.rank_name,
+            "channel": channel_config.key,
+            "channel_label": channel_config.label,
+            "url": channel_config.init_url,
             "collector": "Playwright",
         },
         categories=categories,

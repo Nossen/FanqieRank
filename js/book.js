@@ -1,16 +1,31 @@
+const CHANNELS = {
+  male: { key: 'male', label: '男频', title: '男频新书榜' },
+  female: { key: 'female', label: '女频', title: '女频新书榜' },
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   const detail = document.getElementById('book-detail');
   const cacheBuster = `v=${Math.floor(Date.now() / 600000)}`;
   const maxDays = 30;
+  const params = new URLSearchParams(location.search);
+  const requestedChannel = params.get('channel') || 'male';
+  const currentChannel = CHANNELS[requestedChannel] ? requestedChannel : 'male';
+  const channelConfig = CHANNELS[currentChannel];
+  const backLink = document.querySelector('.back-link');
+  const trendLink = document.querySelector('.book-topbar .text-btn');
   const toast = document.createElement('div');
   toast.className = 'copy-toast';
   toast.textContent = '书本信息已复制';
   document.body.appendChild(toast);
 
+  document.body.dataset.channel = currentChannel;
+  document.title = `作品详情 · 番茄${channelConfig.label}新书榜`;
+  backLink.href = `index.html?channel=${encodeURIComponent(currentChannel)}`;
+  trendLink.href = `trend.html?channel=${encodeURIComponent(currentChannel)}`;
+
   init();
 
   async function init() {
-    const params = new URLSearchParams(location.search);
     const bookId = params.get('id');
     const title = params.get('title');
     if (!bookId && !title) {
@@ -18,12 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
     try {
-      const dateIndex = await fetchJson(`data/dates.json?${cacheBuster}`);
+      const dateIndex = await fetchChannelJson('dates.json');
       const dates = (dateIndex.dates || []).slice().sort().slice(-maxDays);
-      const snapshots = await Promise.all(dates.map(date => fetchJson(`data/raw/${date}.json?${cacheBuster}`).catch(() => null)));
+      const snapshots = await Promise.all(dates.map(date => fetchChannelJson(`raw/${date}.json`).catch(() => null)));
       const records = collectRecords(bookId, title, dates, snapshots);
       if (!records.length) {
-        renderEmpty('最近 30 天榜单中没有找到这本书。');
+        renderEmpty(`最近 30 天${channelConfig.label}榜单中没有找到这本书。`);
         return;
       }
       renderBook(records);
@@ -64,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <section class="book-detail-hero">
         <div class="detail-cover">${book.cover ? `<img src="${escapeAttr(book.cover)}" alt="${escapeAttr(book.title)}">` : '<div class="no-cover">暂无封面</div>'}</div>
         <div class="detail-main">
-          <span class="panel-kicker">${escapeHtml(latest.category)} · 第 ${latest.rank} 名</span>
+          <span class="panel-kicker">${escapeHtml(channelConfig.label)} · ${escapeHtml(latest.category)} · 第 ${latest.rank} 名</span>
           <h1>${escapeHtml(book.title)}</h1>
           <p class="detail-author">作者：${escapeHtml(book.author || '未知')}</p>
           <div class="detail-stats">
@@ -137,6 +152,16 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!current || record.readsValue >= current.readsValue) map.set(record.date, record);
     });
     return Array.from(map.values()).sort((a, b) => a.date.localeCompare(b.date));
+  }
+
+  async function fetchChannelJson(path) {
+    const channelPath = `data/channels/${currentChannel}/${path}?${cacheBuster}`;
+    try {
+      return await fetchJson(channelPath);
+    } catch (error) {
+      if (currentChannel === 'male') return fetchJson(`data/${path}?${cacheBuster}`);
+      throw error;
+    }
   }
 
   function renderEmpty(message) {

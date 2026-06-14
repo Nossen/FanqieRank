@@ -301,7 +301,7 @@ def build_rule_market_text(
     top_types = "、".join(item["name"] for item in hot_types[:3])
     top_themes = "、".join(item["name"] for item in hot_themes[:6])
     if not top_genres and not top_types:
-        return f"{label}暂无足够趋势样本，先积累连续榜单后再判断男频风向。"
+        return f"{label}暂无足够趋势样本，先积累连续榜单后再判断频道风向。"
     return (
         f"{label}里，{top_genres or top_types} 的阅读增长和上榜波动更集中；"
         f"具体分类以 {top_types or '待观察'} 更活跃，题材关键词集中在 {top_themes or '强设定爽点'}。"
@@ -352,11 +352,16 @@ def trend_rows_with_current(existing_rows: list[dict[str, Any]], current_row: di
 
 
 def build_codex_context(snapshot: RawSnapshot, trends: dict[str, dict[str, Any]], market_summary: dict[str, Any]) -> dict[str, Any]:
+    channel = snapshot.source.get("channel", "male")
+    channel_label = snapshot.source.get("channel_label", "男频")
     return {
+        "channel": channel,
+        "channel_label": channel_label,
         "date": snapshot.date,
         "timezone": snapshot.timezone,
         "instruction": (
-            "Generate data/analysis/YYYY-MM-DD.json. Cover every category exactly once. "
+            f"Generate data/channels/{channel}/analysis/YYYY-MM-DD.json for 番茄{channel_label}新书榜. "
+            "Cover every category exactly once. "
             "Use category.summary_markdown with sections: 题材趋势, 读者爽点, 上榜变化, 值得关注作品. "
             "Provide market_summary for keys 7, 14, 30, all."
         ),
