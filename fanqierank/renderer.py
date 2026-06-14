@@ -200,7 +200,7 @@ def render_readme(payload: dict) -> str:
         f"## 最新榜单：{date} ({timezone})",
         "",
         f"- 分析来源：`{analysis_source}`",
-        f"- 在线看板：<a href=\"{SITE_URL}\" target=\"_blank\" rel=\"noopener noreferrer\">打开网页</a>",
+        f"- 在线看板：[打开网页]({SITE_URL})",
         "",
         render_summary_table(payload),
         "",
@@ -243,9 +243,9 @@ def write_site_readme(root: Path) -> None:
         "",
         "## 在线网页",
         "",
-        f"- <a href=\"{SITE_URL}\" target=\"_blank\" rel=\"noopener noreferrer\">打开总览页</a>",
-        f"- <a href=\"{SITE_URL}index.html?channel=male\" target=\"_blank\" rel=\"noopener noreferrer\">男频榜单</a>",
-        f"- <a href=\"{SITE_URL}index.html?channel=female\" target=\"_blank\" rel=\"noopener noreferrer\">女频榜单</a>",
+        f"- [打开总览页]({SITE_URL})",
+        f"- [男频榜单]({SITE_URL}index.html?channel=male)",
+        f"- [女频榜单]({SITE_URL}index.html?channel=female)",
         "",
         "## 频道入口",
         "",
@@ -263,7 +263,7 @@ def write_site_readme(root: Path) -> None:
             f"`{_escape_md(payload.get('source', {}).get('analysis', '未知'))}` | "
             f"{len(categories)} | "
             f"{sum(len(category.get('books', [])) for category in categories)} | "
-            f"<a href=\"{SITE_URL}index.html?channel={key}\" target=\"_blank\" rel=\"noopener noreferrer\">打开</a> | "
+            f"[打开]({SITE_URL}index.html?channel={key}) | "
             f"[JSON](data/channels/{key}/latest_ranks.json) |"
         )
     lines.extend([
