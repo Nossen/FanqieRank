@@ -4,16 +4,16 @@
 
 ## 在线网页
 
-- [打开总览页](https://nossen.github.io/FanqieRank/)
-- [男频榜单](https://nossen.github.io/FanqieRank/index.html?channel=male)
-- [女频榜单](https://nossen.github.io/FanqieRank/index.html?channel=female)
+- <a href="https://nossen.github.io/FanqieRank/" target="_blank" rel="noopener noreferrer">打开总览页</a>
+- <a href="https://nossen.github.io/FanqieRank/index.html?channel=male" target="_blank" rel="noopener noreferrer">男频榜单</a>
+- <a href="https://nossen.github.io/FanqieRank/index.html?channel=female" target="_blank" rel="noopener noreferrer">女频榜单</a>
 
 ## 频道入口
 
 | 频道 | 最新日期 | 分析来源 | 分类数 | 作品数 | 看板 | 数据 |
 | --- | --- | --- | ---: | ---: | --- | --- |
-| 男频 | 2026-06-14 | `Local heuristic fallback` | 19 | 380 | [打开](https://nossen.github.io/FanqieRank/index.html?channel=male) | [JSON](data/channels/male/latest_ranks.json) |
-| 女频 | 2026-06-14 | `Local heuristic fallback` | 18 | 360 | [打开](https://nossen.github.io/FanqieRank/index.html?channel=female) | [JSON](data/channels/female/latest_ranks.json) |
+| 男频 | 2026-06-14 | `Local heuristic fallback` | 19 | 380 | <a href="https://nossen.github.io/FanqieRank/index.html?channel=male" target="_blank" rel="noopener noreferrer">打开</a> | [JSON](data/channels/male/latest_ranks.json) |
+| 女频 | 2026-06-14 | `Local heuristic fallback` | 18 | 360 | <a href="https://nossen.github.io/FanqieRank/index.html?channel=female" target="_blank" rel="noopener noreferrer">打开</a> | [JSON](data/channels/female/latest_ranks.json) |
 
 ## 自动更新
 
