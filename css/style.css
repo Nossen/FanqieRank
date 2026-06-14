@@ -1293,9 +1293,24 @@ input:focus-visible {
   }
 
   .overview-mode .hero-side {
-    grid-template-columns: minmax(260px, 0.48fr) minmax(0, 1fr);
-    grid-template-rows: auto;
-    align-items: start;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    align-items: stretch;
+  }
+
+  .overview-mode .top-stack {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .overview-mode .top-stack .stack-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .overview-mode .top-stack .stack-book + .stack-book {
+    margin-top: 0;
   }
 }
 
@@ -1423,6 +1438,10 @@ input:focus-visible {
   }
 
   .overview-mode .hero-side {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-mode .top-stack {
     grid-template-columns: 1fr;
   }
 
