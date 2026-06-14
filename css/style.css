@@ -1287,6 +1287,24 @@ input:focus-visible {
 
 .sidebar-overlay { display: none; }
 
+@media (max-width: 1680px) {
+  .overview-mode .rank-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-mode .hero-side {
+    grid-template-columns: minmax(260px, 0.48fr) minmax(0, 1fr);
+    grid-template-rows: auto;
+    align-items: start;
+  }
+}
+
+@media (max-width: 1280px) {
+  .overview-mode .overview-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 1120px) {
   .rank-hero {
     grid-template-columns: 1fr;
@@ -1401,6 +1419,10 @@ input:focus-visible {
   }
 
   .hero-side {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-mode .hero-side {
     grid-template-columns: 1fr;
   }
 
