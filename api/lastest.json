@@ -6,7 +6,7 @@
       "type": "all",
       "url": "api/lastest/all.json",
       "category_count": 19,
-      "book_count": 380
+      "book_count": 370
     },
     {
       "type": "西方奇幻",
@@ -26,7 +26,7 @@
     {
       "type": "都市日常",
       "url": "api/lastest/%E9%83%BD%E5%B8%82%E6%97%A5%E5%B8%B8.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "都市修真",
