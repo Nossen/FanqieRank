@@ -1,7 +1,7 @@
 {
   "type": "战神赘婿",
-  "date": "2026-06-25",
-  "prev_date": "2026-06-24",
+  "date": "2026-06-26",
+  "prev_date": "2026-06-25",
   "timezone": "Asia/Shanghai",
   "source": {
     "rank": "Fanqie male new-book rank",
@@ -12,105 +12,105 @@
   },
   "category": {
     "name": "战神赘婿",
-    "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、多女主，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：身份差、契约关系和强关系压迫容易起量，但相似开局较多。\n**上榜变化**：新增 1 本；掉榜 1 本；《痞子保镖》上升 +2 位；《入赘三年，神医身份瞒不住了》在读变化 +4000；新上榜作品包括 《顶罪五年：归来我震动全球！》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《上门女婿也风流》、《真当我是癞蛤蟆，离婚你又哭什么》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
+    "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、都市，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：现实身份差、社交关系和即时打脸反馈仍是核心黏性，读者更吃明确收益和情绪反转。\n**上榜变化**：新增 1 本；掉榜 1 本；《冷艳总裁与夺命书生》上升 +3 位；《冷艳总裁与夺命书生》在读变化 +4000；新上榜作品包括 《殿主归来，女儿竟被骂野种》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《冷艳总裁与夺命书生》、《上门女婿也风流》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
     "hot_themes": [
       "赘婿",
       "战神",
       "总裁",
       "穿越",
       "豪门",
-      "多女主"
+      "都市"
     ],
     "watch_books": [
       "入赘三年，神医身份瞒不住了",
-      "上门女婿也风流",
-      "真当我是癞蛤蟆，离婚你又哭什么"
+      "冷艳总裁与夺命书生",
+      "上门女婿也风流"
     ],
     "risk_notes": "系统/穿越/重生标签密度偏高，需要靠具体人物动机和设定约束拉开差异。；关系线卖点集中，若只靠身份压迫和误会循环，后续同质化会很明显。",
     "trend": {
       "new_count": 1,
       "dropped_count": 1,
       "new_books": [
-        "顶罪五年：归来我震动全球！"
+        "殿主归来，女儿竟被骂野种"
       ],
       "dropped_books": [
         {
-          "title": "顶罪八年：归来已权倾全球",
-          "intro": "【顶罪八年+战神归来+无系统无敌流】 十八岁生日，叶辰被首富亲爹找到， 却是为了让他替弟弟顶罪入狱。 他被送进全球最恐怖的“九幽冥狱”，沦为弃子。 八年铁窗，他未曾倒下， 反而踏着无数恶徒的尸骨， 登顶冥狱，成为唯一的王！ 出狱之日，他拨通"
+          "title": "顶罪五年：归来我震动全球！",
+          "intro": "【战神出狱＋无敌＋顶罪五年＋爽文】 五年前，他为小姨子顶罪，锒铛入狱。 五年后刑满归家，却在门外听到惊天噩耗！ 妻子竟被竟被小姨子卖往魔窟！ 五岁幼女儿更是被首富当成“活体血包”，生生抽血五年，濒临死亡！ “爸爸，抽血好疼，念念以后少吃饭，"
         }
       ],
       "top_risers": [
         {
-          "title": "痞子保镖",
-          "change": "+2"
-        },
-        {
-          "title": "你们选假儿子，断亲后悔干什么",
-          "change": "+1"
-        },
-        {
-          "title": "猎刃归鞘",
-          "change": "+1"
+          "title": "冷艳总裁与夺命书生",
+          "change": "+3"
         },
         {
           "title": "开局：美女总裁招保镖",
-          "change": "+1"
+          "change": "+2"
         },
         {
-          "title": "骗我领假证？我娶女总裁你哭什么",
+          "title": "最强兵痞闯花都",
           "change": "+1"
         }
       ],
       "top_fallers": [
         {
-          "title": "铁血佣兵：非洲生死薄",
-          "change": "-2"
+          "title": "昆仑龙王：我有九个女神未婚妻",
+          "change": "-3"
         },
         {
-          "title": "最强兵痞闯花都",
-          "change": "-2"
+          "title": "上门女婿也风流",
+          "change": "-1"
         },
         {
-          "title": "入伍第一年，当国宝被国家借走",
+          "title": "真当我是癞蛤蟆，离婚你又哭什么",
+          "change": "-1"
+        },
+        {
+          "title": "穿越女频世界：虐我？一拳打爆！",
+          "change": "-1"
+        },
+        {
+          "title": "老婆吻初恋？我连夜睡她死对头",
           "change": "-1"
         }
       ],
       "reads_growth": [
         {
-          "title": "入赘三年，神医身份瞒不住了",
+          "title": "冷艳总裁与夺命书生",
           "growth": "+4000"
+        },
+        {
+          "title": "入赘三年，神医身份瞒不住了",
+          "growth": "+3000"
         },
         {
           "title": "痞子保镖",
           "growth": "+2000"
         },
         {
+          "title": "开局：美女总裁招保镖",
+          "growth": "+1419"
+        },
+        {
           "title": "猎刃归鞘",
-          "growth": "+780"
-        },
-        {
-          "title": "年代1958，我好吃懒做怎么了",
-          "growth": "+95"
-        },
-        {
-          "title": "战神归来：女总裁的贴身兵王",
-          "growth": "-439"
+          "growth": "+1002"
         }
       ],
-      "summary": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、多女主，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：身份差、契约关系和强关系压迫容易起量，但相似开局较多。\n**上榜变化**：新增 1 本；掉榜 1 本；《痞子保镖》上升 +2 位；《入赘三年，神医身份瞒不住了》在读变化 +4000；新上榜作品包括 《顶罪五年：归来我震动全球！》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《上门女婿也风流》、《真当我是癞蛤蟆，离婚你又哭什么》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
-      "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、多女主，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：身份差、契约关系和强关系压迫容易起量，但相似开局较多。\n**上榜变化**：新增 1 本；掉榜 1 本；《痞子保镖》上升 +2 位；《入赘三年，神医身份瞒不住了》在读变化 +4000；新上榜作品包括 《顶罪五年：归来我震动全球！》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《上门女婿也风流》、《真当我是癞蛤蟆，离婚你又哭什么》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
+      "summary": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、都市，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：现实身份差、社交关系和即时打脸反馈仍是核心黏性，读者更吃明确收益和情绪反转。\n**上榜变化**：新增 1 本；掉榜 1 本；《冷艳总裁与夺命书生》上升 +3 位；《冷艳总裁与夺命书生》在读变化 +4000；新上榜作品包括 《殿主归来，女儿竟被骂野种》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《冷艳总裁与夺命书生》、《上门女婿也风流》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
+      "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、都市，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：现实身份差、社交关系和即时打脸反馈仍是核心黏性，读者更吃明确收益和情绪反转。\n**上榜变化**：新增 1 本；掉榜 1 本；《冷艳总裁与夺命书生》上升 +3 位；《冷艳总裁与夺命书生》在读变化 +4000；新上榜作品包括 《殿主归来，女儿竟被骂野种》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《冷艳总裁与夺命书生》、《上门女婿也风流》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
       "hot_themes": [
         "赘婿",
         "战神",
         "总裁",
         "穿越",
         "豪门",
-        "多女主"
+        "都市"
       ],
       "watch_books": [
         "入赘三年，神医身份瞒不住了",
-        "上门女婿也风流",
-        "真当我是癞蛤蟆，离婚你又哭什么"
+        "冷艳总裁与夺命书生",
+        "上门女婿也风流"
       ],
       "risk_notes": "系统/穿越/重生标签密度偏高，需要靠具体人物动机和设定约束拉开差异。；关系线卖点集中，若只靠身份压迫和误会循环，后续同质化会很明显。"
     },
@@ -118,17 +118,25 @@
       {
         "title": "入赘三年，神医身份瞒不住了",
         "author": "我才不会深情",
-        "reads": "3.9万",
+        "reads": "4.2万",
         "intro": "赘婿+逆袭+神医+无敌+无脑爽+玄学 一场车祸，带走了老实人林远的生命，却让他意外获得了祖传的无上医道。 当他再次醒来，已不再是那个无牵无挂的孤儿，而是借尸还魂，成为了别人的“丈夫”。 面对复杂的家庭关系，和名义上对自己冷淡疏离的妻子，以及真心疼爱这具身体原主的岳父岳母，林远陷入了沉思。 既然接管了这具身体，那原主的遗憾，他来弥补，原主的恩情，他来偿还！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od37a819d8fc1d175d02f7a6c5d0cc294~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=uX4gpURNs8d1taykPzDHteWLpz8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od37a819d8fc1d175d02f7a6c5d0cc294~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=62amgswXe0am0LdTzPWy0Rw4oJc%3D",
         "url": "https://fanqienovel.com/page/7639662469333388313"
+      },
+      {
+        "title": "冷艳总裁与夺命书生",
+        "author": "一颗流浪的星星",
+        "reads": "2.3万",
+        "intro": "陆风红色家族二代，国内神秘特种部队”龙炎“的队长，代号书生，各个国家的心腹大患，知名大学的哲学讲师，哈佛大学经济学博士。三年前因小队被困国外在婚礼现场出走，三年后退役回归都市，化身市井高人，怼恶霸、镇黑道、守护身边之人，一路横行都市，快意恩仇。 林轻柔国内隐商长女，执掌家族万亿资产公司，冷艳无双，绝世美人。因家族联姻和陆风相识，也因三年前的逃婚，对陆风充满怨恨， 陆风回归后因一场意外和林轻柔酒店缠绵，两人在双方家族的压力下被迫同居，开始了同居生活。 与此同时，林氏家族的企业逐渐暴露出问题，林轻柔疲于应付，陆风暗中帮助，通过自己的情报网发现林氏家族的族长也就是林轻柔的父亲，在三年前就被一直流落在外的恐怖组织首领双胞胎弟弟替换了，原来三年前的联姻和陆风小队的遇袭都是林轻柔冒牌父亲的阴谋。 为此陆风开始了三年前的调查，中间镇压当地黑道吧主，怒怼豪门少爷，在经历了一次次的生死攸关后逐渐发现了事情的原因，最终成功解救林轻柔的父亲，挫败了其双胞胎弟弟和境外势力的阴谋，保家卫国。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7fdc20754649de346776262cc103ba46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=GYWQt01%2BR%2BeAb3bk66dUC1rqqj0%3D",
+        "url": "https://fanqienovel.com/page/7644580451318778905"
       },
       {
         "title": "上门女婿也风流",
         "author": "8888091",
         "reads": "2万",
         "intro": "张二从小就发誓不当上门女婿，可结果偏偏事与愿违，命运还是捉弄了他！凡事媒人到他家提亲的，全是需要上门的！于是，一气之下南下打工去了！结果，偶然机会认识了杭城的本地女孩，两人情投意合，最终还是上门了",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24201319b78f48e25ca759cdecf26655~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=tUVZ5PCks4kNWKcIBlCjlzwyk%2Fo%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24201319b78f48e25ca759cdecf26655~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=fmNFRjC9CNTAQXKlh0luvbSTe3g%3D",
         "url": "https://fanqienovel.com/page/7639634712150936638"
       },
       {
@@ -136,7 +144,7 @@
         "author": "圆宝吃不饱",
         "reads": "1.9万",
         "intro": "【无绿帽+无系统+不重生+不穿越+追夫火葬场+争风吃醋+多女主】 结婚七年，江澈本以为自己拥有一份完美的婚姻。 直到三个月前，妻子陆嫣然的白月光出现，打破了这份平静。 “离婚吧。”江澈平静的递上离婚协议。 为了争夺女儿的抚养权，离婚后的江澈回到江家。 以豪门私生子的身份迎娶了温婉美人夏书瑶。 陆嫣然因误会掌掴江澈，夏书瑶反手便打了回去：“再敢动我老公一下，我撕了你！” 这一巴掌，打进了江澈心里，两人开启了先婚后爱、双向奔赴的旅程。 随着豪门争斗、一桩桩陈年秘密浮出水面。 枝繁叶茂的豪门江家，似乎唯有他这个“私生子生下的私生子”，才是真正的血脉。 往昔遭遇的种种磨难，甚至童年被拐卖的背后，都充满了阴谋的味道。 夏书瑶心疼地将江澈拥入怀中：“老公！我好心疼你啊！” 江澈混不吝地笑着：“那，生个娃玩玩？”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2bec0a6893078afa432781aa748d0c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=%2B9jvwXUmfUAyultday5pSjd%2BDII%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2bec0a6893078afa432781aa748d0c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=%2B%2BisML995oOWjE7aaZbMj1m1Lyk%3D",
         "url": "https://fanqienovel.com/page/7640118462131473433"
       },
       {
@@ -144,39 +152,31 @@
         "author": "无敌的帅气青年",
         "reads": "1.9万",
         "intro": "（虐渣+后宫+骂人犀利+武力天花板+追夫火葬场+绝不原谅） 林云穿越到了女频世界，开局豪门赘婿。 妻子有白月光，岳父家嫌弃，自家人也不待见。 林云笑了。 笑着笑着，拳头就硬了。 （全程硬刚，不喜勿喷，简介无力，请看正文）",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of4964e330e575bb100daade1f77ed003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=a6nqKo9cJ4pWpwTsKyVMwEZ53vw%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of4964e330e575bb100daade1f77ed003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=aizMZMdFtmYoKtVqZDg2a8k9Vg0%3D",
         "url": "https://fanqienovel.com/page/7630686889103592472"
-      },
-      {
-        "title": "冷艳总裁与夺命书生",
-        "author": "一颗流浪的星星",
-        "reads": "1.9万",
-        "intro": "陆风红色家族二代，国内神秘特种部队”龙炎“的队长，代号书生，各个国家的心腹大患，知名大学的哲学讲师，哈佛大学经济学博士。三年前因小队被困国外在婚礼现场出走，三年后退役回归都市，化身市井高人，怼恶霸、镇黑道、守护身边之人，一路横行都市，快意恩仇。 林轻柔国内隐商长女，执掌家族万亿资产公司，冷艳无双，绝世美人。因家族联姻和陆风相识，也因三年前的逃婚，对陆风充满怨恨， 陆风回归后因一场意外和林轻柔酒店缠绵，两人在双方家族的压力下被迫同居，开始了同居生活。 与此同时，林氏家族的企业逐渐暴露出问题，林轻柔疲于应付，陆风暗中帮助，通过自己的情报网发现林氏家族的族长也就是林轻柔的父亲，在三年前就被一直流落在外的恐怖组织首领双胞胎弟弟替换了，原来三年前的联姻和陆风小队的遇袭都是林轻柔冒牌父亲的阴谋。 为此陆风开始了三年前的调查，中间镇压当地黑道吧主，怒怼豪门少爷，在经历了一次次的生死攸关后逐渐发现了事情的原因，最终成功解救林轻柔的父亲，挫败了其双胞胎弟弟和境外势力的阴谋，保家卫国。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7fdc20754649de346776262cc103ba46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=IZOYL%2Fs5mSiBdja12xXS9PaHfWQ%3D",
-        "url": "https://fanqienovel.com/page/7644580451318778905"
       },
       {
         "title": "你们选假儿子，断亲后悔干什么",
         "author": "写封情书给自己",
         "reads": "1.6万",
         "intro": "（不当赘婿，不当窝囊废。） 陈平出生就被陈家保姆将他和保姆儿子调包，又被保姆卖到外地山区，整整二十六流浪在外。 本以为找到亲人，能弥补二十六年缺失的爱，却没想到与自己血脉相连的父母和亲姐把仇人的儿子当宝，把亲生的儿子当草。 既然你们喜欢一个假货，都觉得我不过只是一个在外流浪二十六年的废物，那我不装了，我真正的身份是大夏皇朝唯一真神。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1665f286eb29ab24fbaf0caf8356d1bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=6%2B%2BPRJIdB%2FuB%2BkQyw6oOfgMHt40%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1665f286eb29ab24fbaf0caf8356d1bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=qKl39TGWXKpu4oURsRZV%2FT9bsvQ%3D",
         "url": "https://fanqienovel.com/page/7638433452798266392"
       },
       {
         "title": "痞子保镖",
         "author": "莫以尘",
-        "reads": "1.5万",
+        "reads": "1.7万",
         "intro": "痞子兵王陆野奉命潜入海城，以娃娃亲未婚夫身份死皮赖脸卧底保护冰山女总裁，在嬉笑怒骂间横扫跨国财阀阴谋，揭开基因药剂背后的惊世迷局。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6628e7d0e08415854c11e15efe05ac39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=JLB8n47GTlcYQFCMeRsOE%2B7NCI0%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6628e7d0e08415854c11e15efe05ac39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=Uxi19yrg%2F%2BP0Ljv%2Ff%2BJmLg4CcGE%3D",
         "url": "https://fanqienovel.com/page/7620579311736589337"
       },
       {
         "title": "铁血佣兵：非洲生死薄",
         "author": "孤帆看尽",
-        "reads": "1.5万",
+        "reads": "1.1万",
         "intro": "本是穷苦民工，为给母亲治病前往非洲淘金，在非洲不断努力，奋斗，流血流汗，终成兵王，铸就属于自己的传奇故事。",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67813a9073e0250b39450e24e5cb9c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=nBgC6rH7vcTDcLuSlFu84PqEI6A%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67813a9073e0250b39450e24e5cb9c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=JdmzN35jJM%2BTHOGbQgFtwXZEjtk%3D",
         "url": "https://fanqienovel.com/page/7640083334772575256"
       },
       {
@@ -184,201 +184,201 @@
         "author": "还穿短裤",
         "reads": "1.3万",
         "intro": "顾城，前世顶尖兵王，穿越成平行世界的一个18岁新兵蛋子。 因为在拥有百年传承的宗族里辈分极高，入伍第一天就诞生了名场面： 威严的新兵连长看着新兵名单，满头大汗，扑通一声敬了个礼：“三爷爷好！” 全连新兵当场惊呆！ 顾城淡定摆手：“低调，部队里各论各的，我管你叫首长，你管我叫爷爷。” 本想混吃等死当个咸鱼孬兵，奈何满级实力不允许。 军区首长检阅，顾城随手一枪干爆千米外无人机！全军大比武，他蒙眼单挑各大特种兵王！ 入伍仅半年，战机护航，全网直播。 当军区首长亲自护送两块一等功牌匾送到顾家村时，全族老少都懵了：“不是让他去军营体验生活吗？怎么混成将军，还光宗耀祖了？！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ab06c3869d41599ecb8e02a313bbad4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=D%2Bn4kgEDTBJnQ%2BqJwFyY08pahKI%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ab06c3869d41599ecb8e02a313bbad4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=jr8fOWekEY8U5ArcvmYAWWejU%2Fc%3D",
         "url": "https://fanqienovel.com/page/7647807961670093886"
       },
       {
         "title": "青囊赘婿",
         "author": "如余烬燃",
-        "reads": "1.1万",
+        "reads": "1.2万",
         "intro": "评分刚出，后面会涨的哟！ 【赘婿+逆袭+爽文+打脸+神医+上门女婿】 年轻的女总裁，嫁给了我——一个保安。 所有人都说我是软饭王。 直到她爷爷病危，医院摇头。 我走进ICU，摸了三秒脉：“都出去，给我二十分钟。” 二十分钟后，老爷子坐起来了。 第一句话：“这孙女婿，找对了。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33d60a399aa7502a93919f83b495cc92~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=XJIvFv3urg26O5whj%2B2N4UQvsnM%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33d60a399aa7502a93919f83b495cc92~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=kwx8mXLKSQvARavzNcurtSlrNdw%3D",
         "url": "https://fanqienovel.com/page/7635264284284439576"
       },
       {
         "title": "反手考公入编，短剧女主全炸了！",
         "author": "赤龙城的惊奇队长",
-        "reads": "1.1万",
+        "reads": "8992",
         "intro": "【律师穿越+短剧世界+爽文+反套路+考公上岸+多女主】 前世红圈顶级律师，车祸醒来竟穿成短剧世界里被虐身虐心的真少爷兼舔狗赘婿。 面对绿茶假少爷的陷害、恶毒未婚妻的羞辱， 他反手掏出法典，用法律降维打击所有降智反派。 更可怕的是，这个世界的检察官拥有逆天特权。 上岸第一剑，先斩意中人！ 管你什么千亿财阀、白月光还是法外狂徒， 在绝对的法律底线和公权力面前，通通给我进去踩缝纫机！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o88d762599c88e117c19499070865e87a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=xAQG6dOs9HMyXQbtXkZsc4WGLtI%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o88d762599c88e117c19499070865e87a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=3ts855qMNEth3Hy%2BCOYW3NSq4NA%3D",
         "url": "https://fanqienovel.com/page/7624380019040586776"
       },
       {
         "title": "年代1958，我好吃懒做怎么了",
         "author": "欠揍",
-        "reads": "1万",
+        "reads": "1.1万",
         "intro": "薛小闹穿越到1958年大锅饭时代，带着变废为宝系统，不上工挣工分，二溜子，满县城溜达，吃香的喝辣的，一天能挣一千多块……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o40df67100587258ebee99a72b8c27003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=fWDKRuAbXq4BTcFQzuywL%2FCUu8Y%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o40df67100587258ebee99a72b8c27003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=%2FF5RlUVQND5lSx%2B6zZGIX3NBK0k%3D",
         "url": "https://fanqienovel.com/page/7650742573065047064"
-      },
-      {
-        "title": "昆仑龙王：我有九个女神未婚妻",
-        "author": "天真的阁罗凤",
-        "reads": "8983",
-        "intro": "【高手下山+神医+战神+爽文+扮猪吃虎+多女主】 昆仑山上的全能妖孽叶凡，携七位师父的通天本领下山。一为调查十八年前的灭门血案，二为履行师娘们定下的九封婚书。 本想低调查案，奈何实力不允许！ 医术通神，阎王手里抢人；武道巅峰，一指碾压宗师。 面对不屑与嘲讽，叶凡左手银针，右手婚书。“你笑我穷酸，可知全球财阀是我家后院？你欺我无名，我让你闻风丧胆！” 从云城苏家开始，当一封封婚书揭开，一位位天之骄女出现在他身边，叶凡才发现，这趟下山之旅，远比想象中要精彩。而那场血案背后，隐藏着一个足以撼动世界的惊天阴谋！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o470605505bd17c79d989dadb3f354998~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=812pLOtr4ezYcEeXwZ65hgjfeDw%3D",
-        "url": "https://fanqienovel.com/page/7644158286832339992"
-      },
-      {
-        "title": "猎刃归鞘",
-        "author": "钟之",
-        "reads": "8240",
-        "intro": "五年前在境外执行终极任务时遭内部出卖，为掩护战友撤退被俘。在境外黑狱中被关押三年，受尽折磨后越狱成功，又在国际地下世界隐姓埋名蛰伏两年。后经军方高层战友秘密运作，获得“牺牲烈士”身份平反，以退役兵王身份重返华夏",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa788804c682e48946ed20781c7ddb6a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=3XiEWjjwF8lSrehXFu98p6aNZNY%3D",
-        "url": "https://fanqienovel.com/page/7628592472431545368"
       },
       {
         "title": "开局：美女总裁招保镖",
         "author": "探界者",
-        "reads": "8210",
+        "reads": "9629",
         "intro": "新书，求关注，求点赞，求五星好评！ 【兵王+赘婿+武道+单女主+双师傅】 两位师傅在他还不到一岁之时将他收养，养大成人，传授他武道。十八岁入伍，他坚韧不拔的性格，加上有武道基础，用了五年时间从新兵到兵王。 在部队待了十年，当他受伤，准备退役之时，老首长要他执行最后一个任务…… 回归都市后，武圣师傅和神医师傅给他定的婚约对象，正是老首长让他保护的对象。他的都市生活仍然在紧张中度过……",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2082c00ca4c877979ad673a4632e0587~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=wKLYB2Dry4zVFDEqIh9N5fpWlwY%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2082c00ca4c877979ad673a4632e0587~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=nvQTbtIzxsnVSHspfyBdB5tpe1s%3D",
         "url": "https://fanqienovel.com/page/7646458032678767641"
+      },
+      {
+        "title": "猎刃归鞘",
+        "author": "钟之",
+        "reads": "9242",
+        "intro": "五年前在境外执行终极任务时遭内部出卖，为掩护战友撤退被俘。在境外黑狱中被关押三年，受尽折磨后越狱成功，又在国际地下世界隐姓埋名蛰伏两年。后经军方高层战友秘密运作，获得“牺牲烈士”身份平反，以退役兵王身份重返华夏",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa788804c682e48946ed20781c7ddb6a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=j5fdLZ4JgfPrewUgyJC86EXoY8c%3D",
+        "url": "https://fanqienovel.com/page/7628592472431545368"
       },
       {
         "title": "最强兵痞闯花都",
         "author": "砚中书海",
-        "reads": "7748",
+        "reads": "8093",
         "intro": "龙组最强战神陆枭，一身破迷彩一双烂胶鞋，揣着持枪证回归花都。表面是游手好闲的职业流氓，实则是单兵战力天花板、世界级神医。冰山警花、冷艳总裁、甜辣千金纷纷沦陷，富二代、黑帮大佬、贪官蛀虫挨个被碾。痞帅幽默混搭铁血家国，爽到飞起！",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of18ea10018f4fab35c1cccb7f7da4a36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=Mev2%2FrU6oT3OXAi2bBcWS9RJrr8%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of18ea10018f4fab35c1cccb7f7da4a36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=nCXRjbPjmqRoI2ctvm6u1viLa8c%3D",
         "url": "https://fanqienovel.com/page/7646440020894551064"
+      },
+      {
+        "title": "昆仑龙王：我有九个女神未婚妻",
+        "author": "天真的阁罗凤",
+        "reads": "7852",
+        "intro": "【高手下山+神医+战神+爽文+扮猪吃虎+多女主】 昆仑山上的全能妖孽叶凡，携七位师父的通天本领下山。一为调查十八年前的灭门血案，二为履行师娘们定下的九封婚书。 本想低调查案，奈何实力不允许！ 医术通神，阎王手里抢人；武道巅峰，一指碾压宗师。 面对不屑与嘲讽，叶凡左手银针，右手婚书。“你笑我穷酸，可知全球财阀是我家后院？你欺我无名，我让你闻风丧胆！” 从云城苏家开始，当一封封婚书揭开，一位位天之骄女出现在他身边，叶凡才发现，这趟下山之旅，远比想象中要精彩。而那场血案背后，隐藏着一个足以撼动世界的惊天阴谋！",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o470605505bd17c79d989dadb3f354998~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=1cB%2FZVy3PQrxRGGi3eyN0KEiVgA%3D",
+        "url": "https://fanqienovel.com/page/7644158286832339992"
       },
       {
         "title": "战神归来：女总裁的贴身兵王",
         "author": "摇灵",
-        "reads": "6248",
+        "reads": "5842",
         "intro": "一觉醒来，枕边竟躺着个肤白腿长的顶级尤物。 前一晚的意外让他以为只是萍水相逢，结果天亮才惊觉这只是开始，清冷绝尘的白月光校花、腰细腿长的火辣御姐、软萌黏人的病娇萝莉、冷艳飒爽的女总裁…… 个个都美得惊心动魄，各有风情。 昔日叱咤风云的退役兵王陈强，本想安安静静当个咸鱼， 却被这群美女搅得不得安宁，麻烦更是一波接一波找上门。 陈强扶额无奈：“我真的只想低调，奈何美女太多，实力根本不允许啊！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7d624c552232186be507480982449cb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=xi8LzKGKDEOpbmnwiCfO2V9OxCo%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7d624c552232186be507480982449cb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=nr4KcnWHl4KZ3hfwKqTeQvwtVtI%3D",
         "url": "https://fanqienovel.com/page/7644091969009880126"
+      },
+      {
+        "title": "殿主归来，女儿竟被骂野种",
+        "author": "玥胖子",
+        "reads": "5528",
+        "intro": "北冰洋归来，他不再是五年前那个失忆的废物傻子。陆凡，天龙殿殿主，手握万亿财富，全球敬畏。 当他发现那个被家族丢弃冲喜的妻子林晚秋，独自为他生下女儿，在江城受尽欺凌时，平静的生活结束了。 欺负我女人？断你财路！骂我女儿？让你消失！ 在这座城市，陆凡就是新的王法。",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od2796749bab9b2fe6626aedbc3cd0694~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=aMQzSc%2Fekg1IHxcdOA3i19xQxs4%3D",
+        "url": "https://fanqienovel.com/page/7645657509646044185"
       },
       {
         "title": "老婆吻初恋？我连夜睡她死对头",
         "author": "某阔",
-        "reads": "5789",
+        "reads": "5143",
         "intro": "谢惊蛰隐姓埋名当了三年全职丈夫，倾尽心血帮妻子沈听晚打造出百亿集团。 他本以为能捂热这座冰山，直到结婚纪念日那晚，他亲眼看到沈听晚在车库里，动情地吻着刚回国的初恋。 谢惊蛰没有挽留，甩下一纸离婚协议，转身走入雨夜。 沈听晚满眼嘲弄：“离开沈家，你这个废物连饭都吃不上，不出三天，你绝对会像狗一样回来求我。” 然而三天后，一场震惊全城的世纪订婚宴轰动京圈。 那位杀伐果断、患有重度偏执症的京圈女首富裴南鸢，一袭红裙，将谢惊蛰护在身后，霸气宣示主权。 沈听晚以为这是谢惊蛰的欲擒故纵，直到她发现—— 世界第一医疗财阀的幕后之主、无数权贵跪求一面的当代医神，竟然都是她那“一无是处”的前夫！ 当沈听晚崩溃大哭，跪在暴雨中哀求复合时。 裴南鸢却依偎在谢惊蛰怀里，病娇冷笑：“敢觊觎我的男人，我把你们沈家的骨灰都扬了！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafce94efb5db1fa6694ec1f77e199187~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=oUS0pYyhyOuuKR3Yr3fkXXSdqMk%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafce94efb5db1fa6694ec1f77e199187~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=QLCZ5JG7KkLopSmyyxF%2BlNyQ6AM%3D",
         "url": "https://fanqienovel.com/page/7647737655391685657"
       },
       {
         "title": "骗我领假证？我娶女总裁你哭什么",
         "author": "呼噜肉",
-        "reads": "4995",
+        "reads": "5246",
         "intro": "【都市脑洞、不窝囊、纯爽+闪婚+无绿帽+前任全家后悔+追夫+修罗场】 “结婚两年”，顾远才发现自己当成宝贝的结婚证竟然是伪造的。 大学毕业之际，追求多年的优雅校花林楚然被绑匪绑走。 林老爷子公开说，谁能救下自己的孙女，他就把孙女嫁给谁。 顾远冒着生命危险救下林楚然。 谁知道林楚然一家觉得他高攀不上，不但用假结婚证糊弄他，还骗他为林家做牛做马，白天在林氏上班，晚上还要继续伺候生病的岳父。 得知真相后的顾远被气笑，转身继承千亿遗产，凭借豪门人脉搅得林家天翻地覆。 可没想到作天作地的过程里，林楚然却意外动心了。 等看到顾远跟她从小到大的死对头联姻时，林楚然发疯地站在婚礼上指责顾远是负心汉，犯重婚罪！ 顾远却反手甩出林家给的假结婚证，让整个林家陷入身败名裂。 等顾远的首富长孙真实身份曝光，“前”岳父岳母，“前小舅子”和“前妻”林楚然都惊呆了。 林楚然哭着抱着顾远的腿：“老公，我真的错了。你原谅我。我真的爱上你了。我现在不能没有你。” 林楚然的死对头柳如霜从轮椅上站起来，一根一根掰开她的手指，勾唇一笑。 “晚了，他现在是我的老公。”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oea069978d43ea31974852907f7ad46fb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=xS07bNBaKoYCveok2EXPxEc4z7g%3D",
+        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oea069978d43ea31974852907f7ad46fb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=exr76pEXNIf3I6f%2BZDY4cyIOKvY%3D",
         "url": "https://fanqienovel.com/page/7611777776680438809"
-      },
-      {
-        "title": "顶罪五年：归来我震动全球！",
-        "author": "上杉琉璃",
-        "reads": "4812",
-        "intro": "【战神出狱＋无敌＋顶罪五年＋爽文】 五年前，他为小姨子顶罪，锒铛入狱。 五年后刑满归家，却在门外听到惊天噩耗！ 妻子竟被竟被小姨子卖往魔窟！ 五岁幼女儿更是被首富当成“活体血包”，生生抽血五年，濒临死亡！ “爸爸，抽血好疼，念念以后少吃饭，求你别走……” 看着女儿满臂针眼，狱龙睁眼，杀意惊天！ 一通电话，十万大军封锁全城，战区大人物连滚带爬亲自开道！ 首富？满门踩碎！ 豪族？随手覆灭！ 跨国军阀？连根拔起！ 他脚踩枭雄头颅，剑指全球：“动我至亲者，诛十族！”",
-        "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o35124b86c46d8daee766cbb54bd2c2b7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=zrCw%2FZvqX7Ri0koBL9ei7BVhUPg%3D",
-        "url": "https://fanqienovel.com/page/7649792361358167102"
       }
     ]
   },
   "categories": [
     {
       "name": "战神赘婿",
-      "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、多女主，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：身份差、契约关系和强关系压迫容易起量，但相似开局较多。\n**上榜变化**：新增 1 本；掉榜 1 本；《痞子保镖》上升 +2 位；《入赘三年，神医身份瞒不住了》在读变化 +4000；新上榜作品包括 《顶罪五年：归来我震动全球！》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《上门女婿也风流》、《真当我是癞蛤蟆，离婚你又哭什么》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
+      "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、都市，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：现实身份差、社交关系和即时打脸反馈仍是核心黏性，读者更吃明确收益和情绪反转。\n**上榜变化**：新增 1 本；掉榜 1 本；《冷艳总裁与夺命书生》上升 +3 位；《冷艳总裁与夺命书生》在读变化 +4000；新上榜作品包括 《殿主归来，女儿竟被骂野种》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《冷艳总裁与夺命书生》、《上门女婿也风流》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
       "hot_themes": [
         "赘婿",
         "战神",
         "总裁",
         "穿越",
         "豪门",
-        "多女主"
+        "都市"
       ],
       "watch_books": [
         "入赘三年，神医身份瞒不住了",
-        "上门女婿也风流",
-        "真当我是癞蛤蟆，离婚你又哭什么"
+        "冷艳总裁与夺命书生",
+        "上门女婿也风流"
       ],
       "risk_notes": "系统/穿越/重生标签密度偏高，需要靠具体人物动机和设定约束拉开差异。；关系线卖点集中，若只靠身份压迫和误会循环，后续同质化会很明显。",
       "trend": {
         "new_count": 1,
         "dropped_count": 1,
         "new_books": [
-          "顶罪五年：归来我震动全球！"
+          "殿主归来，女儿竟被骂野种"
         ],
         "dropped_books": [
           {
-            "title": "顶罪八年：归来已权倾全球",
-            "intro": "【顶罪八年+战神归来+无系统无敌流】 十八岁生日，叶辰被首富亲爹找到， 却是为了让他替弟弟顶罪入狱。 他被送进全球最恐怖的“九幽冥狱”，沦为弃子。 八年铁窗，他未曾倒下， 反而踏着无数恶徒的尸骨， 登顶冥狱，成为唯一的王！ 出狱之日，他拨通"
+            "title": "顶罪五年：归来我震动全球！",
+            "intro": "【战神出狱＋无敌＋顶罪五年＋爽文】 五年前，他为小姨子顶罪，锒铛入狱。 五年后刑满归家，却在门外听到惊天噩耗！ 妻子竟被竟被小姨子卖往魔窟！ 五岁幼女儿更是被首富当成“活体血包”，生生抽血五年，濒临死亡！ “爸爸，抽血好疼，念念以后少吃饭，"
           }
         ],
         "top_risers": [
           {
-            "title": "痞子保镖",
-            "change": "+2"
-          },
-          {
-            "title": "你们选假儿子，断亲后悔干什么",
-            "change": "+1"
-          },
-          {
-            "title": "猎刃归鞘",
-            "change": "+1"
+            "title": "冷艳总裁与夺命书生",
+            "change": "+3"
           },
           {
             "title": "开局：美女总裁招保镖",
-            "change": "+1"
+            "change": "+2"
           },
           {
-            "title": "骗我领假证？我娶女总裁你哭什么",
+            "title": "最强兵痞闯花都",
             "change": "+1"
           }
         ],
         "top_fallers": [
           {
-            "title": "铁血佣兵：非洲生死薄",
-            "change": "-2"
+            "title": "昆仑龙王：我有九个女神未婚妻",
+            "change": "-3"
           },
           {
-            "title": "最强兵痞闯花都",
-            "change": "-2"
+            "title": "上门女婿也风流",
+            "change": "-1"
           },
           {
-            "title": "入伍第一年，当国宝被国家借走",
+            "title": "真当我是癞蛤蟆，离婚你又哭什么",
+            "change": "-1"
+          },
+          {
+            "title": "穿越女频世界：虐我？一拳打爆！",
+            "change": "-1"
+          },
+          {
+            "title": "老婆吻初恋？我连夜睡她死对头",
             "change": "-1"
           }
         ],
         "reads_growth": [
           {
-            "title": "入赘三年，神医身份瞒不住了",
+            "title": "冷艳总裁与夺命书生",
             "growth": "+4000"
+          },
+          {
+            "title": "入赘三年，神医身份瞒不住了",
+            "growth": "+3000"
           },
           {
             "title": "痞子保镖",
             "growth": "+2000"
           },
           {
+            "title": "开局：美女总裁招保镖",
+            "growth": "+1419"
+          },
+          {
             "title": "猎刃归鞘",
-            "growth": "+780"
-          },
-          {
-            "title": "年代1958，我好吃懒做怎么了",
-            "growth": "+95"
-          },
-          {
-            "title": "战神归来：女总裁的贴身兵王",
-            "growth": "-439"
+            "growth": "+1002"
           }
         ],
-        "summary": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、多女主，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：身份差、契约关系和强关系压迫容易起量，但相似开局较多。\n**上榜变化**：新增 1 本；掉榜 1 本；《痞子保镖》上升 +2 位；《入赘三年，神医身份瞒不住了》在读变化 +4000；新上榜作品包括 《顶罪五年：归来我震动全球！》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《上门女婿也风流》、《真当我是癞蛤蟆，离婚你又哭什么》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
-        "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、多女主，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：身份差、契约关系和强关系压迫容易起量，但相似开局较多。\n**上榜变化**：新增 1 本；掉榜 1 本；《痞子保镖》上升 +2 位；《入赘三年，神医身份瞒不住了》在读变化 +4000；新上榜作品包括 《顶罪五年：归来我震动全球！》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《上门女婿也风流》、《真当我是癞蛤蟆，离婚你又哭什么》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
+        "summary": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、都市，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：现实身份差、社交关系和即时打脸反馈仍是核心黏性，读者更吃明确收益和情绪反转。\n**上榜变化**：新增 1 本；掉榜 1 本；《冷艳总裁与夺命书生》上升 +3 位；《冷艳总裁与夺命书生》在读变化 +4000；新上榜作品包括 《殿主归来，女儿竟被骂野种》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《冷艳总裁与夺命书生》、《上门女婿也风流》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
+        "summary_markdown": "**题材趋势**：战神赘婿 今天的核心信号集中在 赘婿、战神、总裁、穿越、豪门、都市，结构较稳，说明赛道正在同时考验开局差异化和后续兑现效率。\n**读者爽点**：现实身份差、社交关系和即时打脸反馈仍是核心黏性，读者更吃明确收益和情绪反转。\n**上榜变化**：新增 1 本；掉榜 1 本；《冷艳总裁与夺命书生》上升 +3 位；《冷艳总裁与夺命书生》在读变化 +4000；新上榜作品包括 《殿主归来，女儿竟被骂野种》。\n**值得关注作品**：优先跟踪 《入赘三年，神医身份瞒不住了》、《冷艳总裁与夺命书生》、《上门女婿也风流》，重点看在读增速、排名稳定性和题材卖点能否持续兑现。",
         "hot_themes": [
           "赘婿",
           "战神",
           "总裁",
           "穿越",
           "豪门",
-          "多女主"
+          "都市"
         ],
         "watch_books": [
           "入赘三年，神医身份瞒不住了",
-          "上门女婿也风流",
-          "真当我是癞蛤蟆，离婚你又哭什么"
+          "冷艳总裁与夺命书生",
+          "上门女婿也风流"
         ],
         "risk_notes": "系统/穿越/重生标签密度偏高，需要靠具体人物动机和设定约束拉开差异。；关系线卖点集中，若只靠身份压迫和误会循环，后续同质化会很明显。"
       },
@@ -386,17 +386,25 @@
         {
           "title": "入赘三年，神医身份瞒不住了",
           "author": "我才不会深情",
-          "reads": "3.9万",
+          "reads": "4.2万",
           "intro": "赘婿+逆袭+神医+无敌+无脑爽+玄学 一场车祸，带走了老实人林远的生命，却让他意外获得了祖传的无上医道。 当他再次醒来，已不再是那个无牵无挂的孤儿，而是借尸还魂，成为了别人的“丈夫”。 面对复杂的家庭关系，和名义上对自己冷淡疏离的妻子，以及真心疼爱这具身体原主的岳父岳母，林远陷入了沉思。 既然接管了这具身体，那原主的遗憾，他来弥补，原主的恩情，他来偿还！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od37a819d8fc1d175d02f7a6c5d0cc294~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=uX4gpURNs8d1taykPzDHteWLpz8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od37a819d8fc1d175d02f7a6c5d0cc294~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=62amgswXe0am0LdTzPWy0Rw4oJc%3D",
           "url": "https://fanqienovel.com/page/7639662469333388313"
+        },
+        {
+          "title": "冷艳总裁与夺命书生",
+          "author": "一颗流浪的星星",
+          "reads": "2.3万",
+          "intro": "陆风红色家族二代，国内神秘特种部队”龙炎“的队长，代号书生，各个国家的心腹大患，知名大学的哲学讲师，哈佛大学经济学博士。三年前因小队被困国外在婚礼现场出走，三年后退役回归都市，化身市井高人，怼恶霸、镇黑道、守护身边之人，一路横行都市，快意恩仇。 林轻柔国内隐商长女，执掌家族万亿资产公司，冷艳无双，绝世美人。因家族联姻和陆风相识，也因三年前的逃婚，对陆风充满怨恨， 陆风回归后因一场意外和林轻柔酒店缠绵，两人在双方家族的压力下被迫同居，开始了同居生活。 与此同时，林氏家族的企业逐渐暴露出问题，林轻柔疲于应付，陆风暗中帮助，通过自己的情报网发现林氏家族的族长也就是林轻柔的父亲，在三年前就被一直流落在外的恐怖组织首领双胞胎弟弟替换了，原来三年前的联姻和陆风小队的遇袭都是林轻柔冒牌父亲的阴谋。 为此陆风开始了三年前的调查，中间镇压当地黑道吧主，怒怼豪门少爷，在经历了一次次的生死攸关后逐渐发现了事情的原因，最终成功解救林轻柔的父亲，挫败了其双胞胎弟弟和境外势力的阴谋，保家卫国。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7fdc20754649de346776262cc103ba46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=GYWQt01%2BR%2BeAb3bk66dUC1rqqj0%3D",
+          "url": "https://fanqienovel.com/page/7644580451318778905"
         },
         {
           "title": "上门女婿也风流",
           "author": "8888091",
           "reads": "2万",
           "intro": "张二从小就发誓不当上门女婿，可结果偏偏事与愿违，命运还是捉弄了他！凡事媒人到他家提亲的，全是需要上门的！于是，一气之下南下打工去了！结果，偶然机会认识了杭城的本地女孩，两人情投意合，最终还是上门了",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24201319b78f48e25ca759cdecf26655~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=tUVZ5PCks4kNWKcIBlCjlzwyk%2Fo%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o24201319b78f48e25ca759cdecf26655~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=fmNFRjC9CNTAQXKlh0luvbSTe3g%3D",
           "url": "https://fanqienovel.com/page/7639634712150936638"
         },
         {
@@ -404,7 +412,7 @@
           "author": "圆宝吃不饱",
           "reads": "1.9万",
           "intro": "【无绿帽+无系统+不重生+不穿越+追夫火葬场+争风吃醋+多女主】 结婚七年，江澈本以为自己拥有一份完美的婚姻。 直到三个月前，妻子陆嫣然的白月光出现，打破了这份平静。 “离婚吧。”江澈平静的递上离婚协议。 为了争夺女儿的抚养权，离婚后的江澈回到江家。 以豪门私生子的身份迎娶了温婉美人夏书瑶。 陆嫣然因误会掌掴江澈，夏书瑶反手便打了回去：“再敢动我老公一下，我撕了你！” 这一巴掌，打进了江澈心里，两人开启了先婚后爱、双向奔赴的旅程。 随着豪门争斗、一桩桩陈年秘密浮出水面。 枝繁叶茂的豪门江家，似乎唯有他这个“私生子生下的私生子”，才是真正的血脉。 往昔遭遇的种种磨难，甚至童年被拐卖的背后，都充满了阴谋的味道。 夏书瑶心疼地将江澈拥入怀中：“老公！我好心疼你啊！” 江澈混不吝地笑着：“那，生个娃玩玩？”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2bec0a6893078afa432781aa748d0c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=%2B9jvwXUmfUAyultday5pSjd%2BDII%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2bec0a6893078afa432781aa748d0c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=%2B%2BisML995oOWjE7aaZbMj1m1Lyk%3D",
           "url": "https://fanqienovel.com/page/7640118462131473433"
         },
         {
@@ -412,39 +420,31 @@
           "author": "无敌的帅气青年",
           "reads": "1.9万",
           "intro": "（虐渣+后宫+骂人犀利+武力天花板+追夫火葬场+绝不原谅） 林云穿越到了女频世界，开局豪门赘婿。 妻子有白月光，岳父家嫌弃，自家人也不待见。 林云笑了。 笑着笑着，拳头就硬了。 （全程硬刚，不喜勿喷，简介无力，请看正文）",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of4964e330e575bb100daade1f77ed003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=a6nqKo9cJ4pWpwTsKyVMwEZ53vw%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of4964e330e575bb100daade1f77ed003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=aizMZMdFtmYoKtVqZDg2a8k9Vg0%3D",
           "url": "https://fanqienovel.com/page/7630686889103592472"
-        },
-        {
-          "title": "冷艳总裁与夺命书生",
-          "author": "一颗流浪的星星",
-          "reads": "1.9万",
-          "intro": "陆风红色家族二代，国内神秘特种部队”龙炎“的队长，代号书生，各个国家的心腹大患，知名大学的哲学讲师，哈佛大学经济学博士。三年前因小队被困国外在婚礼现场出走，三年后退役回归都市，化身市井高人，怼恶霸、镇黑道、守护身边之人，一路横行都市，快意恩仇。 林轻柔国内隐商长女，执掌家族万亿资产公司，冷艳无双，绝世美人。因家族联姻和陆风相识，也因三年前的逃婚，对陆风充满怨恨， 陆风回归后因一场意外和林轻柔酒店缠绵，两人在双方家族的压力下被迫同居，开始了同居生活。 与此同时，林氏家族的企业逐渐暴露出问题，林轻柔疲于应付，陆风暗中帮助，通过自己的情报网发现林氏家族的族长也就是林轻柔的父亲，在三年前就被一直流落在外的恐怖组织首领双胞胎弟弟替换了，原来三年前的联姻和陆风小队的遇袭都是林轻柔冒牌父亲的阴谋。 为此陆风开始了三年前的调查，中间镇压当地黑道吧主，怒怼豪门少爷，在经历了一次次的生死攸关后逐渐发现了事情的原因，最终成功解救林轻柔的父亲，挫败了其双胞胎弟弟和境外势力的阴谋，保家卫国。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7fdc20754649de346776262cc103ba46~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=IZOYL%2Fs5mSiBdja12xXS9PaHfWQ%3D",
-          "url": "https://fanqienovel.com/page/7644580451318778905"
         },
         {
           "title": "你们选假儿子，断亲后悔干什么",
           "author": "写封情书给自己",
           "reads": "1.6万",
           "intro": "（不当赘婿，不当窝囊废。） 陈平出生就被陈家保姆将他和保姆儿子调包，又被保姆卖到外地山区，整整二十六流浪在外。 本以为找到亲人，能弥补二十六年缺失的爱，却没想到与自己血脉相连的父母和亲姐把仇人的儿子当宝，把亲生的儿子当草。 既然你们喜欢一个假货，都觉得我不过只是一个在外流浪二十六年的废物，那我不装了，我真正的身份是大夏皇朝唯一真神。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1665f286eb29ab24fbaf0caf8356d1bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=6%2B%2BPRJIdB%2FuB%2BkQyw6oOfgMHt40%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1665f286eb29ab24fbaf0caf8356d1bf~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=qKl39TGWXKpu4oURsRZV%2FT9bsvQ%3D",
           "url": "https://fanqienovel.com/page/7638433452798266392"
         },
         {
           "title": "痞子保镖",
           "author": "莫以尘",
-          "reads": "1.5万",
+          "reads": "1.7万",
           "intro": "痞子兵王陆野奉命潜入海城，以娃娃亲未婚夫身份死皮赖脸卧底保护冰山女总裁，在嬉笑怒骂间横扫跨国财阀阴谋，揭开基因药剂背后的惊世迷局。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6628e7d0e08415854c11e15efe05ac39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=JLB8n47GTlcYQFCMeRsOE%2B7NCI0%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6628e7d0e08415854c11e15efe05ac39~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=Uxi19yrg%2F%2BP0Ljv%2Ff%2BJmLg4CcGE%3D",
           "url": "https://fanqienovel.com/page/7620579311736589337"
         },
         {
           "title": "铁血佣兵：非洲生死薄",
           "author": "孤帆看尽",
-          "reads": "1.5万",
+          "reads": "1.1万",
           "intro": "本是穷苦民工，为给母亲治病前往非洲淘金，在非洲不断努力，奋斗，流血流汗，终成兵王，铸就属于自己的传奇故事。",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67813a9073e0250b39450e24e5cb9c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=nBgC6rH7vcTDcLuSlFu84PqEI6A%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67813a9073e0250b39450e24e5cb9c13~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=JdmzN35jJM%2BTHOGbQgFtwXZEjtk%3D",
           "url": "https://fanqienovel.com/page/7640083334772575256"
         },
         {
@@ -452,96 +452,96 @@
           "author": "还穿短裤",
           "reads": "1.3万",
           "intro": "顾城，前世顶尖兵王，穿越成平行世界的一个18岁新兵蛋子。 因为在拥有百年传承的宗族里辈分极高，入伍第一天就诞生了名场面： 威严的新兵连长看着新兵名单，满头大汗，扑通一声敬了个礼：“三爷爷好！” 全连新兵当场惊呆！ 顾城淡定摆手：“低调，部队里各论各的，我管你叫首长，你管我叫爷爷。” 本想混吃等死当个咸鱼孬兵，奈何满级实力不允许。 军区首长检阅，顾城随手一枪干爆千米外无人机！全军大比武，他蒙眼单挑各大特种兵王！ 入伍仅半年，战机护航，全网直播。 当军区首长亲自护送两块一等功牌匾送到顾家村时，全族老少都懵了：“不是让他去军营体验生活吗？怎么混成将军，还光宗耀祖了？！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ab06c3869d41599ecb8e02a313bbad4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=D%2Bn4kgEDTBJnQ%2BqJwFyY08pahKI%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7ab06c3869d41599ecb8e02a313bbad4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=jr8fOWekEY8U5ArcvmYAWWejU%2Fc%3D",
           "url": "https://fanqienovel.com/page/7647807961670093886"
         },
         {
           "title": "青囊赘婿",
           "author": "如余烬燃",
-          "reads": "1.1万",
+          "reads": "1.2万",
           "intro": "评分刚出，后面会涨的哟！ 【赘婿+逆袭+爽文+打脸+神医+上门女婿】 年轻的女总裁，嫁给了我——一个保安。 所有人都说我是软饭王。 直到她爷爷病危，医院摇头。 我走进ICU，摸了三秒脉：“都出去，给我二十分钟。” 二十分钟后，老爷子坐起来了。 第一句话：“这孙女婿，找对了。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33d60a399aa7502a93919f83b495cc92~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990518&x-signature=XJIvFv3urg26O5whj%2B2N4UQvsnM%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o33d60a399aa7502a93919f83b495cc92~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067636&x-signature=kwx8mXLKSQvARavzNcurtSlrNdw%3D",
           "url": "https://fanqienovel.com/page/7635264284284439576"
         },
         {
           "title": "反手考公入编，短剧女主全炸了！",
           "author": "赤龙城的惊奇队长",
-          "reads": "1.1万",
+          "reads": "8992",
           "intro": "【律师穿越+短剧世界+爽文+反套路+考公上岸+多女主】 前世红圈顶级律师，车祸醒来竟穿成短剧世界里被虐身虐心的真少爷兼舔狗赘婿。 面对绿茶假少爷的陷害、恶毒未婚妻的羞辱， 他反手掏出法典，用法律降维打击所有降智反派。 更可怕的是，这个世界的检察官拥有逆天特权。 上岸第一剑，先斩意中人！ 管你什么千亿财阀、白月光还是法外狂徒， 在绝对的法律底线和公权力面前，通通给我进去踩缝纫机！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o88d762599c88e117c19499070865e87a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=xAQG6dOs9HMyXQbtXkZsc4WGLtI%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o88d762599c88e117c19499070865e87a~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=3ts855qMNEth3Hy%2BCOYW3NSq4NA%3D",
           "url": "https://fanqienovel.com/page/7624380019040586776"
         },
         {
           "title": "年代1958，我好吃懒做怎么了",
           "author": "欠揍",
-          "reads": "1万",
+          "reads": "1.1万",
           "intro": "薛小闹穿越到1958年大锅饭时代，带着变废为宝系统，不上工挣工分，二溜子，满县城溜达，吃香的喝辣的，一天能挣一千多块……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o40df67100587258ebee99a72b8c27003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=fWDKRuAbXq4BTcFQzuywL%2FCUu8Y%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o40df67100587258ebee99a72b8c27003~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=%2FF5RlUVQND5lSx%2B6zZGIX3NBK0k%3D",
           "url": "https://fanqienovel.com/page/7650742573065047064"
-        },
-        {
-          "title": "昆仑龙王：我有九个女神未婚妻",
-          "author": "天真的阁罗凤",
-          "reads": "8983",
-          "intro": "【高手下山+神医+战神+爽文+扮猪吃虎+多女主】 昆仑山上的全能妖孽叶凡，携七位师父的通天本领下山。一为调查十八年前的灭门血案，二为履行师娘们定下的九封婚书。 本想低调查案，奈何实力不允许！ 医术通神，阎王手里抢人；武道巅峰，一指碾压宗师。 面对不屑与嘲讽，叶凡左手银针，右手婚书。“你笑我穷酸，可知全球财阀是我家后院？你欺我无名，我让你闻风丧胆！” 从云城苏家开始，当一封封婚书揭开，一位位天之骄女出现在他身边，叶凡才发现，这趟下山之旅，远比想象中要精彩。而那场血案背后，隐藏着一个足以撼动世界的惊天阴谋！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o470605505bd17c79d989dadb3f354998~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=812pLOtr4ezYcEeXwZ65hgjfeDw%3D",
-          "url": "https://fanqienovel.com/page/7644158286832339992"
-        },
-        {
-          "title": "猎刃归鞘",
-          "author": "钟之",
-          "reads": "8240",
-          "intro": "五年前在境外执行终极任务时遭内部出卖，为掩护战友撤退被俘。在境外黑狱中被关押三年，受尽折磨后越狱成功，又在国际地下世界隐姓埋名蛰伏两年。后经军方高层战友秘密运作，获得“牺牲烈士”身份平反，以退役兵王身份重返华夏",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa788804c682e48946ed20781c7ddb6a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=3XiEWjjwF8lSrehXFu98p6aNZNY%3D",
-          "url": "https://fanqienovel.com/page/7628592472431545368"
         },
         {
           "title": "开局：美女总裁招保镖",
           "author": "探界者",
-          "reads": "8210",
+          "reads": "9629",
           "intro": "新书，求关注，求点赞，求五星好评！ 【兵王+赘婿+武道+单女主+双师傅】 两位师傅在他还不到一岁之时将他收养，养大成人，传授他武道。十八岁入伍，他坚韧不拔的性格，加上有武道基础，用了五年时间从新兵到兵王。 在部队待了十年，当他受伤，准备退役之时，老首长要他执行最后一个任务…… 回归都市后，武圣师傅和神医师傅给他定的婚约对象，正是老首长让他保护的对象。他的都市生活仍然在紧张中度过……",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2082c00ca4c877979ad673a4632e0587~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=wKLYB2Dry4zVFDEqIh9N5fpWlwY%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2082c00ca4c877979ad673a4632e0587~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=nvQTbtIzxsnVSHspfyBdB5tpe1s%3D",
           "url": "https://fanqienovel.com/page/7646458032678767641"
+        },
+        {
+          "title": "猎刃归鞘",
+          "author": "钟之",
+          "reads": "9242",
+          "intro": "五年前在境外执行终极任务时遭内部出卖，为掩护战友撤退被俘。在境外黑狱中被关押三年，受尽折磨后越狱成功，又在国际地下世界隐姓埋名蛰伏两年。后经军方高层战友秘密运作，获得“牺牲烈士”身份平反，以退役兵王身份重返华夏",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa788804c682e48946ed20781c7ddb6a7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=j5fdLZ4JgfPrewUgyJC86EXoY8c%3D",
+          "url": "https://fanqienovel.com/page/7628592472431545368"
         },
         {
           "title": "最强兵痞闯花都",
           "author": "砚中书海",
-          "reads": "7748",
+          "reads": "8093",
           "intro": "龙组最强战神陆枭，一身破迷彩一双烂胶鞋，揣着持枪证回归花都。表面是游手好闲的职业流氓，实则是单兵战力天花板、世界级神医。冰山警花、冷艳总裁、甜辣千金纷纷沦陷，富二代、黑帮大佬、贪官蛀虫挨个被碾。痞帅幽默混搭铁血家国，爽到飞起！",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of18ea10018f4fab35c1cccb7f7da4a36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=Mev2%2FrU6oT3OXAi2bBcWS9RJrr8%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of18ea10018f4fab35c1cccb7f7da4a36~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=nCXRjbPjmqRoI2ctvm6u1viLa8c%3D",
           "url": "https://fanqienovel.com/page/7646440020894551064"
+        },
+        {
+          "title": "昆仑龙王：我有九个女神未婚妻",
+          "author": "天真的阁罗凤",
+          "reads": "7852",
+          "intro": "【高手下山+神医+战神+爽文+扮猪吃虎+多女主】 昆仑山上的全能妖孽叶凡，携七位师父的通天本领下山。一为调查十八年前的灭门血案，二为履行师娘们定下的九封婚书。 本想低调查案，奈何实力不允许！ 医术通神，阎王手里抢人；武道巅峰，一指碾压宗师。 面对不屑与嘲讽，叶凡左手银针，右手婚书。“你笑我穷酸，可知全球财阀是我家后院？你欺我无名，我让你闻风丧胆！” 从云城苏家开始，当一封封婚书揭开，一位位天之骄女出现在他身边，叶凡才发现，这趟下山之旅，远比想象中要精彩。而那场血案背后，隐藏着一个足以撼动世界的惊天阴谋！",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o470605505bd17c79d989dadb3f354998~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=1cB%2FZVy3PQrxRGGi3eyN0KEiVgA%3D",
+          "url": "https://fanqienovel.com/page/7644158286832339992"
         },
         {
           "title": "战神归来：女总裁的贴身兵王",
           "author": "摇灵",
-          "reads": "6248",
+          "reads": "5842",
           "intro": "一觉醒来，枕边竟躺着个肤白腿长的顶级尤物。 前一晚的意外让他以为只是萍水相逢，结果天亮才惊觉这只是开始，清冷绝尘的白月光校花、腰细腿长的火辣御姐、软萌黏人的病娇萝莉、冷艳飒爽的女总裁…… 个个都美得惊心动魄，各有风情。 昔日叱咤风云的退役兵王陈强，本想安安静静当个咸鱼， 却被这群美女搅得不得安宁，麻烦更是一波接一波找上门。 陈强扶额无奈：“我真的只想低调，奈何美女太多，实力根本不允许啊！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7d624c552232186be507480982449cb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=xi8LzKGKDEOpbmnwiCfO2V9OxCo%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7d624c552232186be507480982449cb4~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=nr4KcnWHl4KZ3hfwKqTeQvwtVtI%3D",
           "url": "https://fanqienovel.com/page/7644091969009880126"
+        },
+        {
+          "title": "殿主归来，女儿竟被骂野种",
+          "author": "玥胖子",
+          "reads": "5528",
+          "intro": "北冰洋归来，他不再是五年前那个失忆的废物傻子。陆凡，天龙殿殿主，手握万亿财富，全球敬畏。 当他发现那个被家族丢弃冲喜的妻子林晚秋，独自为他生下女儿，在江城受尽欺凌时，平静的生活结束了。 欺负我女人？断你财路！骂我女儿？让你消失！ 在这座城市，陆凡就是新的王法。",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od2796749bab9b2fe6626aedbc3cd0694~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=aMQzSc%2Fekg1IHxcdOA3i19xQxs4%3D",
+          "url": "https://fanqienovel.com/page/7645657509646044185"
         },
         {
           "title": "老婆吻初恋？我连夜睡她死对头",
           "author": "某阔",
-          "reads": "5789",
+          "reads": "5143",
           "intro": "谢惊蛰隐姓埋名当了三年全职丈夫，倾尽心血帮妻子沈听晚打造出百亿集团。 他本以为能捂热这座冰山，直到结婚纪念日那晚，他亲眼看到沈听晚在车库里，动情地吻着刚回国的初恋。 谢惊蛰没有挽留，甩下一纸离婚协议，转身走入雨夜。 沈听晚满眼嘲弄：“离开沈家，你这个废物连饭都吃不上，不出三天，你绝对会像狗一样回来求我。” 然而三天后，一场震惊全城的世纪订婚宴轰动京圈。 那位杀伐果断、患有重度偏执症的京圈女首富裴南鸢，一袭红裙，将谢惊蛰护在身后，霸气宣示主权。 沈听晚以为这是谢惊蛰的欲擒故纵，直到她发现—— 世界第一医疗财阀的幕后之主、无数权贵跪求一面的当代医神，竟然都是她那“一无是处”的前夫！ 当沈听晚崩溃大哭，跪在暴雨中哀求复合时。 裴南鸢却依偎在谢惊蛰怀里，病娇冷笑：“敢觊觎我的男人，我把你们沈家的骨灰都扬了！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafce94efb5db1fa6694ec1f77e199187~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=oUS0pYyhyOuuKR3Yr3fkXXSdqMk%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oafce94efb5db1fa6694ec1f77e199187~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=QLCZ5JG7KkLopSmyyxF%2BlNyQ6AM%3D",
           "url": "https://fanqienovel.com/page/7647737655391685657"
         },
         {
           "title": "骗我领假证？我娶女总裁你哭什么",
           "author": "呼噜肉",
-          "reads": "4995",
+          "reads": "5246",
           "intro": "【都市脑洞、不窝囊、纯爽+闪婚+无绿帽+前任全家后悔+追夫+修罗场】 “结婚两年”，顾远才发现自己当成宝贝的结婚证竟然是伪造的。 大学毕业之际，追求多年的优雅校花林楚然被绑匪绑走。 林老爷子公开说，谁能救下自己的孙女，他就把孙女嫁给谁。 顾远冒着生命危险救下林楚然。 谁知道林楚然一家觉得他高攀不上，不但用假结婚证糊弄他，还骗他为林家做牛做马，白天在林氏上班，晚上还要继续伺候生病的岳父。 得知真相后的顾远被气笑，转身继承千亿遗产，凭借豪门人脉搅得林家天翻地覆。 可没想到作天作地的过程里，林楚然却意外动心了。 等看到顾远跟她从小到大的死对头联姻时，林楚然发疯地站在婚礼上指责顾远是负心汉，犯重婚罪！ 顾远却反手甩出林家给的假结婚证，让整个林家陷入身败名裂。 等顾远的首富长孙真实身份曝光，“前”岳父岳母，“前小舅子”和“前妻”林楚然都惊呆了。 林楚然哭着抱着顾远的腿：“老公，我真的错了。你原谅我。我真的爱上你了。我现在不能没有你。” 林楚然的死对头柳如霜从轮椅上站起来，一根一根掰开她的手指，勾唇一笑。 “晚了，他现在是我的老公。”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oea069978d43ea31974852907f7ad46fb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=xS07bNBaKoYCveok2EXPxEc4z7g%3D",
+          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oea069978d43ea31974852907f7ad46fb~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1783067639&x-signature=exr76pEXNIf3I6f%2BZDY4cyIOKvY%3D",
           "url": "https://fanqienovel.com/page/7611777776680438809"
-        },
-        {
-          "title": "顶罪五年：归来我震动全球！",
-          "author": "上杉琉璃",
-          "reads": "4812",
-          "intro": "【战神出狱＋无敌＋顶罪五年＋爽文】 五年前，他为小姨子顶罪，锒铛入狱。 五年后刑满归家，却在门外听到惊天噩耗！ 妻子竟被竟被小姨子卖往魔窟！ 五岁幼女儿更是被首富当成“活体血包”，生生抽血五年，濒临死亡！ “爸爸，抽血好疼，念念以后少吃饭，求你别走……” 看着女儿满臂针眼，狱龙睁眼，杀意惊天！ 一通电话，十万大军封锁全城，战区大人物连滚带爬亲自开道！ 首富？满门踩碎！ 豪族？随手覆灭！ 跨国军阀？连根拔起！ 他脚踩枭雄头颅，剑指全球：“动我至亲者，诛十族！”",
-          "cover": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o35124b86c46d8daee766cbb54bd2c2b7~tplv-resize:225:0.image?lk3s=5b7047ff&x-expires=1782990521&x-signature=zrCw%2FZvqX7Ri0koBL9ei7BVhUPg%3D",
-          "url": "https://fanqienovel.com/page/7649792361358167102"
         }
       ]
     }
