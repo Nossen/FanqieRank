@@ -1,12 +1,12 @@
 {
-  "date": "2026-07-01",
-  "prev_date": "2026-06-30",
+  "date": "2026-07-02",
+  "prev_date": "2026-07-01",
   "types": [
     {
       "type": "all",
       "url": "api/channels/female/lastest/all.json",
       "category_count": 18,
-      "book_count": 350
+      "book_count": 360
     },
     {
       "type": "古风世情",
@@ -36,7 +36,7 @@
     {
       "type": "种田",
       "url": "api/channels/female/lastest/%E7%A7%8D%E7%94%B0.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "年代",
