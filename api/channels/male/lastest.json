@@ -6,7 +6,7 @@
       "type": "all",
       "url": "api/channels/male/lastest/all.json",
       "category_count": 19,
-      "book_count": 380
+      "book_count": 360
     },
     {
       "type": "西方奇幻",
@@ -51,12 +51,12 @@
     {
       "type": "都市种田",
       "url": "api/channels/male/lastest/%E9%83%BD%E5%B8%82%E7%A7%8D%E7%94%B0.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "传统玄幻",
       "url": "api/channels/male/lastest/%E4%BC%A0%E7%BB%9F%E7%8E%84%E5%B9%BB.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "历史脑洞",
