@@ -12,7 +12,7 @@
 
 | 频道 | 最新日期 | 分析来源 | 分类数 | 作品数 | 看板 | 数据 |
 | --- | --- | --- | ---: | ---: | --- | --- |
-| 男频 | 2026-07-26 | `Codex scheduled automation` | 19 | 380 | [打开](https://nossen.github.io/FanqieRank/index.html?channel=male) | [JSON](data/channels/male/latest_ranks.json) |
+| 男频 | 2026-07-26 | `Codex scheduled automation` | 19 | 350 | [打开](https://nossen.github.io/FanqieRank/index.html?channel=male) | [JSON](data/channels/male/latest_ranks.json) |
 | 女频 | 2026-07-26 | `Codex scheduled automation` | 18 | 360 | [打开](https://nossen.github.io/FanqieRank/index.html?channel=female) | [JSON](data/channels/female/latest_ranks.json) |
 
 ## 自动更新
