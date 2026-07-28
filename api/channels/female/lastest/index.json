@@ -6,7 +6,7 @@
       "type": "all",
       "url": "api/channels/female/lastest/all.json",
       "category_count": 18,
-      "book_count": 360
+      "book_count": 350
     },
     {
       "type": "古风世情",
@@ -91,7 +91,7 @@
     {
       "type": "豪门总裁",
       "url": "api/channels/female/lastest/%E8%B1%AA%E9%97%A8%E6%80%BB%E8%A3%81.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "民国言情",
