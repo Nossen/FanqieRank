@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-03",
-  "prev_date": "2026-08-02",
+  "date": "2026-08-04",
+  "prev_date": "2026-08-03",
   "types": [
     {
       "type": "all",
       "url": "api/channels/female/lastest/all.json",
       "category_count": 18,
-      "book_count": 320
+      "book_count": 360
     },
     {
       "type": "古风世情",
@@ -61,12 +61,12 @@
     {
       "type": "古言脑洞",
       "url": "api/channels/female/lastest/%E5%8F%A4%E8%A8%80%E8%84%91%E6%B4%9E.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "快穿",
       "url": "api/channels/female/lastest/%E5%BF%AB%E7%A9%BF.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "青春甜宠",
@@ -81,12 +81,12 @@
     {
       "type": "女频悬疑",
       "url": "api/channels/female/lastest/%E5%A5%B3%E9%A2%91%E6%82%AC%E7%96%91.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "职场婚恋",
       "url": "api/channels/female/lastest/%E8%81%8C%E5%9C%BA%E5%A9%9A%E6%81%8B.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "豪门总裁",
