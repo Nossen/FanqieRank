@@ -19,7 +19,7 @@
           ],
           "read_growth_total": 1745000.0,
           "read_count": 147,
-          "new_count": 93,
+          "new_count": 94,
           "active_days": 35
         },
         {
@@ -122,8 +122,8 @@
           "name": "现言脑洞",
           "read_growth_total": 206000.0,
           "read_count": 31,
-          "new_count": 12,
-          "dropped_count": 12,
+          "new_count": 13,
+          "dropped_count": 13,
           "active_days": 7
         },
         {
@@ -138,18 +138,18 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 43,
+          "count": 41,
           "category_count": 17
         },
         {
           "name": "穿越",
-          "count": 33,
-          "category_count": 11
+          "count": 34,
+          "category_count": 12
         },
         {
           "name": "重生",
-          "count": 24,
-          "category_count": 14
+          "count": 25,
+          "category_count": 15
         },
         {
           "name": "团宠",
@@ -158,8 +158,8 @@
         },
         {
           "name": "甜宠",
-          "count": 18,
-          "category_count": 9
+          "count": 17,
+          "category_count": 8
         },
         {
           "name": "快穿",
@@ -177,14 +177,14 @@
           "category_count": 4
         },
         {
-          "name": "种田",
-          "count": 12,
-          "category_count": 3
-        },
-        {
           "name": "游戏",
           "count": 11,
           "category_count": 5
+        },
+        {
+          "name": "种田",
+          "count": 11,
+          "category_count": 3
         },
         {
           "name": "年代",
@@ -193,8 +193,8 @@
         },
         {
           "name": "直播",
-          "count": 9,
-          "category_count": 5
+          "count": 8,
+          "category_count": 4
         },
         {
           "name": "同人",
@@ -234,7 +234,7 @@
           ],
           "read_growth_total": 3781000.0,
           "read_count": 312,
-          "new_count": 191,
+          "new_count": 192,
           "active_days": 70
         },
         {
@@ -314,8 +314,8 @@
           "name": "现言脑洞",
           "read_growth_total": 704000.0,
           "read_count": 66,
-          "new_count": 24,
-          "dropped_count": 24,
+          "new_count": 25,
+          "dropped_count": 25,
           "active_days": 14
         },
         {
@@ -354,17 +354,17 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 85,
+          "count": 83,
           "category_count": 17
         },
         {
           "name": "重生",
-          "count": 51,
+          "count": 52,
           "category_count": 18
         },
         {
           "name": "穿越",
-          "count": 50,
+          "count": 51,
           "category_count": 13
         },
         {
@@ -379,8 +379,8 @@
         },
         {
           "name": "甜宠",
-          "count": 24,
-          "category_count": 10
+          "count": 23,
+          "category_count": 9
         },
         {
           "name": "游戏",
@@ -404,18 +404,18 @@
         },
         {
           "name": "直播",
-          "count": 15,
-          "category_count": 7
+          "count": 14,
+          "category_count": 6
         },
         {
           "name": "种田",
-          "count": 15,
+          "count": 14,
           "category_count": 4
         },
         {
           "name": "女强",
-          "count": 14,
-          "category_count": 9
+          "count": 13,
+          "category_count": 8
         },
         {
           "name": "反派",
@@ -450,7 +450,7 @@
           ],
           "read_growth_total": 8550000.0,
           "read_count": 711,
-          "new_count": 315,
+          "new_count": 316,
           "active_days": 150
         },
         {
@@ -522,8 +522,8 @@
           "name": "现言脑洞",
           "read_growth_total": 1664000.0,
           "read_count": 146,
-          "new_count": 54,
-          "dropped_count": 54,
+          "new_count": 55,
+          "dropped_count": 55,
           "active_days": 30
         },
         {
@@ -554,8 +554,8 @@
           "name": "古言脑洞",
           "read_growth_total": 927000.0,
           "read_count": 141,
-          "new_count": 60,
-          "dropped_count": 60,
+          "new_count": 59,
+          "dropped_count": 59,
           "active_days": 30
         },
         {
@@ -570,17 +570,17 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 121,
+          "count": 119,
           "category_count": 17
         },
         {
           "name": "穿越",
-          "count": 86,
+          "count": 87,
           "category_count": 13
         },
         {
           "name": "重生",
-          "count": 77,
+          "count": 78,
           "category_count": 18
         },
         {
@@ -605,12 +605,12 @@
         },
         {
           "name": "甜宠",
-          "count": 31,
-          "category_count": 10
+          "count": 30,
+          "category_count": 9
         },
         {
           "name": "直播",
-          "count": 27,
+          "count": 26,
           "category_count": 7
         },
         {
@@ -630,12 +630,12 @@
         },
         {
           "name": "女强",
-          "count": 22,
-          "category_count": 11
+          "count": 21,
+          "category_count": 10
         },
         {
           "name": "种田",
-          "count": 21,
+          "count": 20,
           "category_count": 7
         },
         {
@@ -666,7 +666,7 @@
           ],
           "read_growth_total": 15079000.0,
           "read_count": 1377,
-          "new_count": 502,
+          "new_count": 503,
           "active_days": 284
         },
         {
@@ -730,8 +730,8 @@
           "name": "现言脑洞",
           "read_growth_total": 3748000.0,
           "read_count": 278,
-          "new_count": 91,
-          "dropped_count": 91,
+          "new_count": 92,
+          "dropped_count": 92,
           "active_days": 57
         },
         {
@@ -762,8 +762,8 @@
           "name": "古言脑洞",
           "read_growth_total": 2160000.0,
           "read_count": 274,
-          "new_count": 97,
-          "dropped_count": 97,
+          "new_count": 96,
+          "dropped_count": 96,
           "active_days": 57
         },
         {
@@ -786,17 +786,17 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 144,
+          "count": 142,
           "category_count": 17
         },
         {
           "name": "穿越",
-          "count": 113,
+          "count": 114,
           "category_count": 14
         },
         {
           "name": "重生",
-          "count": 110,
+          "count": 111,
           "category_count": 18
         },
         {
@@ -831,13 +831,13 @@
         },
         {
           "name": "直播",
-          "count": 36,
+          "count": 35,
           "category_count": 7
         },
         {
           "name": "甜宠",
-          "count": 35,
-          "category_count": 11
+          "count": 34,
+          "category_count": 10
         },
         {
           "name": "豪门",
@@ -856,13 +856,13 @@
         },
         {
           "name": "种田",
-          "count": 25,
+          "count": 24,
           "category_count": 7
         },
         {
-          "name": "女强",
+          "name": "神豪",
           "count": 23,
-          "category_count": 11
+          "category_count": 3
         }
       ]
     }
