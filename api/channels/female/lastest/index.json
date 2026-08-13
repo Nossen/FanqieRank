@@ -6,12 +6,12 @@
       "type": "all",
       "url": "api/channels/female/lastest/all.json",
       "category_count": 18,
-      "book_count": 359
+      "book_count": 350
     },
     {
       "type": "古风世情",
       "url": "api/channels/female/lastest/%E5%8F%A4%E9%A3%8E%E4%B8%96%E6%83%85.json",
-      "book_count": 19
+      "book_count": 20
     },
     {
       "type": "科幻末世",
@@ -41,7 +41,7 @@
     {
       "type": "年代",
       "url": "api/channels/female/lastest/%E5%B9%B4%E4%BB%A3.json",
-      "book_count": 20
+      "book_count": 10
     },
     {
       "type": "现言脑洞",

@@ -17,10 +17,10 @@
             "职场婚恋",
             "星光璀璨"
           ],
-          "read_growth_total": 2365000.0,
-          "read_count": 134,
-          "new_count": 50,
-          "active_days": 33
+          "read_growth_total": 2600000.0,
+          "read_count": 159,
+          "new_count": 53,
+          "active_days": 35
         },
         {
           "name": "女频幻想",
@@ -30,10 +30,10 @@
             "女频衍生",
             "女频悬疑"
           ],
-          "read_growth_total": 718000.0,
-          "read_count": 108,
-          "new_count": 42,
-          "active_days": 26
+          "read_growth_total": 774000.0,
+          "read_count": 128,
+          "new_count": 44,
+          "active_days": 28
         },
         {
           "name": "古言宫斗",
@@ -43,10 +43,10 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 427705.0,
-          "read_count": 102,
+          "read_growth_total": 497389.0,
+          "read_count": 122,
           "new_count": 41,
-          "active_days": 26
+          "active_days": 28
         },
         {
           "name": "年代种田",
@@ -54,113 +54,113 @@
             "种田",
             "年代"
           ],
-          "read_growth_total": 270000.0,
-          "read_count": 55,
-          "new_count": 31,
+          "read_growth_total": 314000.0,
+          "read_count": 65,
+          "new_count": 29,
           "active_days": 14
         },
         {
-          "name": "悬疑灵异",
+          "name": "科幻末世",
           "categories": [
-            "悬疑脑洞"
+            "科幻末世"
           ],
-          "read_growth_total": 229000.0,
-          "read_count": 25,
-          "new_count": 6,
-          "active_days": 6
+          "read_growth_total": 254000.0,
+          "read_count": 30,
+          "new_count": 11,
+          "active_days": 7
         }
       ],
       "hot_types": [
         {
           "name": "豪门总裁",
-          "read_growth_total": 951000.0,
-          "read_count": 27,
+          "read_growth_total": 1058000.0,
+          "read_count": 32,
           "new_count": 11,
           "dropped_count": 11,
           "active_days": 7
         },
         {
           "name": "星光璀璨",
-          "read_growth_total": 391000.0,
-          "read_count": 26,
+          "read_growth_total": 403000.0,
+          "read_count": 31,
           "new_count": 10,
           "dropped_count": 10,
-          "active_days": 6
+          "active_days": 7
         },
         {
           "name": "职场婚恋",
-          "read_growth_total": 368000.0,
-          "read_count": 27,
-          "new_count": 11,
-          "dropped_count": 11,
+          "read_growth_total": 385000.0,
+          "read_count": 32,
+          "new_count": 13,
+          "dropped_count": 13,
           "active_days": 7
         },
         {
           "name": "青春甜宠",
-          "read_growth_total": 329000.0,
-          "read_count": 27,
+          "read_growth_total": 381000.0,
+          "read_count": 32,
           "new_count": 7,
           "dropped_count": 7,
-          "active_days": 6
+          "active_days": 7
         },
         {
           "name": "现言脑洞",
-          "read_growth_total": 326000.0,
-          "read_count": 27,
+          "read_growth_total": 373000.0,
+          "read_count": 32,
+          "new_count": 12,
+          "dropped_count": 12,
+          "active_days": 7
+        },
+        {
+          "name": "女频衍生",
+          "read_growth_total": 290000.0,
+          "read_count": 31,
+          "new_count": 13,
+          "dropped_count": 13,
+          "active_days": 7
+        },
+        {
+          "name": "科幻末世",
+          "read_growth_total": 254000.0,
+          "read_count": 30,
           "new_count": 11,
           "dropped_count": 11,
           "active_days": 7
         },
         {
-          "name": "女频衍生",
-          "read_growth_total": 275000.0,
-          "read_count": 26,
-          "new_count": 13,
-          "dropped_count": 13,
-          "active_days": 6
-        },
-        {
           "name": "悬疑脑洞",
-          "read_growth_total": 229000.0,
-          "read_count": 25,
+          "read_growth_total": 252000.0,
+          "read_count": 30,
           "new_count": 6,
           "dropped_count": 6,
-          "active_days": 6
-        },
-        {
-          "name": "科幻末世",
-          "read_growth_total": 224000.0,
-          "read_count": 25,
-          "new_count": 10,
-          "dropped_count": 10,
-          "active_days": 6
+          "active_days": 7
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 40,
+          "count": 39,
           "category_count": 14
         },
         {
           "name": "穿越",
-          "count": 31,
-          "category_count": 12
+          "count": 27,
+          "category_count": 11
+        },
+        {
+          "name": "重生",
+          "count": 13,
+          "category_count": 10
         },
         {
           "name": "团宠",
-          "count": 16,
+          "count": 13,
           "category_count": 10
         },
         {
           "name": "甜宠",
-          "count": 15,
-          "category_count": 9
-        },
-        {
-          "name": "重生",
-          "count": 14,
-          "category_count": 11
+          "count": 13,
+          "category_count": 7
         },
         {
           "name": "快穿",
@@ -168,19 +168,19 @@
           "category_count": 3
         },
         {
-          "name": "年代",
-          "count": 12,
-          "category_count": 2
-        },
-        {
           "name": "直播",
-          "count": 10,
-          "category_count": 4
+          "count": 11,
+          "category_count": 5
         },
         {
           "name": "末世",
-          "count": 10,
+          "count": 11,
           "category_count": 3
+        },
+        {
+          "name": "游戏",
+          "count": 9,
+          "category_count": 5
         },
         {
           "name": "种田",
@@ -188,24 +188,24 @@
           "category_count": 3
         },
         {
-          "name": "游戏",
-          "count": 8,
-          "category_count": 5
-        },
-        {
           "name": "女强",
           "count": 7,
           "category_count": 6
         },
         {
-          "name": "豪门",
-          "count": 7,
-          "category_count": 4
-        },
-        {
           "name": "同人",
           "count": 7,
           "category_count": 3
+        },
+        {
+          "name": "年代",
+          "count": 7,
+          "category_count": 2
+        },
+        {
+          "name": "豪门",
+          "count": 6,
+          "category_count": 4
         },
         {
           "name": "神豪",
@@ -233,10 +233,10 @@
             "职场婚恋",
             "星光璀璨"
           ],
-          "read_growth_total": 3653000.0,
-          "read_count": 287,
-          "new_count": 184,
-          "active_days": 68
+          "read_growth_total": 3888000.0,
+          "read_count": 312,
+          "new_count": 187,
+          "active_days": 70
         },
         {
           "name": "女频幻想",
@@ -246,10 +246,10 @@
             "女频衍生",
             "女频悬疑"
           ],
-          "read_growth_total": 1506000.0,
-          "read_count": 243,
-          "new_count": 119,
-          "active_days": 54
+          "read_growth_total": 1562000.0,
+          "read_count": 263,
+          "new_count": 121,
+          "active_days": 56
         },
         {
           "name": "古言宫斗",
@@ -259,10 +259,10 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 810436.0,
-          "read_count": 235,
+          "read_growth_total": 880120.0,
+          "read_count": 255,
           "new_count": 91,
-          "active_days": 54
+          "active_days": 56
         },
         {
           "name": "年代种田",
@@ -270,9 +270,9 @@
             "种田",
             "年代"
           ],
-          "read_growth_total": 503000.0,
-          "read_count": 122,
-          "new_count": 57,
+          "read_growth_total": 547000.0,
+          "read_count": 132,
+          "new_count": 55,
           "active_days": 28
         },
         {
@@ -280,92 +280,92 @@
           "categories": [
             "悬疑脑洞"
           ],
-          "read_growth_total": 447000.0,
-          "read_count": 59,
+          "read_growth_total": 470000.0,
+          "read_count": 64,
           "new_count": 12,
-          "active_days": 13
+          "active_days": 14
         }
       ],
       "hot_types": [
         {
           "name": "豪门总裁",
-          "read_growth_total": 1135000.0,
-          "read_count": 51,
+          "read_growth_total": 1242000.0,
+          "read_count": 56,
           "new_count": 57,
           "dropped_count": 57,
           "active_days": 14
         },
         {
           "name": "现言脑洞",
-          "read_growth_total": 678000.0,
-          "read_count": 61,
-          "new_count": 23,
-          "dropped_count": 23,
+          "read_growth_total": 725000.0,
+          "read_count": 66,
+          "new_count": 24,
+          "dropped_count": 24,
           "active_days": 14
         },
         {
           "name": "星光璀璨",
-          "read_growth_total": 656000.0,
-          "read_count": 61,
+          "read_growth_total": 668000.0,
+          "read_count": 66,
           "new_count": 23,
           "dropped_count": 23,
-          "active_days": 13
+          "active_days": 14
         },
         {
           "name": "女频衍生",
-          "read_growth_total": 640000.0,
-          "read_count": 61,
+          "read_growth_total": 655000.0,
+          "read_count": 66,
           "new_count": 30,
           "dropped_count": 30,
-          "active_days": 13
-        },
-        {
-          "name": "职场婚恋",
-          "read_growth_total": 609000.0,
-          "read_count": 62,
-          "new_count": 25,
-          "dropped_count": 25,
           "active_days": 14
         },
         {
           "name": "青春甜宠",
-          "read_growth_total": 575000.0,
-          "read_count": 52,
+          "read_growth_total": 627000.0,
+          "read_count": 57,
           "new_count": 56,
           "dropped_count": 56,
-          "active_days": 13
+          "active_days": 14
+        },
+        {
+          "name": "职场婚恋",
+          "read_growth_total": 626000.0,
+          "read_count": 67,
+          "new_count": 27,
+          "dropped_count": 27,
+          "active_days": 14
         },
         {
           "name": "悬疑脑洞",
-          "read_growth_total": 447000.0,
-          "read_count": 59,
+          "read_growth_total": 470000.0,
+          "read_count": 64,
           "new_count": 12,
           "dropped_count": 12,
-          "active_days": 13
+          "active_days": 14
         },
         {
-          "name": "快穿",
-          "read_growth_total": 352000.0,
-          "read_count": 61,
-          "new_count": 38,
-          "dropped_count": 28,
+          "name": "玄幻言情",
+          "read_growth_total": 366000.0,
+          "read_count": 66,
+          "new_count": 27,
+          "dropped_count": 27,
           "active_days": 14
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 80,
+          "count": 77,
           "category_count": 17
         },
         {
           "name": "穿越",
-          "count": 53,
+          "count": 49,
           "category_count": 13
         },
         {
           "name": "重生",
-          "count": 45,
+          "count": 43,
           "category_count": 17
         },
         {
@@ -375,43 +375,43 @@
         },
         {
           "name": "团宠",
-          "count": 30,
+          "count": 27,
           "category_count": 11
         },
         {
-          "name": "甜宠",
-          "count": 24,
-          "category_count": 12
-        },
-        {
           "name": "游戏",
-          "count": 21,
+          "count": 22,
           "category_count": 7
         },
         {
+          "name": "甜宠",
+          "count": 21,
+          "category_count": 10
+        },
+        {
           "name": "末世",
-          "count": 20,
+          "count": 19,
           "category_count": 3
         },
         {
-          "name": "年代",
-          "count": 19,
-          "category_count": 2
+          "name": "直播",
+          "count": 17,
+          "category_count": 7
         },
         {
           "name": "豪门",
-          "count": 18,
-          "category_count": 6
-        },
-        {
-          "name": "直播",
-          "count": 16,
+          "count": 17,
           "category_count": 6
         },
         {
           "name": "种田",
           "count": 14,
           "category_count": 4
+        },
+        {
+          "name": "年代",
+          "count": 14,
+          "category_count": 2
         },
         {
           "name": "女强",
@@ -430,7 +430,7 @@
         },
         {
           "name": "异能",
-          "count": 10,
+          "count": 9,
           "category_count": 5
         }
       ]
@@ -449,10 +449,10 @@
             "职场婚恋",
             "星光璀璨"
           ],
-          "read_growth_total": 8504000.0,
-          "read_count": 687,
-          "new_count": 312,
-          "active_days": 148
+          "read_growth_total": 8739000.0,
+          "read_count": 712,
+          "new_count": 315,
+          "active_days": 150
         },
         {
           "name": "女频幻想",
@@ -462,10 +462,10 @@
             "女频衍生",
             "女频悬疑"
           ],
-          "read_growth_total": 2891000.0,
-          "read_count": 563,
-          "new_count": 217,
-          "active_days": 118
+          "read_growth_total": 2947000.0,
+          "read_count": 583,
+          "new_count": 219,
+          "active_days": 120
         },
         {
           "name": "古言宫斗",
@@ -475,10 +475,10 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 2357411.0,
-          "read_count": 554,
+          "read_growth_total": 2427095.0,
+          "read_count": 574,
           "new_count": 192,
-          "active_days": 118
+          "active_days": 120
         },
         {
           "name": "年代种田",
@@ -486,9 +486,9 @@
             "种田",
             "年代"
           ],
-          "read_growth_total": 1251000.0,
-          "read_count": 282,
-          "new_count": 135,
+          "read_growth_total": 1295000.0,
+          "read_count": 292,
+          "new_count": 133,
           "active_days": 60
         },
         {
@@ -496,73 +496,73 @@
           "categories": [
             "悬疑脑洞"
           ],
-          "read_growth_total": 796000.0,
-          "read_count": 139,
+          "read_growth_total": 819000.0,
+          "read_count": 144,
           "new_count": 31,
-          "active_days": 29
+          "active_days": 30
         }
       ],
       "hot_types": [
         {
           "name": "豪门总裁",
-          "read_growth_total": 3009000.0,
-          "read_count": 131,
+          "read_growth_total": 3116000.0,
+          "read_count": 136,
           "new_count": 96,
           "dropped_count": 96,
           "active_days": 30
         },
         {
           "name": "青春甜宠",
-          "read_growth_total": 1841000.0,
-          "read_count": 132,
+          "read_growth_total": 1893000.0,
+          "read_count": 137,
           "new_count": 70,
           "dropped_count": 70,
-          "active_days": 29
+          "active_days": 30
         },
         {
           "name": "现言脑洞",
-          "read_growth_total": 1625000.0,
-          "read_count": 141,
-          "new_count": 52,
-          "dropped_count": 52,
+          "read_growth_total": 1672000.0,
+          "read_count": 146,
+          "new_count": 53,
+          "dropped_count": 53,
           "active_days": 30
         },
         {
           "name": "星光璀璨",
-          "read_growth_total": 1139000.0,
-          "read_count": 141,
+          "read_growth_total": 1151000.0,
+          "read_count": 146,
           "new_count": 46,
           "dropped_count": 46,
-          "active_days": 29
+          "active_days": 30
         },
         {
           "name": "女频衍生",
-          "read_growth_total": 980000.0,
-          "read_count": 141,
+          "read_growth_total": 995000.0,
+          "read_count": 146,
           "new_count": 60,
           "dropped_count": 60,
-          "active_days": 29
+          "active_days": 30
         },
         {
           "name": "快穿",
-          "read_growth_total": 908000.0,
-          "read_count": 141,
+          "read_growth_total": 912000.0,
+          "read_count": 146,
           "new_count": 58,
           "dropped_count": 58,
           "active_days": 30
         },
         {
           "name": "职场婚恋",
-          "read_growth_total": 890000.0,
-          "read_count": 142,
-          "new_count": 48,
-          "dropped_count": 48,
+          "read_growth_total": 907000.0,
+          "read_count": 147,
+          "new_count": 50,
+          "dropped_count": 50,
           "active_days": 30
         },
         {
           "name": "古言脑洞",
-          "read_growth_total": 877000.0,
-          "read_count": 136,
+          "read_growth_total": 889000.0,
+          "read_count": 141,
           "new_count": 60,
           "dropped_count": 60,
           "active_days": 30
@@ -571,17 +571,17 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 122,
+          "count": 119,
           "category_count": 17
         },
         {
           "name": "穿越",
-          "count": 83,
+          "count": 78,
           "category_count": 13
         },
         {
           "name": "重生",
-          "count": 72,
+          "count": 70,
           "category_count": 18
         },
         {
@@ -591,41 +591,41 @@
         },
         {
           "name": "团宠",
-          "count": 44,
+          "count": 41,
           "category_count": 13
         },
         {
           "name": "游戏",
-          "count": 34,
+          "count": 35,
           "category_count": 7
         },
         {
           "name": "末世",
-          "count": 32,
-          "category_count": 4
-        },
-        {
-          "name": "年代",
-          "count": 30,
+          "count": 31,
           "category_count": 4
         },
         {
           "name": "直播",
-          "count": 29,
+          "count": 30,
           "category_count": 8
         },
         {
           "name": "甜宠",
-          "count": 28,
-          "category_count": 12
+          "count": 25,
+          "category_count": 10
         },
         {
-          "name": "豪门",
-          "count": 23,
-          "category_count": 8
+          "name": "年代",
+          "count": 25,
+          "category_count": 4
         },
         {
           "name": "种田",
+          "count": 22,
+          "category_count": 8
+        },
+        {
+          "name": "豪门",
           "count": 22,
           "category_count": 8
         },
@@ -665,10 +665,10 @@
             "职场婚恋",
             "星光璀璨"
           ],
-          "read_growth_total": 15934000.0,
-          "read_count": 1427,
-          "new_count": 524,
-          "active_days": 297
+          "read_growth_total": 16169000.0,
+          "read_count": 1452,
+          "new_count": 527,
+          "active_days": 299
         },
         {
           "name": "女频幻想",
@@ -678,10 +678,10 @@
             "女频衍生",
             "女频悬疑"
           ],
-          "read_growth_total": 6685000.0,
-          "read_count": 1147,
-          "new_count": 389,
-          "active_days": 238
+          "read_growth_total": 6741000.0,
+          "read_count": 1167,
+          "new_count": 391,
+          "active_days": 240
         },
         {
           "name": "古言宫斗",
@@ -691,10 +691,10 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 6511890.0,
-          "read_count": 1148,
+          "read_growth_total": 6581574.0,
+          "read_count": 1168,
           "new_count": 356,
-          "active_days": 238
+          "active_days": 240
         },
         {
           "name": "年代种田",
@@ -702,9 +702,9 @@
             "种田",
             "年代"
           ],
-          "read_growth_total": 3078000.0,
-          "read_count": 574,
-          "new_count": 235,
+          "read_growth_total": 3122000.0,
+          "read_count": 584,
+          "new_count": 233,
           "active_days": 120
         },
         {
@@ -712,92 +712,92 @@
           "categories": [
             "悬疑脑洞"
           ],
-          "read_growth_total": 1896000.0,
-          "read_count": 285,
+          "read_growth_total": 1919000.0,
+          "read_count": 290,
           "new_count": 67,
-          "active_days": 59
+          "active_days": 60
         }
       ],
       "hot_types": [
         {
           "name": "豪门总裁",
-          "read_growth_total": 4489000.0,
-          "read_count": 281,
+          "read_growth_total": 4596000.0,
+          "read_count": 286,
           "new_count": 143,
           "dropped_count": 143,
           "active_days": 60
         },
         {
           "name": "现言脑洞",
-          "read_growth_total": 3908000.0,
-          "read_count": 288,
+          "read_growth_total": 3955000.0,
+          "read_count": 293,
+          "new_count": 95,
+          "dropped_count": 95,
+          "active_days": 60
+        },
+        {
+          "name": "青春甜宠",
+          "read_growth_total": 3819000.0,
+          "read_count": 286,
+          "new_count": 104,
+          "dropped_count": 104,
+          "active_days": 60
+        },
+        {
+          "name": "宫斗宅斗",
+          "read_growth_total": 2601000.0,
+          "read_count": 295,
           "new_count": 94,
           "dropped_count": 94,
           "active_days": 60
         },
         {
-          "name": "青春甜宠",
-          "read_growth_total": 3767000.0,
-          "read_count": 281,
-          "new_count": 104,
-          "dropped_count": 104,
-          "active_days": 59
-        },
-        {
-          "name": "宫斗宅斗",
-          "read_growth_total": 2574000.0,
-          "read_count": 290,
-          "new_count": 94,
-          "dropped_count": 94,
-          "active_days": 59
-        },
-        {
           "name": "快穿",
-          "read_growth_total": 2495000.0,
-          "read_count": 284,
+          "read_growth_total": 2499000.0,
+          "read_count": 289,
           "new_count": 99,
           "dropped_count": 99,
           "active_days": 60
         },
         {
           "name": "古言脑洞",
-          "read_growth_total": 2196000.0,
-          "read_count": 284,
+          "read_growth_total": 2208000.0,
+          "read_count": 289,
           "new_count": 100,
           "dropped_count": 100,
           "active_days": 60
         },
         {
           "name": "星光璀璨",
-          "read_growth_total": 2130000.0,
-          "read_count": 288,
+          "read_growth_total": 2142000.0,
+          "read_count": 293,
           "new_count": 91,
           "dropped_count": 91,
-          "active_days": 58
+          "active_days": 59
         },
         {
           "name": "年代",
-          "read_growth_total": 2094000.0,
-          "read_count": 286,
-          "new_count": 138,
-          "dropped_count": 138,
+          "read_growth_total": 2122000.0,
+          "read_count": 291,
+          "new_count": 136,
+          "dropped_count": 146,
           "active_days": 60
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 144,
+          "count": 141,
           "category_count": 17
         },
         {
           "name": "穿越",
-          "count": 115,
+          "count": 109,
           "category_count": 14
         },
         {
           "name": "重生",
-          "count": 105,
+          "count": 103,
           "category_count": 18
         },
         {
@@ -807,27 +807,22 @@
         },
         {
           "name": "游戏",
-          "count": 59,
+          "count": 60,
           "category_count": 7
         },
         {
           "name": "团宠",
-          "count": 55,
+          "count": 52,
           "category_count": 13
         },
         {
           "name": "末世",
-          "count": 53,
-          "category_count": 6
-        },
-        {
-          "name": "年代",
-          "count": 42,
+          "count": 52,
           "category_count": 6
         },
         {
           "name": "直播",
-          "count": 39,
+          "count": 40,
           "category_count": 8
         },
         {
@@ -836,14 +831,19 @@
           "category_count": 14
         },
         {
+          "name": "年代",
+          "count": 37,
+          "category_count": 6
+        },
+        {
           "name": "豪门",
-          "count": 33,
+          "count": 32,
           "category_count": 10
         },
         {
           "name": "甜宠",
-          "count": 31,
-          "category_count": 12
+          "count": 28,
+          "category_count": 11
         },
         {
           "name": "修仙",
@@ -857,7 +857,7 @@
         },
         {
           "name": "异能",
-          "count": 25,
+          "count": 24,
           "category_count": 6
         },
         {
