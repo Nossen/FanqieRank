@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-13",
-  "prev_date": "2026-08-12",
+  "date": "2026-08-14",
+  "prev_date": "2026-08-13",
   "types": [
     {
       "type": "all",
       "url": "api/channels/female/lastest/all.json",
       "category_count": 18,
-      "book_count": 350
+      "book_count": 360
     },
     {
       "type": "古风世情",
@@ -41,7 +41,7 @@
     {
       "type": "年代",
       "url": "api/channels/female/lastest/%E5%B9%B4%E4%BB%A3.json",
-      "book_count": 10
+      "book_count": 20
     },
     {
       "type": "现言脑洞",
