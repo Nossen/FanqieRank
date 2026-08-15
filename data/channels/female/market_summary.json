@@ -32,7 +32,7 @@
           ],
           "read_growth_total": 452000.0,
           "read_count": 116,
-          "new_count": 39,
+          "new_count": 40,
           "active_days": 28
         },
         {
@@ -43,9 +43,9 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 358859.0,
-          "read_count": 110,
-          "new_count": 40,
+          "read_growth_total": 360859.0,
+          "read_count": 109,
+          "new_count": 42,
           "active_days": 28
         },
         {
@@ -139,7 +139,7 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 41,
+          "count": 42,
           "category_count": 14
         },
         {
@@ -159,17 +159,17 @@
         },
         {
           "name": "年代",
-          "count": 16,
+          "count": 15,
           "category_count": 2
         },
         {
           "name": "重生",
-          "count": 15,
+          "count": 14,
           "category_count": 11
         },
         {
           "name": "豪门",
-          "count": 15,
+          "count": 14,
           "category_count": 5
         },
         {
@@ -178,12 +178,12 @@
           "category_count": 6
         },
         {
-          "name": "末世",
-          "count": 10,
+          "name": "快穿",
+          "count": 11,
           "category_count": 3
         },
         {
-          "name": "快穿",
+          "name": "末世",
           "count": 10,
           "category_count": 3
         },
@@ -248,7 +248,7 @@
           ],
           "read_growth_total": 1298000.0,
           "read_count": 251,
-          "new_count": 106,
+          "new_count": 107,
           "active_days": 56
         },
         {
@@ -259,9 +259,9 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 759747.0,
-          "read_count": 243,
-          "new_count": 85,
+          "read_growth_total": 761747.0,
+          "read_count": 242,
+          "new_count": 87,
           "active_days": 56
         },
         {
@@ -355,7 +355,7 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 79,
+          "count": 80,
           "category_count": 17
         },
         {
@@ -365,12 +365,12 @@
         },
         {
           "name": "重生",
-          "count": 38,
+          "count": 37,
           "category_count": 17
         },
         {
           "name": "快穿",
-          "count": 34,
+          "count": 35,
           "category_count": 4
         },
         {
@@ -385,12 +385,12 @@
         },
         {
           "name": "豪门",
-          "count": 25,
+          "count": 24,
           "category_count": 6
         },
         {
           "name": "年代",
-          "count": 24,
+          "count": 23,
           "category_count": 2
         },
         {
@@ -400,7 +400,7 @@
         },
         {
           "name": "游戏",
-          "count": 19,
+          "count": 18,
           "category_count": 8
         },
         {
@@ -424,14 +424,14 @@
           "category_count": 4
         },
         {
-          "name": "副本",
-          "count": 9,
+          "name": "修仙",
+          "count": 10,
           "category_count": 5
         },
         {
-          "name": "修仙",
+          "name": "副本",
           "count": 9,
-          "category_count": 4
+          "category_count": 5
         }
       ]
     },
@@ -464,7 +464,7 @@
           ],
           "read_growth_total": 2830000.0,
           "read_count": 571,
-          "new_count": 215,
+          "new_count": 216,
           "active_days": 120
         },
         {
@@ -475,9 +475,9 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 2332360.0,
-          "read_count": 562,
-          "new_count": 190,
+          "read_growth_total": 2334360.0,
+          "read_count": 561,
+          "new_count": 192,
           "active_days": 120
         },
         {
@@ -563,15 +563,15 @@
           "name": "快穿",
           "read_growth_total": 841000.0,
           "read_count": 145,
-          "new_count": 59,
-          "dropped_count": 59,
+          "new_count": 60,
+          "dropped_count": 60,
           "active_days": 30
         }
       ],
       "hot_themes": [
         {
           "name": "系统",
-          "count": 124,
+          "count": 125,
           "category_count": 17
         },
         {
@@ -581,12 +581,12 @@
         },
         {
           "name": "重生",
-          "count": 74,
+          "count": 73,
           "category_count": 17
         },
         {
           "name": "快穿",
-          "count": 57,
+          "count": 58,
           "category_count": 4
         },
         {
@@ -600,24 +600,24 @@
           "category_count": 13
         },
         {
-          "name": "游戏",
-          "count": 36,
-          "category_count": 8
-        },
-        {
-          "name": "年代",
-          "count": 34,
-          "category_count": 4
-        },
-        {
-          "name": "豪门",
-          "count": 33,
-          "category_count": 8
-        },
-        {
           "name": "末世",
           "count": 33,
           "category_count": 4
+        },
+        {
+          "name": "年代",
+          "count": 33,
+          "category_count": 4
+        },
+        {
+          "name": "游戏",
+          "count": 32,
+          "category_count": 8
+        },
+        {
+          "name": "豪门",
+          "count": 32,
+          "category_count": 8
         },
         {
           "name": "直播",
@@ -636,8 +636,8 @@
         },
         {
           "name": "修仙",
-          "count": 17,
-          "category_count": 5
+          "count": 18,
+          "category_count": 6
         },
         {
           "name": "同人",
@@ -680,7 +680,7 @@
           ],
           "read_growth_total": 6778000.0,
           "read_count": 1195,
-          "new_count": 401,
+          "new_count": 402,
           "active_days": 248
         },
         {
@@ -691,9 +691,9 @@
             "古言脑洞",
             "民国言情"
           ],
-          "read_growth_total": 6619851.0,
-          "read_count": 1196,
-          "new_count": 365,
+          "read_growth_total": 6621851.0,
+          "read_count": 1195,
+          "new_count": 367,
           "active_days": 248
         },
         {
@@ -745,18 +745,18 @@
         },
         {
           "name": "宫斗宅斗",
-          "read_growth_total": 2601000.0,
-          "read_count": 304,
-          "new_count": 96,
-          "dropped_count": 96,
+          "read_growth_total": 2603000.0,
+          "read_count": 303,
+          "new_count": 98,
+          "dropped_count": 98,
           "active_days": 62
         },
         {
           "name": "快穿",
           "read_growth_total": 2494000.0,
           "read_count": 298,
-          "new_count": 102,
-          "dropped_count": 102,
+          "new_count": 103,
+          "dropped_count": 103,
           "active_days": 62
         },
         {
@@ -787,7 +787,7 @@
       "hot_themes": [
         {
           "name": "系统",
-          "count": 150,
+          "count": 151,
           "category_count": 17
         },
         {
@@ -797,17 +797,17 @@
         },
         {
           "name": "重生",
-          "count": 108,
+          "count": 106,
           "category_count": 17
         },
         {
           "name": "快穿",
-          "count": 89,
+          "count": 90,
           "category_count": 5
         },
         {
           "name": "游戏",
-          "count": 62,
+          "count": 58,
           "category_count": 8
         },
         {
@@ -822,7 +822,7 @@
         },
         {
           "name": "年代",
-          "count": 46,
+          "count": 45,
           "category_count": 6
         },
         {
@@ -832,7 +832,7 @@
         },
         {
           "name": "豪门",
-          "count": 40,
+          "count": 39,
           "category_count": 9
         },
         {
@@ -847,8 +847,8 @@
         },
         {
           "name": "修仙",
-          "count": 28,
-          "category_count": 6
+          "count": 29,
+          "category_count": 7
         },
         {
           "name": "异能",
