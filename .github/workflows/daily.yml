@@ -1,9 +1,6 @@
 name: Daily Fanqie New Books
 
 on:
-  schedule:
-    # Beijing time 16:10, after Fanqie rank data is expected to refresh.
-    - cron: "10 8 * * *"
   workflow_dispatch:
     inputs:
       date:
